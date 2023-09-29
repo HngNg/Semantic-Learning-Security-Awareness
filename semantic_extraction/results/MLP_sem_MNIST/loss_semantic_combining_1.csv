@@ -498,4 +498,3 @@ epoch:,496,,Train,Loss:,0.070089,,Train,Acc:,0.871069,,Eval,Loss:,0.068583,,Eval
 epoch:,497,,Train,Loss:,0.070014,,Train,Acc:,0.870736,,Eval,Loss:,0.068515,,Eval,Acc:,0.876088,,PSNR:,26.606410
 epoch:,498,,Train,Loss:,0.069950,,Train,Acc:,0.870486,,Eval,Loss:,0.068447,,Eval,Acc:,0.876978,,PSNR:,25.208984
 epoch:,499,,Train,Loss:,0.069874,,Train,Acc:,0.870402,,Eval,Loss:,0.068377,,Eval,Acc:,0.877373,,PSNR:,26.948411
-epoch:,500,,Train,Loss:,0.069870,,Train,Acc:,0.870405,,Eval,Loss:,0.068375,,Eval,Acc:,0.877370,,PSNR:,26.948410
