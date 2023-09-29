@@ -9,7 +9,8 @@
 import torch
 import os
 import imageio
-from .models import get_classifier
+from . import models
+from models import get_classifier
 from torchvision.datasets import mnist
 import torch.nn.functional as F
 from torch.utils.data import DataLoader
