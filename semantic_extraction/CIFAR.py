@@ -9,7 +9,6 @@
 import torch
 import os
 import imageio
-from . import models
 from models import get_classifier
 from torchvision.datasets import mnist
 import torch.nn.functional as F
