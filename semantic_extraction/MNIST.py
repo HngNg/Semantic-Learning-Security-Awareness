@@ -22,9 +22,11 @@ from PIL import Image
 raw_dim = 28 * 28  # shape of the raw image
 
 # for rate in range(50):
-for rate in range(1):
+# for rate in range(1):
+for rate in range (1, 10):
     # compression_rate = (rate + 1) * 0.02
-    compression_rate = min((rate + 10) * 0.1, 1)
+    # compression_rate = min((rate + 10) * 0.1, 1)
+    compression_rate = rate*0.1
     channel = int(compression_rate * raw_dim)
 
     lambda1 = 1 - compression_rate
