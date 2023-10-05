@@ -256,7 +256,7 @@ for rate in range(1, 2):
     for ii in range(len(out)):
         image_recover = data_inv_transform(out[ii])
         pil_img = Image.fromarray(np.uint8(image_recover))
-        pil_img.save("image_recover_combing/mnist_train_%d_%f.jpg" % (ii, compression_rate))
+        pil_img.save("Semantic-Learning-Reproduce/semantic_extraction/image_recover_combing/mnist_train_%d_%f.jpg" % (ii, compression_rate))
 
 
 
