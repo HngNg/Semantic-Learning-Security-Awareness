@@ -238,16 +238,16 @@ for rate in range(1, 2):
     # save model and results
     torch.save(mlp_encoder.state_dict(), ('MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
 
-    file = ('./results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
+    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
     data = pd.DataFrame(eval_losses)
     data.to_csv(file, index=False)
 
-    file = ('./results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
+    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
     data = pd.DataFrame(eval_acces)
     data.to_csv(file, index=False)
 
     eval_psnr = np.array(psnr_all)
-    file = ('./results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
+    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
     data = pd.DataFrame(eval_psnr)
     data.to_csv(file, index=False)
 
