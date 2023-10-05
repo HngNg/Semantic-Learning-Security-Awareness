@@ -137,7 +137,8 @@ class Solver(object):
         flag = 0
 
         acc_all_all = []
-        for iii in range(9):
+        # for iii in range(9):
+        for iii in range(1):
             acc_all_np = []
             compression_rate = (iii + 1) * 0.1
             print('compression rate:', compression_rate)
