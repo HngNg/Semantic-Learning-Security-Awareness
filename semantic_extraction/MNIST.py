@@ -155,7 +155,8 @@ for rate in range(1, 2):
 
     print('Training Start')
     print('Compression Rate:', compression_rate)
-    epoch_len = 100 # Originally, this was 500 epochs
+    # Originally, the training had 500 epochs, and it should be 100 to avoid overfiting
+    epoch_len = 2 
     out = None
     for e in range(epoch_len):
         train_loss = 0
