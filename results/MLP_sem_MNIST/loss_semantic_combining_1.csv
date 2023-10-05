@@ -1,500 +1,500 @@
-epoch:,0,,Train,Loss:,0.780864,,Train,Acc:,0.091285,,Eval,Loss:,0.603524,,Eval,Acc:,0.095134,,PSNR:,3.808706
-epoch:,1,,Train,Loss:,0.501240,,Train,Acc:,0.095532,,Eval,Loss:,0.424261,,Eval,Acc:,0.105320,,PSNR:,4.513153
-epoch:,2,,Train,Loss:,0.378811,,Train,Acc:,0.106593,,Eval,Loss:,0.345231,,Eval,Acc:,0.114122,,PSNR:,6.538090
-epoch:,3,,Train,Loss:,0.324318,,Train,Acc:,0.114572,,Eval,Loss:,0.309505,,Eval,Acc:,0.119858,,PSNR:,5.772474
-epoch:,4,,Train,Loss:,0.299182,,Train,Acc:,0.120086,,Eval,Loss:,0.292481,,Eval,Acc:,0.123121,,PSNR:,7.706866
-epoch:,5,,Train,Loss:,0.286779,,Train,Acc:,0.124484,,Eval,Loss:,0.283566,,Eval,Acc:,0.128461,,PSNR:,4.877753
-epoch:,6,,Train,Loss:,0.279883,,Train,Acc:,0.130714,,Eval,Loss:,0.278181,,Eval,Acc:,0.134889,,PSNR:,6.452152
-epoch:,7,,Train,Loss:,0.275398,,Train,Acc:,0.137460,,Eval,Loss:,0.274325,,Eval,Acc:,0.142405,,PSNR:,7.496711
-epoch:,8,,Train,Loss:,0.271990,,Train,Acc:,0.146172,,Eval,Loss:,0.271201,,Eval,Acc:,0.150316,,PSNR:,7.250505
-epoch:,9,,Train,Loss:,0.269074,,Train,Acc:,0.156067,,Eval,Loss:,0.268384,,Eval,Acc:,0.161689,,PSNR:,7.794951
-epoch:,10,,Train,Loss:,0.266387,,Train,Acc:,0.167211,,Eval,Loss:,0.265732,,Eval,Acc:,0.172765,,PSNR:,7.303233
-epoch:,11,,Train,Loss:,0.263839,,Train,Acc:,0.178938,,Eval,Loss:,0.263190,,Eval,Acc:,0.185028,,PSNR:,7.873325
-epoch:,12,,Train,Loss:,0.261381,,Train,Acc:,0.191381,,Eval,Loss:,0.260715,,Eval,Acc:,0.197587,,PSNR:,8.450722
-epoch:,13,,Train,Loss:,0.258977,,Train,Acc:,0.206057,,Eval,Loss:,0.258260,,Eval,Acc:,0.213014,,PSNR:,6.687260
-epoch:,14,,Train,Loss:,0.256635,,Train,Acc:,0.220582,,Eval,Loss:,0.255884,,Eval,Acc:,0.227354,,PSNR:,9.734168
-epoch:,15,,Train,Loss:,0.254305,,Train,Acc:,0.234225,,Eval,Loss:,0.253550,,Eval,Acc:,0.242188,,PSNR:,7.242534
-epoch:,16,,Train,Loss:,0.252036,,Train,Acc:,0.249217,,Eval,Loss:,0.251278,,Eval,Acc:,0.256032,,PSNR:,9.910022
-epoch:,17,,Train,Loss:,0.249803,,Train,Acc:,0.263410,,Eval,Loss:,0.249021,,Eval,Acc:,0.272745,,PSNR:,9.197622
-epoch:,18,,Train,Loss:,0.247633,,Train,Acc:,0.278968,,Eval,Loss:,0.246790,,Eval,Acc:,0.284810,,PSNR:,8.877154
-epoch:,19,,Train,Loss:,0.245487,,Train,Acc:,0.292327,,Eval,Loss:,0.244640,,Eval,Acc:,0.299248,,PSNR:,7.834221
-epoch:,20,,Train,Loss:,0.243385,,Train,Acc:,0.305804,,Eval,Loss:,0.242500,,Eval,Acc:,0.315566,,PSNR:,8.870419
-epoch:,21,,Train,Loss:,0.241320,,Train,Acc:,0.319246,,Eval,Loss:,0.240437,,Eval,Acc:,0.327532,,PSNR:,9.420165
-epoch:,22,,Train,Loss:,0.239281,,Train,Acc:,0.332306,,Eval,Loss:,0.238347,,Eval,Acc:,0.340684,,PSNR:,8.877612
-epoch:,23,,Train,Loss:,0.237287,,Train,Acc:,0.343600,,Eval,Loss:,0.236351,,Eval,Acc:,0.352947,,PSNR:,8.332529
-epoch:,24,,Train,Loss:,0.235314,,Train,Acc:,0.356143,,Eval,Loss:,0.234353,,Eval,Acc:,0.364616,,PSNR:,9.182550
-epoch:,25,,Train,Loss:,0.233406,,Train,Acc:,0.368487,,Eval,Loss:,0.232417,,Eval,Acc:,0.377373,,PSNR:,8.345948
-epoch:,26,,Train,Loss:,0.231490,,Train,Acc:,0.378681,,Eval,Loss:,0.230505,,Eval,Acc:,0.387955,,PSNR:,10.281035
-epoch:,27,,Train,Loss:,0.229619,,Train,Acc:,0.389609,,Eval,Loss:,0.228590,,Eval,Acc:,0.398240,,PSNR:,9.994046
-epoch:,28,,Train,Loss:,0.227808,,Train,Acc:,0.398521,,Eval,Loss:,0.226775,,Eval,Acc:,0.408030,,PSNR:,8.073632
-epoch:,29,,Train,Loss:,0.226016,,Train,Acc:,0.409232,,Eval,Loss:,0.224961,,Eval,Acc:,0.421479,,PSNR:,11.408180
-epoch:,30,,Train,Loss:,0.224248,,Train,Acc:,0.418743,,Eval,Loss:,0.223155,,Eval,Acc:,0.427710,,PSNR:,11.114617
-epoch:,31,,Train,Loss:,0.222506,,Train,Acc:,0.426939,,Eval,Loss:,0.221406,,Eval,Acc:,0.437599,,PSNR:,10.876008
-epoch:,32,,Train,Loss:,0.220808,,Train,Acc:,0.435235,,Eval,Loss:,0.219694,,Eval,Acc:,0.446005,,PSNR:,9.894117
-epoch:,33,,Train,Loss:,0.219129,,Train,Acc:,0.444646,,Eval,Loss:,0.217989,,Eval,Acc:,0.455894,,PSNR:,9.161434
-epoch:,34,,Train,Loss:,0.217466,,Train,Acc:,0.454008,,Eval,Loss:,0.216352,,Eval,Acc:,0.466377,,PSNR:,11.244079
-epoch:,35,,Train,Loss:,0.215846,,Train,Acc:,0.465768,,Eval,Loss:,0.214698,,Eval,Acc:,0.478441,,PSNR:,10.850220
-epoch:,36,,Train,Loss:,0.214258,,Train,Acc:,0.476562,,Eval,Loss:,0.213081,,Eval,Acc:,0.491297,,PSNR:,10.546130
-epoch:,37,,Train,Loss:,0.212684,,Train,Acc:,0.489539,,Eval,Loss:,0.211504,,Eval,Acc:,0.501681,,PSNR:,10.665844
-epoch:,38,,Train,Loss:,0.211143,,Train,Acc:,0.500383,,Eval,Loss:,0.209938,,Eval,Acc:,0.514043,,PSNR:,9.997032
-epoch:,39,,Train,Loss:,0.209628,,Train,Acc:,0.514792,,Eval,Loss:,0.208398,,Eval,Acc:,0.525910,,PSNR:,10.798501
-epoch:,40,,Train,Loss:,0.208136,,Train,Acc:,0.526553,,Eval,Loss:,0.206894,,Eval,Acc:,0.538766,,PSNR:,11.331793
-epoch:,41,,Train,Loss:,0.206667,,Train,Acc:,0.537980,,Eval,Loss:,0.205418,,Eval,Acc:,0.547666,,PSNR:,13.343027
-epoch:,42,,Train,Loss:,0.205221,,Train,Acc:,0.548891,,Eval,Loss:,0.203953,,Eval,Acc:,0.560621,,PSNR:,10.970315
-epoch:,43,,Train,Loss:,0.203814,,Train,Acc:,0.560701,,Eval,Loss:,0.202542,,Eval,Acc:,0.572290,,PSNR:,13.457156
-epoch:,44,,Train,Loss:,0.202390,,Train,Acc:,0.571045,,Eval,Loss:,0.201106,,Eval,Acc:,0.579114,,PSNR:,12.786648
-epoch:,45,,Train,Loss:,0.201027,,Train,Acc:,0.578691,,Eval,Loss:,0.199748,,Eval,Acc:,0.589992,,PSNR:,10.870620
-epoch:,46,,Train,Loss:,0.199682,,Train,Acc:,0.589236,,Eval,Loss:,0.198383,,Eval,Acc:,0.599288,,PSNR:,10.857815
-epoch:,47,,Train,Loss:,0.198339,,Train,Acc:,0.596632,,Eval,Loss:,0.197014,,Eval,Acc:,0.607892,,PSNR:,13.020879
-epoch:,48,,Train,Loss:,0.197036,,Train,Acc:,0.606693,,Eval,Loss:,0.195696,,Eval,Acc:,0.615506,,PSNR:,14.020138
-epoch:,49,,Train,Loss:,0.195743,,Train,Acc:,0.614256,,Eval,Loss:,0.194392,,Eval,Acc:,0.622330,,PSNR:,13.091037
-epoch:,50,,Train,Loss:,0.194469,,Train,Acc:,0.622435,,Eval,Loss:,0.193143,,Eval,Acc:,0.630142,,PSNR:,12.504957
-epoch:,51,,Train,Loss:,0.193220,,Train,Acc:,0.628715,,Eval,Loss:,0.191841,,Eval,Acc:,0.637263,,PSNR:,14.112761
-epoch:,52,,Train,Loss:,0.191970,,Train,Acc:,0.634761,,Eval,Loss:,0.190628,,Eval,Acc:,0.640427,,PSNR:,13.641571
-epoch:,53,,Train,Loss:,0.190769,,Train,Acc:,0.642791,,Eval,Loss:,0.189390,,Eval,Acc:,0.647449,,PSNR:,12.832264
-epoch:,54,,Train,Loss:,0.189583,,Train,Acc:,0.649087,,Eval,Loss:,0.188177,,Eval,Acc:,0.654866,,PSNR:,12.085396
-epoch:,55,,Train,Loss:,0.188402,,Train,Acc:,0.655234,,Eval,Loss:,0.186991,,Eval,Acc:,0.658920,,PSNR:,12.412067
-epoch:,56,,Train,Loss:,0.187235,,Train,Acc:,0.660698,,Eval,Loss:,0.185810,,Eval,Acc:,0.667029,,PSNR:,13.056170
-epoch:,57,,Train,Loss:,0.186099,,Train,Acc:,0.665778,,Eval,Loss:,0.184662,,Eval,Acc:,0.671381,,PSNR:,13.395469
-epoch:,58,,Train,Loss:,0.184968,,Train,Acc:,0.671225,,Eval,Loss:,0.183530,,Eval,Acc:,0.675336,,PSNR:,13.639496
-epoch:,59,,Train,Loss:,0.183852,,Train,Acc:,0.677689,,Eval,Loss:,0.182420,,Eval,Acc:,0.680083,,PSNR:,14.411904
-epoch:,60,,Train,Loss:,0.182780,,Train,Acc:,0.681553,,Eval,Loss:,0.181303,,Eval,Acc:,0.684039,,PSNR:,12.835960
-epoch:,61,,Train,Loss:,0.181699,,Train,Acc:,0.685384,,Eval,Loss:,0.180224,,Eval,Acc:,0.690170,,PSNR:,13.190292
-epoch:,62,,Train,Loss:,0.180635,,Train,Acc:,0.691215,,Eval,Loss:,0.179158,,Eval,Acc:,0.694126,,PSNR:,14.294232
-epoch:,63,,Train,Loss:,0.179589,,Train,Acc:,0.695196,,Eval,Loss:,0.178116,,Eval,Acc:,0.701444,,PSNR:,14.087422
-epoch:,64,,Train,Loss:,0.178565,,Train,Acc:,0.700010,,Eval,Loss:,0.177090,,Eval,Acc:,0.702433,,PSNR:,14.569229
-epoch:,65,,Train,Loss:,0.177553,,Train,Acc:,0.704791,,Eval,Loss:,0.176077,,Eval,Acc:,0.707081,,PSNR:,12.717037
-epoch:,66,,Train,Loss:,0.176563,,Train,Acc:,0.708439,,Eval,Loss:,0.175046,,Eval,Acc:,0.708465,,PSNR:,12.299694
-epoch:,67,,Train,Loss:,0.175558,,Train,Acc:,0.711204,,Eval,Loss:,0.174037,,Eval,Acc:,0.714893,,PSNR:,13.518348
-epoch:,68,,Train,Loss:,0.174601,,Train,Acc:,0.715602,,Eval,Loss:,0.173078,,Eval,Acc:,0.719541,,PSNR:,13.514007
-epoch:,69,,Train,Loss:,0.173645,,Train,Acc:,0.719650,,Eval,Loss:,0.172137,,Eval,Acc:,0.721717,,PSNR:,14.143399
-epoch:,70,,Train,Loss:,0.172691,,Train,Acc:,0.722981,,Eval,Loss:,0.171163,,Eval,Acc:,0.724486,,PSNR:,15.273615
-epoch:,71,,Train,Loss:,0.171756,,Train,Acc:,0.726796,,Eval,Loss:,0.170225,,Eval,Acc:,0.729233,,PSNR:,16.366109
-epoch:,72,,Train,Loss:,0.170844,,Train,Acc:,0.729361,,Eval,Loss:,0.169308,,Eval,Acc:,0.730914,,PSNR:,13.336259
-epoch:,73,,Train,Loss:,0.169937,,Train,Acc:,0.731793,,Eval,Loss:,0.168381,,Eval,Acc:,0.734672,,PSNR:,15.756606
-epoch:,74,,Train,Loss:,0.169049,,Train,Acc:,0.735508,,Eval,Loss:,0.167501,,Eval,Acc:,0.735957,,PSNR:,14.254696
-epoch:,75,,Train,Loss:,0.168169,,Train,Acc:,0.737407,,Eval,Loss:,0.166605,,Eval,Acc:,0.739913,,PSNR:,14.517929
-epoch:,76,,Train,Loss:,0.167299,,Train,Acc:,0.740655,,Eval,Loss:,0.165731,,Eval,Acc:,0.744066,,PSNR:,15.339486
-epoch:,77,,Train,Loss:,0.166441,,Train,Acc:,0.743770,,Eval,Loss:,0.164875,,Eval,Acc:,0.744660,,PSNR:,15.213404
-epoch:,78,,Train,Loss:,0.165599,,Train,Acc:,0.746369,,Eval,Loss:,0.164022,,Eval,Acc:,0.748517,,PSNR:,16.303592
-epoch:,79,,Train,Loss:,0.164753,,Train,Acc:,0.748717,,Eval,Loss:,0.163182,,Eval,Acc:,0.752373,,PSNR:,15.661008
-epoch:,80,,Train,Loss:,0.163933,,Train,Acc:,0.751599,,Eval,Loss:,0.162338,,Eval,Acc:,0.755241,,PSNR:,15.572330
-epoch:,81,,Train,Loss:,0.163124,,Train,Acc:,0.753248,,Eval,Loss:,0.161536,,Eval,Acc:,0.757021,,PSNR:,15.085916
-epoch:,82,,Train,Loss:,0.162322,,Train,Acc:,0.754914,,Eval,Loss:,0.160711,,Eval,Acc:,0.759691,,PSNR:,15.792180
-epoch:,83,,Train,Loss:,0.161532,,Train,Acc:,0.757679,,Eval,Loss:,0.159938,,Eval,Acc:,0.763449,,PSNR:,14.684525
-epoch:,84,,Train,Loss:,0.160747,,Train,Acc:,0.759012,,Eval,Loss:,0.159137,,Eval,Acc:,0.764241,,PSNR:,16.802981
-epoch:,85,,Train,Loss:,0.159972,,Train,Acc:,0.761361,,Eval,Loss:,0.158372,,Eval,Acc:,0.768790,,PSNR:,16.821033
-epoch:,86,,Train,Loss:,0.159214,,Train,Acc:,0.763176,,Eval,Loss:,0.157589,,Eval,Acc:,0.767603,,PSNR:,18.083624
-epoch:,87,,Train,Loss:,0.158471,,Train,Acc:,0.764342,,Eval,Loss:,0.156829,,Eval,Acc:,0.769778,,PSNR:,14.958930
-epoch:,88,,Train,Loss:,0.157727,,Train,Acc:,0.766791,,Eval,Loss:,0.156105,,Eval,Acc:,0.771954,,PSNR:,16.692343
-epoch:,89,,Train,Loss:,0.156999,,Train,Acc:,0.768124,,Eval,Loss:,0.155355,,Eval,Acc:,0.772251,,PSNR:,15.722849
-epoch:,90,,Train,Loss:,0.156265,,Train,Acc:,0.769240,,Eval,Loss:,0.154613,,Eval,Acc:,0.775514,,PSNR:,16.216334
-epoch:,91,,Train,Loss:,0.155549,,Train,Acc:,0.771505,,Eval,Loss:,0.153916,,Eval,Acc:,0.775910,,PSNR:,16.228920
-epoch:,92,,Train,Loss:,0.154848,,Train,Acc:,0.773604,,Eval,Loss:,0.153196,,Eval,Acc:,0.777888,,PSNR:,16.249073
-epoch:,93,,Train,Loss:,0.154149,,Train,Acc:,0.774570,,Eval,Loss:,0.152502,,Eval,Acc:,0.779470,,PSNR:,15.800975
-epoch:,94,,Train,Loss:,0.153468,,Train,Acc:,0.776236,,Eval,Loss:,0.151825,,Eval,Acc:,0.781151,,PSNR:,15.618524
-epoch:,95,,Train,Loss:,0.152787,,Train,Acc:,0.777652,,Eval,Loss:,0.151127,,Eval,Acc:,0.781052,,PSNR:,15.868426
-epoch:,96,,Train,Loss:,0.152095,,Train,Acc:,0.778785,,Eval,Loss:,0.150459,,Eval,Acc:,0.785997,,PSNR:,17.370524
-epoch:,97,,Train,Loss:,0.151449,,Train,Acc:,0.780834,,Eval,Loss:,0.149773,,Eval,Acc:,0.784711,,PSNR:,15.290365
-epoch:,98,,Train,Loss:,0.150803,,Train,Acc:,0.781766,,Eval,Loss:,0.149127,,Eval,Acc:,0.787184,,PSNR:,15.810998
-epoch:,99,,Train,Loss:,0.150153,,Train,Acc:,0.782882,,Eval,Loss:,0.148474,,Eval,Acc:,0.790348,,PSNR:,18.079509
-epoch:,100,,Train,Loss:,0.149529,,Train,Acc:,0.783649,,Eval,Loss:,0.147828,,Eval,Acc:,0.790249,,PSNR:,15.548688
-epoch:,101,,Train,Loss:,0.148883,,Train,Acc:,0.785248,,Eval,Loss:,0.147192,,Eval,Acc:,0.792425,,PSNR:,16.756860
-epoch:,102,,Train,Loss:,0.148257,,Train,Acc:,0.786764,,Eval,Loss:,0.146568,,Eval,Acc:,0.790843,,PSNR:,17.025127
-epoch:,103,,Train,Loss:,0.147631,,Train,Acc:,0.787780,,Eval,Loss:,0.145957,,Eval,Acc:,0.793809,,PSNR:,16.930361
-epoch:,104,,Train,Loss:,0.147023,,Train,Acc:,0.788363,,Eval,Loss:,0.145322,,Eval,Acc:,0.793908,,PSNR:,18.151990
-epoch:,105,,Train,Loss:,0.146423,,Train,Acc:,0.789845,,Eval,Loss:,0.144734,,Eval,Acc:,0.793513,,PSNR:,17.240650
-epoch:,106,,Train,Loss:,0.145834,,Train,Acc:,0.791844,,Eval,Loss:,0.144116,,Eval,Acc:,0.796776,,PSNR:,17.760544
-epoch:,107,,Train,Loss:,0.145238,,Train,Acc:,0.791778,,Eval,Loss:,0.143526,,Eval,Acc:,0.799842,,PSNR:,17.904715
-epoch:,108,,Train,Loss:,0.144658,,Train,Acc:,0.792894,,Eval,Loss:,0.142955,,Eval,Acc:,0.799941,,PSNR:,17.683334
-epoch:,109,,Train,Loss:,0.144073,,Train,Acc:,0.793710,,Eval,Loss:,0.142377,,Eval,Acc:,0.798161,,PSNR:,17.482646
-epoch:,110,,Train,Loss:,0.143505,,Train,Acc:,0.795326,,Eval,Loss:,0.141807,,Eval,Acc:,0.801622,,PSNR:,18.471136
-epoch:,111,,Train,Loss:,0.142955,,Train,Acc:,0.795592,,Eval,Loss:,0.141227,,Eval,Acc:,0.803699,,PSNR:,17.546902
-epoch:,112,,Train,Loss:,0.142392,,Train,Acc:,0.796842,,Eval,Loss:,0.140698,,Eval,Acc:,0.802413,,PSNR:,17.887402
-epoch:,113,,Train,Loss:,0.141835,,Train,Acc:,0.797175,,Eval,Loss:,0.140132,,Eval,Acc:,0.804589,,PSNR:,18.572762
-epoch:,114,,Train,Loss:,0.141293,,Train,Acc:,0.798457,,Eval,Loss:,0.139579,,Eval,Acc:,0.805874,,PSNR:,17.613475
-epoch:,115,,Train,Loss:,0.140761,,Train,Acc:,0.799174,,Eval,Loss:,0.139046,,Eval,Acc:,0.806665,,PSNR:,17.996494
-epoch:,116,,Train,Loss:,0.140215,,Train,Acc:,0.799923,,Eval,Loss:,0.138503,,Eval,Acc:,0.807753,,PSNR:,19.123027
-epoch:,117,,Train,Loss:,0.139693,,Train,Acc:,0.801173,,Eval,Loss:,0.137965,,Eval,Acc:,0.809039,,PSNR:,18.538683
-epoch:,118,,Train,Loss:,0.139175,,Train,Acc:,0.801506,,Eval,Loss:,0.137458,,Eval,Acc:,0.806962,,PSNR:,17.841249
-epoch:,119,,Train,Loss:,0.138659,,Train,Acc:,0.802455,,Eval,Loss:,0.136929,,Eval,Acc:,0.810819,,PSNR:,17.398494
-epoch:,120,,Train,Loss:,0.138157,,Train,Acc:,0.803088,,Eval,Loss:,0.136422,,Eval,Acc:,0.809731,,PSNR:,16.821199
-epoch:,121,,Train,Loss:,0.137647,,Train,Acc:,0.803705,,Eval,Loss:,0.135906,,Eval,Acc:,0.810324,,PSNR:,18.062070
-epoch:,122,,Train,Loss:,0.137145,,Train,Acc:,0.804771,,Eval,Loss:,0.135402,,Eval,Acc:,0.810918,,PSNR:,18.071700
-epoch:,123,,Train,Loss:,0.136645,,Train,Acc:,0.805487,,Eval,Loss:,0.134915,,Eval,Acc:,0.812500,,PSNR:,18.636075
-epoch:,124,,Train,Loss:,0.136155,,Train,Acc:,0.806786,,Eval,Loss:,0.134414,,Eval,Acc:,0.812401,,PSNR:,19.957871
-epoch:,125,,Train,Loss:,0.135676,,Train,Acc:,0.806986,,Eval,Loss:,0.133940,,Eval,Acc:,0.813884,,PSNR:,18.349750
-epoch:,126,,Train,Loss:,0.135190,,Train,Acc:,0.808386,,Eval,Loss:,0.133460,,Eval,Acc:,0.815961,,PSNR:,17.775127
-epoch:,127,,Train,Loss:,0.134722,,Train,Acc:,0.808702,,Eval,Loss:,0.132956,,Eval,Acc:,0.815467,,PSNR:,18.509958
-epoch:,128,,Train,Loss:,0.134256,,Train,Acc:,0.808819,,Eval,Loss:,0.132500,,Eval,Acc:,0.815961,,PSNR:,19.472909
-epoch:,129,,Train,Loss:,0.133785,,Train,Acc:,0.810451,,Eval,Loss:,0.132031,,Eval,Acc:,0.816060,,PSNR:,18.013329
-epoch:,130,,Train,Loss:,0.133328,,Train,Acc:,0.809918,,Eval,Loss:,0.131592,,Eval,Acc:,0.817642,,PSNR:,17.269607
-epoch:,131,,Train,Loss:,0.132867,,Train,Acc:,0.811567,,Eval,Loss:,0.131123,,Eval,Acc:,0.816950,,PSNR:,18.451103
-epoch:,132,,Train,Loss:,0.132418,,Train,Acc:,0.811617,,Eval,Loss:,0.130680,,Eval,Acc:,0.818335,,PSNR:,19.749145
-epoch:,133,,Train,Loss:,0.131970,,Train,Acc:,0.811451,,Eval,Loss:,0.130226,,Eval,Acc:,0.819422,,PSNR:,19.649517
-epoch:,134,,Train,Loss:,0.131530,,Train,Acc:,0.812966,,Eval,Loss:,0.129774,,Eval,Acc:,0.819620,,PSNR:,18.506852
-epoch:,135,,Train,Loss:,0.131089,,Train,Acc:,0.813699,,Eval,Loss:,0.129345,,Eval,Acc:,0.820214,,PSNR:,19.170603
-epoch:,136,,Train,Loss:,0.130660,,Train,Acc:,0.814382,,Eval,Loss:,0.128902,,Eval,Acc:,0.821301,,PSNR:,19.364637
-epoch:,137,,Train,Loss:,0.130224,,Train,Acc:,0.814765,,Eval,Loss:,0.128478,,Eval,Acc:,0.821994,,PSNR:,20.465776
-epoch:,138,,Train,Loss:,0.129800,,Train,Acc:,0.815149,,Eval,Loss:,0.128033,,Eval,Acc:,0.821796,,PSNR:,19.225373
-epoch:,139,,Train,Loss:,0.129374,,Train,Acc:,0.815782,,Eval,Loss:,0.127625,,Eval,Acc:,0.823180,,PSNR:,19.801978
-epoch:,140,,Train,Loss:,0.128959,,Train,Acc:,0.816964,,Eval,Loss:,0.127226,,Eval,Acc:,0.822785,,PSNR:,20.085682
-epoch:,141,,Train,Loss:,0.128549,,Train,Acc:,0.816998,,Eval,Loss:,0.126778,,Eval,Acc:,0.825356,,PSNR:,19.953692
-epoch:,142,,Train,Loss:,0.128152,,Train,Acc:,0.817681,,Eval,Loss:,0.126384,,Eval,Acc:,0.826246,,PSNR:,19.127015
-epoch:,143,,Train,Loss:,0.127732,,Train,Acc:,0.818497,,Eval,Loss:,0.125960,,Eval,Acc:,0.823576,,PSNR:,19.764630
-epoch:,144,,Train,Loss:,0.127342,,Train,Acc:,0.818697,,Eval,Loss:,0.125568,,Eval,Acc:,0.824367,,PSNR:,18.583133
-epoch:,145,,Train,Loss:,0.126935,,Train,Acc:,0.819446,,Eval,Loss:,0.125179,,Eval,Acc:,0.826246,,PSNR:,18.869928
-epoch:,146,,Train,Loss:,0.126540,,Train,Acc:,0.820596,,Eval,Loss:,0.124778,,Eval,Acc:,0.827334,,PSNR:,19.598980
-epoch:,147,,Train,Loss:,0.126147,,Train,Acc:,0.819979,,Eval,Loss:,0.124388,,Eval,Acc:,0.827235,,PSNR:,19.632807
-epoch:,148,,Train,Loss:,0.125755,,Train,Acc:,0.821479,,Eval,Loss:,0.123985,,Eval,Acc:,0.827136,,PSNR:,19.834841
-epoch:,149,,Train,Loss:,0.125368,,Train,Acc:,0.821212,,Eval,Loss:,0.123619,,Eval,Acc:,0.828026,,PSNR:,21.015174
-epoch:,150,,Train,Loss:,0.125001,,Train,Acc:,0.822311,,Eval,Loss:,0.123233,,Eval,Acc:,0.829509,,PSNR:,19.670808
-epoch:,151,,Train,Loss:,0.124608,,Train,Acc:,0.822595,,Eval,Loss:,0.122856,,Eval,Acc:,0.827532,,PSNR:,19.984134
-epoch:,152,,Train,Loss:,0.124244,,Train,Acc:,0.822911,,Eval,Loss:,0.122485,,Eval,Acc:,0.829213,,PSNR:,20.094457
-epoch:,153,,Train,Loss:,0.123870,,Train,Acc:,0.824094,,Eval,Loss:,0.122104,,Eval,Acc:,0.831685,,PSNR:,20.620670
-epoch:,154,,Train,Loss:,0.123502,,Train,Acc:,0.824144,,Eval,Loss:,0.121744,,Eval,Acc:,0.832081,,PSNR:,19.520036
-epoch:,155,,Train,Loss:,0.123135,,Train,Acc:,0.824910,,Eval,Loss:,0.121385,,Eval,Acc:,0.829312,,PSNR:,20.439905
-epoch:,156,,Train,Loss:,0.122776,,Train,Acc:,0.825343,,Eval,Loss:,0.121008,,Eval,Acc:,0.832674,,PSNR:,20.387526
-epoch:,157,,Train,Loss:,0.122422,,Train,Acc:,0.825676,,Eval,Loss:,0.120665,,Eval,Acc:,0.831290,,PSNR:,20.036373
-epoch:,158,,Train,Loss:,0.122062,,Train,Acc:,0.825393,,Eval,Loss:,0.120289,,Eval,Acc:,0.831784,,PSNR:,19.760549
-epoch:,159,,Train,Loss:,0.121714,,Train,Acc:,0.826626,,Eval,Loss:,0.119953,,Eval,Acc:,0.833861,,PSNR:,19.742961
-epoch:,160,,Train,Loss:,0.121364,,Train,Acc:,0.826859,,Eval,Loss:,0.119594,,Eval,Acc:,0.833366,,PSNR:,19.538520
-epoch:,161,,Train,Loss:,0.121012,,Train,Acc:,0.827176,,Eval,Loss:,0.119255,,Eval,Acc:,0.833169,,PSNR:,20.177762
-epoch:,162,,Train,Loss:,0.120676,,Train,Acc:,0.827842,,Eval,Loss:,0.118897,,Eval,Acc:,0.832081,,PSNR:,18.921818
-epoch:,163,,Train,Loss:,0.120330,,Train,Acc:,0.828192,,Eval,Loss:,0.118551,,Eval,Acc:,0.833070,,PSNR:,20.466782
-epoch:,164,,Train,Loss:,0.119995,,Train,Acc:,0.828858,,Eval,Loss:,0.118244,,Eval,Acc:,0.836036,,PSNR:,19.885957
-epoch:,165,,Train,Loss:,0.119667,,Train,Acc:,0.829274,,Eval,Loss:,0.117891,,Eval,Acc:,0.837124,,PSNR:,21.409975
-epoch:,166,,Train,Loss:,0.119327,,Train,Acc:,0.829724,,Eval,Loss:,0.117563,,Eval,Acc:,0.835740,,PSNR:,19.897753
-epoch:,167,,Train,Loss:,0.118989,,Train,Acc:,0.829974,,Eval,Loss:,0.117229,,Eval,Acc:,0.838014,,PSNR:,23.179347
-epoch:,168,,Train,Loss:,0.118678,,Train,Acc:,0.830640,,Eval,Loss:,0.116907,,Eval,Acc:,0.837322,,PSNR:,18.979554
-epoch:,169,,Train,Loss:,0.118352,,Train,Acc:,0.830674,,Eval,Loss:,0.116584,,Eval,Acc:,0.836531,,PSNR:,20.651787
-epoch:,170,,Train,Loss:,0.118027,,Train,Acc:,0.830874,,Eval,Loss:,0.116264,,Eval,Acc:,0.837718,,PSNR:,21.099211
-epoch:,171,,Train,Loss:,0.117703,,Train,Acc:,0.830624,,Eval,Loss:,0.115938,,Eval,Acc:,0.839794,,PSNR:,20.697707
-epoch:,172,,Train,Loss:,0.117397,,Train,Acc:,0.831107,,Eval,Loss:,0.115635,,Eval,Acc:,0.838311,,PSNR:,20.115795
-epoch:,173,,Train,Loss:,0.117076,,Train,Acc:,0.832239,,Eval,Loss:,0.115327,,Eval,Acc:,0.838608,,PSNR:,20.266716
-epoch:,174,,Train,Loss:,0.116773,,Train,Acc:,0.832489,,Eval,Loss:,0.115012,,Eval,Acc:,0.839992,,PSNR:,20.091552
-epoch:,175,,Train,Loss:,0.116458,,Train,Acc:,0.832206,,Eval,Loss:,0.114705,,Eval,Acc:,0.839201,,PSNR:,22.151967
-epoch:,176,,Train,Loss:,0.116156,,Train,Acc:,0.832939,,Eval,Loss:,0.114387,,Eval,Acc:,0.838608,,PSNR:,20.878701
-epoch:,177,,Train,Loss:,0.115848,,Train,Acc:,0.832922,,Eval,Loss:,0.114082,,Eval,Acc:,0.840388,,PSNR:,21.499173
-epoch:,178,,Train,Loss:,0.115546,,Train,Acc:,0.833905,,Eval,Loss:,0.113779,,Eval,Acc:,0.840882,,PSNR:,20.722603
-epoch:,179,,Train,Loss:,0.115236,,Train,Acc:,0.834155,,Eval,Loss:,0.113492,,Eval,Acc:,0.843256,,PSNR:,21.361830
-epoch:,180,,Train,Loss:,0.114942,,Train,Acc:,0.834072,,Eval,Loss:,0.113186,,Eval,Acc:,0.842761,,PSNR:,21.569807
-epoch:,181,,Train,Loss:,0.114648,,Train,Acc:,0.835088,,Eval,Loss:,0.112876,,Eval,Acc:,0.841475,,PSNR:,21.781663
-epoch:,182,,Train,Loss:,0.114366,,Train,Acc:,0.834938,,Eval,Loss:,0.112608,,Eval,Acc:,0.841871,,PSNR:,19.885775
-epoch:,183,,Train,Loss:,0.114072,,Train,Acc:,0.836054,,Eval,Loss:,0.112304,,Eval,Acc:,0.844541,,PSNR:,20.730562
-epoch:,184,,Train,Loss:,0.113791,,Train,Acc:,0.835821,,Eval,Loss:,0.112021,,Eval,Acc:,0.843948,,PSNR:,20.410771
-epoch:,185,,Train,Loss:,0.113487,,Train,Acc:,0.835638,,Eval,Loss:,0.111743,,Eval,Acc:,0.844838,,PSNR:,21.103778
-epoch:,186,,Train,Loss:,0.113215,,Train,Acc:,0.836487,,Eval,Loss:,0.111444,,Eval,Acc:,0.844343,,PSNR:,21.545492
-epoch:,187,,Train,Loss:,0.112928,,Train,Acc:,0.836471,,Eval,Loss:,0.111155,,Eval,Acc:,0.845332,,PSNR:,21.063788
-epoch:,188,,Train,Loss:,0.112655,,Train,Acc:,0.836437,,Eval,Loss:,0.110881,,Eval,Acc:,0.844343,,PSNR:,20.990267
-epoch:,189,,Train,Loss:,0.112380,,Train,Acc:,0.837004,,Eval,Loss:,0.110615,,Eval,Acc:,0.844640,,PSNR:,20.363027
-epoch:,190,,Train,Loss:,0.112091,,Train,Acc:,0.837020,,Eval,Loss:,0.110319,,Eval,Acc:,0.844541,,PSNR:,21.954633
-epoch:,191,,Train,Loss:,0.111827,,Train,Acc:,0.837037,,Eval,Loss:,0.110056,,Eval,Acc:,0.844739,,PSNR:,20.878142
-epoch:,192,,Train,Loss:,0.111556,,Train,Acc:,0.837170,,Eval,Loss:,0.109802,,Eval,Acc:,0.846816,,PSNR:,21.787446
-epoch:,193,,Train,Loss:,0.111279,,Train,Acc:,0.837853,,Eval,Loss:,0.109500,,Eval,Acc:,0.844739,,PSNR:,21.180602
-epoch:,194,,Train,Loss:,0.111012,,Train,Acc:,0.838353,,Eval,Loss:,0.109248,,Eval,Acc:,0.845431,,PSNR:,21.403998
-epoch:,195,,Train,Loss:,0.110751,,Train,Acc:,0.838803,,Eval,Loss:,0.108980,,Eval,Acc:,0.847310,,PSNR:,20.879185
-epoch:,196,,Train,Loss:,0.110480,,Train,Acc:,0.839269,,Eval,Loss:,0.108734,,Eval,Acc:,0.848200,,PSNR:,22.367158
-epoch:,197,,Train,Loss:,0.110218,,Train,Acc:,0.838786,,Eval,Loss:,0.108459,,Eval,Acc:,0.846420,,PSNR:,21.095961
-epoch:,198,,Train,Loss:,0.109953,,Train,Acc:,0.839869,,Eval,Loss:,0.108184,,Eval,Acc:,0.848200,,PSNR:,21.163685
-epoch:,199,,Train,Loss:,0.109695,,Train,Acc:,0.839402,,Eval,Loss:,0.107937,,Eval,Acc:,0.848002,,PSNR:,21.956186
-epoch:,200,,Train,Loss:,0.109443,,Train,Acc:,0.839985,,Eval,Loss:,0.107691,,Eval,Acc:,0.848002,,PSNR:,21.563657
-epoch:,201,,Train,Loss:,0.109187,,Train,Acc:,0.840318,,Eval,Loss:,0.107424,,Eval,Acc:,0.848002,,PSNR:,22.271594
-epoch:,202,,Train,Loss:,0.108937,,Train,Acc:,0.840235,,Eval,Loss:,0.107180,,Eval,Acc:,0.847607,,PSNR:,21.352090
-epoch:,203,,Train,Loss:,0.108674,,Train,Acc:,0.840735,,Eval,Loss:,0.106926,,Eval,Acc:,0.847903,,PSNR:,21.986439
-epoch:,204,,Train,Loss:,0.108432,,Train,Acc:,0.840868,,Eval,Loss:,0.106679,,Eval,Acc:,0.847903,,PSNR:,21.668240
-epoch:,205,,Train,Loss:,0.108185,,Train,Acc:,0.841301,,Eval,Loss:,0.106434,,Eval,Acc:,0.848101,,PSNR:,22.022045
-epoch:,206,,Train,Loss:,0.107933,,Train,Acc:,0.840768,,Eval,Loss:,0.106180,,Eval,Acc:,0.849881,,PSNR:,22.595329
-epoch:,207,,Train,Loss:,0.107682,,Train,Acc:,0.841768,,Eval,Loss:,0.105931,,Eval,Acc:,0.848892,,PSNR:,22.099835
-epoch:,208,,Train,Loss:,0.107441,,Train,Acc:,0.842068,,Eval,Loss:,0.105698,,Eval,Acc:,0.850870,,PSNR:,21.828673
-epoch:,209,,Train,Loss:,0.107212,,Train,Acc:,0.842051,,Eval,Loss:,0.105447,,Eval,Acc:,0.850574,,PSNR:,21.612832
-epoch:,210,,Train,Loss:,0.106967,,Train,Acc:,0.842634,,Eval,Loss:,0.105210,,Eval,Acc:,0.850574,,PSNR:,20.684579
-epoch:,211,,Train,Loss:,0.106722,,Train,Acc:,0.842551,,Eval,Loss:,0.104978,,Eval,Acc:,0.851266,,PSNR:,21.742611
-epoch:,212,,Train,Loss:,0.106492,,Train,Acc:,0.842217,,Eval,Loss:,0.104729,,Eval,Acc:,0.853343,,PSNR:,21.078006
-epoch:,213,,Train,Loss:,0.106255,,Train,Acc:,0.842950,,Eval,Loss:,0.104498,,Eval,Acc:,0.851760,,PSNR:,22.015609
-epoch:,214,,Train,Loss:,0.106020,,Train,Acc:,0.844100,,Eval,Loss:,0.104267,,Eval,Acc:,0.851760,,PSNR:,21.427570
-epoch:,215,,Train,Loss:,0.105784,,Train,Acc:,0.843167,,Eval,Loss:,0.104026,,Eval,Acc:,0.850574,,PSNR:,22.331481
-epoch:,216,,Train,Loss:,0.105555,,Train,Acc:,0.843917,,Eval,Loss:,0.103816,,Eval,Acc:,0.852057,,PSNR:,21.591153
-epoch:,217,,Train,Loss:,0.105324,,Train,Acc:,0.843067,,Eval,Loss:,0.103584,,Eval,Acc:,0.851365,,PSNR:,22.093453
-epoch:,218,,Train,Loss:,0.105105,,Train,Acc:,0.843917,,Eval,Loss:,0.103346,,Eval,Acc:,0.852650,,PSNR:,21.004241
-epoch:,219,,Train,Loss:,0.104868,,Train,Acc:,0.844100,,Eval,Loss:,0.103115,,Eval,Acc:,0.851167,,PSNR:,22.517973
-epoch:,220,,Train,Loss:,0.104649,,Train,Acc:,0.844433,,Eval,Loss:,0.102890,,Eval,Acc:,0.854628,,PSNR:,21.223383
-epoch:,221,,Train,Loss:,0.104425,,Train,Acc:,0.844566,,Eval,Loss:,0.102685,,Eval,Acc:,0.854035,,PSNR:,21.792914
-epoch:,222,,Train,Loss:,0.104199,,Train,Acc:,0.844949,,Eval,Loss:,0.102456,,Eval,Acc:,0.853145,,PSNR:,22.863028
-epoch:,223,,Train,Loss:,0.103973,,Train,Acc:,0.844866,,Eval,Loss:,0.102242,,Eval,Acc:,0.852551,,PSNR:,22.889406
-epoch:,224,,Train,Loss:,0.103757,,Train,Acc:,0.845166,,Eval,Loss:,0.102013,,Eval,Acc:,0.853837,,PSNR:,21.510882
-epoch:,225,,Train,Loss:,0.103539,,Train,Acc:,0.845482,,Eval,Loss:,0.101794,,Eval,Acc:,0.853738,,PSNR:,22.782618
-epoch:,226,,Train,Loss:,0.103324,,Train,Acc:,0.845965,,Eval,Loss:,0.101582,,Eval,Acc:,0.854233,,PSNR:,21.441351
-epoch:,227,,Train,Loss:,0.103105,,Train,Acc:,0.845949,,Eval,Loss:,0.101349,,Eval,Acc:,0.854529,,PSNR:,22.165809
-epoch:,228,,Train,Loss:,0.102887,,Train,Acc:,0.846082,,Eval,Loss:,0.101150,,Eval,Acc:,0.852749,,PSNR:,22.423031
-epoch:,229,,Train,Loss:,0.102682,,Train,Acc:,0.846449,,Eval,Loss:,0.100947,,Eval,Acc:,0.855320,,PSNR:,23.256667
-epoch:,230,,Train,Loss:,0.102470,,Train,Acc:,0.845916,,Eval,Loss:,0.100731,,Eval,Acc:,0.854331,,PSNR:,22.175666
-epoch:,231,,Train,Loss:,0.102264,,Train,Acc:,0.846598,,Eval,Loss:,0.100517,,Eval,Acc:,0.854134,,PSNR:,20.917498
-epoch:,232,,Train,Loss:,0.102034,,Train,Acc:,0.847015,,Eval,Loss:,0.100312,,Eval,Acc:,0.855123,,PSNR:,23.022961
-epoch:,233,,Train,Loss:,0.101827,,Train,Acc:,0.847415,,Eval,Loss:,0.100094,,Eval,Acc:,0.856112,,PSNR:,23.953812
-epoch:,234,,Train,Loss:,0.101633,,Train,Acc:,0.847198,,Eval,Loss:,0.099897,,Eval,Acc:,0.854331,,PSNR:,21.763144
-epoch:,235,,Train,Loss:,0.101427,,Train,Acc:,0.847198,,Eval,Loss:,0.099689,,Eval,Acc:,0.855419,,PSNR:,22.182840
-epoch:,236,,Train,Loss:,0.101227,,Train,Acc:,0.847298,,Eval,Loss:,0.099475,,Eval,Acc:,0.856705,,PSNR:,22.370198
-epoch:,237,,Train,Loss:,0.101022,,Train,Acc:,0.848081,,Eval,Loss:,0.099265,,Eval,Acc:,0.856210,,PSNR:,22.937781
-epoch:,238,,Train,Loss:,0.100819,,Train,Acc:,0.847848,,Eval,Loss:,0.099073,,Eval,Acc:,0.855024,,PSNR:,22.000262
-epoch:,239,,Train,Loss:,0.100611,,Train,Acc:,0.848564,,Eval,Loss:,0.098884,,Eval,Acc:,0.856606,,PSNR:,21.701012
-epoch:,240,,Train,Loss:,0.100410,,Train,Acc:,0.847881,,Eval,Loss:,0.098661,,Eval,Acc:,0.857199,,PSNR:,23.390646
-epoch:,241,,Train,Loss:,0.100228,,Train,Acc:,0.848847,,Eval,Loss:,0.098487,,Eval,Acc:,0.856013,,PSNR:,21.536929
-epoch:,242,,Train,Loss:,0.100020,,Train,Acc:,0.848481,,Eval,Loss:,0.098276,,Eval,Acc:,0.856903,,PSNR:,21.827126
-epoch:,243,,Train,Loss:,0.099816,,Train,Acc:,0.849164,,Eval,Loss:,0.098081,,Eval,Acc:,0.857397,,PSNR:,22.201846
-epoch:,244,,Train,Loss:,0.099626,,Train,Acc:,0.848547,,Eval,Loss:,0.097889,,Eval,Acc:,0.856705,,PSNR:,22.694959
-epoch:,245,,Train,Loss:,0.099431,,Train,Acc:,0.848614,,Eval,Loss:,0.097705,,Eval,Acc:,0.857298,,PSNR:,22.746198
-epoch:,246,,Train,Loss:,0.099235,,Train,Acc:,0.849680,,Eval,Loss:,0.097513,,Eval,Acc:,0.856507,,PSNR:,23.605673
-epoch:,247,,Train,Loss:,0.099043,,Train,Acc:,0.849647,,Eval,Loss:,0.097322,,Eval,Acc:,0.856408,,PSNR:,22.546129
-epoch:,248,,Train,Loss:,0.098850,,Train,Acc:,0.849863,,Eval,Loss:,0.097119,,Eval,Acc:,0.858287,,PSNR:,22.436161
-epoch:,249,,Train,Loss:,0.098668,,Train,Acc:,0.849380,,Eval,Loss:,0.096947,,Eval,Acc:,0.858386,,PSNR:,22.682553
-epoch:,250,,Train,Loss:,0.098487,,Train,Acc:,0.849780,,Eval,Loss:,0.096761,,Eval,Acc:,0.858979,,PSNR:,22.514286
-epoch:,251,,Train,Loss:,0.098288,,Train,Acc:,0.850413,,Eval,Loss:,0.096576,,Eval,Acc:,0.858386,,PSNR:,23.304089
-epoch:,252,,Train,Loss:,0.098095,,Train,Acc:,0.850113,,Eval,Loss:,0.096381,,Eval,Acc:,0.857199,,PSNR:,22.351694
-epoch:,253,,Train,Loss:,0.097917,,Train,Acc:,0.850047,,Eval,Loss:,0.096188,,Eval,Acc:,0.859474,,PSNR:,22.712763
-epoch:,254,,Train,Loss:,0.097732,,Train,Acc:,0.850247,,Eval,Loss:,0.096016,,Eval,Acc:,0.858683,,PSNR:,24.110512
-epoch:,255,,Train,Loss:,0.097546,,Train,Acc:,0.850996,,Eval,Loss:,0.095812,,Eval,Acc:,0.859573,,PSNR:,21.992938
-epoch:,256,,Train,Loss:,0.097360,,Train,Acc:,0.850896,,Eval,Loss:,0.095645,,Eval,Acc:,0.857793,,PSNR:,24.001412
-epoch:,257,,Train,Loss:,0.097186,,Train,Acc:,0.851013,,Eval,Loss:,0.095461,,Eval,Acc:,0.858584,,PSNR:,22.472833
-epoch:,258,,Train,Loss:,0.097005,,Train,Acc:,0.851229,,Eval,Loss:,0.095275,,Eval,Acc:,0.857595,,PSNR:,21.974578
-epoch:,259,,Train,Loss:,0.096809,,Train,Acc:,0.851046,,Eval,Loss:,0.095092,,Eval,Acc:,0.857397,,PSNR:,24.591583
-epoch:,260,,Train,Loss:,0.096639,,Train,Acc:,0.851513,,Eval,Loss:,0.094912,,Eval,Acc:,0.859869,,PSNR:,22.461103
-epoch:,261,,Train,Loss:,0.096463,,Train,Acc:,0.851929,,Eval,Loss:,0.094744,,Eval,Acc:,0.860364,,PSNR:,22.965363
-epoch:,262,,Train,Loss:,0.096291,,Train,Acc:,0.852046,,Eval,Loss:,0.094584,,Eval,Acc:,0.859573,,PSNR:,23.448803
-epoch:,263,,Train,Loss:,0.096114,,Train,Acc:,0.851562,,Eval,Loss:,0.094396,,Eval,Acc:,0.860265,,PSNR:,23.668391
-epoch:,264,,Train,Loss:,0.095942,,Train,Acc:,0.852096,,Eval,Loss:,0.094208,,Eval,Acc:,0.860463,,PSNR:,22.486962
-epoch:,265,,Train,Loss:,0.095758,,Train,Acc:,0.852395,,Eval,Loss:,0.094041,,Eval,Acc:,0.859078,,PSNR:,23.806913
-epoch:,266,,Train,Loss:,0.095592,,Train,Acc:,0.852295,,Eval,Loss:,0.093879,,Eval,Acc:,0.862144,,PSNR:,22.484548
-epoch:,267,,Train,Loss:,0.095415,,Train,Acc:,0.852712,,Eval,Loss:,0.093715,,Eval,Acc:,0.860364,,PSNR:,22.727246
-epoch:,268,,Train,Loss:,0.095238,,Train,Acc:,0.852962,,Eval,Loss:,0.093524,,Eval,Acc:,0.861353,,PSNR:,23.725827
-epoch:,269,,Train,Loss:,0.095068,,Train,Acc:,0.852162,,Eval,Loss:,0.093361,,Eval,Acc:,0.860463,,PSNR:,22.710621
-epoch:,270,,Train,Loss:,0.094899,,Train,Acc:,0.852962,,Eval,Loss:,0.093207,,Eval,Acc:,0.861847,,PSNR:,22.547996
-epoch:,271,,Train,Loss:,0.094732,,Train,Acc:,0.853362,,Eval,Loss:,0.093026,,Eval,Acc:,0.861452,,PSNR:,22.570896
-epoch:,272,,Train,Loss:,0.094561,,Train,Acc:,0.852795,,Eval,Loss:,0.092865,,Eval,Acc:,0.860562,,PSNR:,23.596828
-epoch:,273,,Train,Loss:,0.094401,,Train,Acc:,0.853228,,Eval,Loss:,0.092674,,Eval,Acc:,0.860957,,PSNR:,24.198153
-epoch:,274,,Train,Loss:,0.094226,,Train,Acc:,0.853445,,Eval,Loss:,0.092520,,Eval,Acc:,0.860661,,PSNR:,23.752330
-epoch:,275,,Train,Loss:,0.094062,,Train,Acc:,0.853345,,Eval,Loss:,0.092376,,Eval,Acc:,0.861353,,PSNR:,23.310243
-epoch:,276,,Train,Loss:,0.093897,,Train,Acc:,0.853911,,Eval,Loss:,0.092190,,Eval,Acc:,0.860562,,PSNR:,23.574510
-epoch:,277,,Train,Loss:,0.093735,,Train,Acc:,0.854428,,Eval,Loss:,0.092027,,Eval,Acc:,0.862243,,PSNR:,23.605306
-epoch:,278,,Train,Loss:,0.093573,,Train,Acc:,0.854294,,Eval,Loss:,0.091877,,Eval,Acc:,0.862045,,PSNR:,23.305553
-epoch:,279,,Train,Loss:,0.093414,,Train,Acc:,0.854111,,Eval,Loss:,0.091710,,Eval,Acc:,0.860957,,PSNR:,23.736582
-epoch:,280,,Train,Loss:,0.093247,,Train,Acc:,0.854428,,Eval,Loss:,0.091552,,Eval,Acc:,0.862045,,PSNR:,22.061559
-epoch:,281,,Train,Loss:,0.093086,,Train,Acc:,0.854411,,Eval,Loss:,0.091395,,Eval,Acc:,0.863133,,PSNR:,22.818353
-epoch:,282,,Train,Loss:,0.092922,,Train,Acc:,0.854644,,Eval,Loss:,0.091244,,Eval,Acc:,0.860957,,PSNR:,24.309504
-epoch:,283,,Train,Loss:,0.092774,,Train,Acc:,0.854678,,Eval,Loss:,0.091073,,Eval,Acc:,0.863034,,PSNR:,24.101278
-epoch:,284,,Train,Loss:,0.092610,,Train,Acc:,0.854511,,Eval,Loss:,0.090921,,Eval,Acc:,0.862737,,PSNR:,23.985914
-epoch:,285,,Train,Loss:,0.092461,,Train,Acc:,0.855594,,Eval,Loss:,0.090749,,Eval,Acc:,0.861353,,PSNR:,23.093043
-epoch:,286,,Train,Loss:,0.092290,,Train,Acc:,0.855027,,Eval,Loss:,0.090606,,Eval,Acc:,0.863627,,PSNR:,24.517323
-epoch:,287,,Train,Loss:,0.092134,,Train,Acc:,0.854861,,Eval,Loss:,0.090450,,Eval,Acc:,0.863034,,PSNR:,23.370110
-epoch:,288,,Train,Loss:,0.091984,,Train,Acc:,0.855211,,Eval,Loss:,0.090287,,Eval,Acc:,0.863331,,PSNR:,23.250664
-epoch:,289,,Train,Loss:,0.091834,,Train,Acc:,0.855477,,Eval,Loss:,0.090127,,Eval,Acc:,0.860957,,PSNR:,21.877973
-epoch:,290,,Train,Loss:,0.091674,,Train,Acc:,0.855960,,Eval,Loss:,0.090001,,Eval,Acc:,0.862836,,PSNR:,23.794067
-epoch:,291,,Train,Loss:,0.091515,,Train,Acc:,0.855727,,Eval,Loss:,0.089827,,Eval,Acc:,0.863627,,PSNR:,24.861968
-epoch:,292,,Train,Loss:,0.091373,,Train,Acc:,0.855710,,Eval,Loss:,0.089674,,Eval,Acc:,0.864913,,PSNR:,23.972166
-epoch:,293,,Train,Loss:,0.091218,,Train,Acc:,0.856393,,Eval,Loss:,0.089526,,Eval,Acc:,0.863627,,PSNR:,23.874847
-epoch:,294,,Train,Loss:,0.091069,,Train,Acc:,0.855894,,Eval,Loss:,0.089372,,Eval,Acc:,0.864320,,PSNR:,23.565268
-epoch:,295,,Train,Loss:,0.090914,,Train,Acc:,0.856710,,Eval,Loss:,0.089227,,Eval,Acc:,0.864320,,PSNR:,22.980113
-epoch:,296,,Train,Loss:,0.090762,,Train,Acc:,0.856293,,Eval,Loss:,0.089077,,Eval,Acc:,0.863825,,PSNR:,23.120011
-epoch:,297,,Train,Loss:,0.090612,,Train,Acc:,0.856693,,Eval,Loss:,0.088924,,Eval,Acc:,0.864419,,PSNR:,24.314545
-epoch:,298,,Train,Loss:,0.090465,,Train,Acc:,0.857226,,Eval,Loss:,0.088777,,Eval,Acc:,0.862045,,PSNR:,25.392995
-epoch:,299,,Train,Loss:,0.090329,,Train,Acc:,0.856960,,Eval,Loss:,0.088633,,Eval,Acc:,0.864616,,PSNR:,23.707991
-epoch:,300,,Train,Loss:,0.090177,,Train,Acc:,0.857509,,Eval,Loss:,0.088487,,Eval,Acc:,0.863924,,PSNR:,23.199771
-epoch:,301,,Train,Loss:,0.090019,,Train,Acc:,0.857026,,Eval,Loss:,0.088357,,Eval,Acc:,0.864616,,PSNR:,24.731885
-epoch:,302,,Train,Loss:,0.089884,,Train,Acc:,0.857343,,Eval,Loss:,0.088200,,Eval,Acc:,0.864023,,PSNR:,23.833416
-epoch:,303,,Train,Loss:,0.089731,,Train,Acc:,0.856860,,Eval,Loss:,0.088051,,Eval,Acc:,0.865506,,PSNR:,24.154201
-epoch:,304,,Train,Loss:,0.089592,,Train,Acc:,0.856810,,Eval,Loss:,0.087927,,Eval,Acc:,0.864122,,PSNR:,24.593239
-epoch:,305,,Train,Loss:,0.089451,,Train,Acc:,0.857609,,Eval,Loss:,0.087781,,Eval,Acc:,0.866100,,PSNR:,24.334963
-epoch:,306,,Train,Loss:,0.089311,,Train,Acc:,0.857543,,Eval,Loss:,0.087632,,Eval,Acc:,0.865407,,PSNR:,23.590367
-epoch:,307,,Train,Loss:,0.089168,,Train,Acc:,0.857959,,Eval,Loss:,0.087496,,Eval,Acc:,0.865803,,PSNR:,24.548855
-epoch:,308,,Train,Loss:,0.089024,,Train,Acc:,0.857793,,Eval,Loss:,0.087358,,Eval,Acc:,0.864715,,PSNR:,25.756612
-epoch:,309,,Train,Loss:,0.088883,,Train,Acc:,0.857909,,Eval,Loss:,0.087216,,Eval,Acc:,0.865407,,PSNR:,23.732616
-epoch:,310,,Train,Loss:,0.088746,,Train,Acc:,0.857426,,Eval,Loss:,0.087074,,Eval,Acc:,0.865012,,PSNR:,24.309810
-epoch:,311,,Train,Loss:,0.088607,,Train,Acc:,0.857809,,Eval,Loss:,0.086927,,Eval,Acc:,0.865902,,PSNR:,24.107565
-epoch:,312,,Train,Loss:,0.088463,,Train,Acc:,0.858026,,Eval,Loss:,0.086794,,Eval,Acc:,0.866495,,PSNR:,24.311446
-epoch:,313,,Train,Loss:,0.088323,,Train,Acc:,0.858392,,Eval,Loss:,0.086656,,Eval,Acc:,0.866495,,PSNR:,24.152367
-epoch:,314,,Train,Loss:,0.088184,,Train,Acc:,0.858126,,Eval,Loss:,0.086522,,Eval,Acc:,0.865309,,PSNR:,23.859274
-epoch:,315,,Train,Loss:,0.088050,,Train,Acc:,0.858159,,Eval,Loss:,0.086382,,Eval,Acc:,0.864122,,PSNR:,23.908275
-epoch:,316,,Train,Loss:,0.087914,,Train,Acc:,0.858209,,Eval,Loss:,0.086242,,Eval,Acc:,0.864616,,PSNR:,24.142331
-epoch:,317,,Train,Loss:,0.087771,,Train,Acc:,0.858909,,Eval,Loss:,0.086118,,Eval,Acc:,0.865111,,PSNR:,24.141706
-epoch:,318,,Train,Loss:,0.087644,,Train,Acc:,0.858026,,Eval,Loss:,0.085984,,Eval,Acc:,0.865309,,PSNR:,23.966624
-epoch:,319,,Train,Loss:,0.087509,,Train,Acc:,0.858742,,Eval,Loss:,0.085840,,Eval,Acc:,0.866001,,PSNR:,22.982831
-epoch:,320,,Train,Loss:,0.087368,,Train,Acc:,0.858442,,Eval,Loss:,0.085713,,Eval,Acc:,0.866792,,PSNR:,24.124795
-epoch:,321,,Train,Loss:,0.087235,,Train,Acc:,0.859125,,Eval,Loss:,0.085579,,Eval,Acc:,0.866297,,PSNR:,22.835020
-epoch:,322,,Train,Loss:,0.087103,,Train,Acc:,0.859392,,Eval,Loss:,0.085450,,Eval,Acc:,0.865210,,PSNR:,26.090695
-epoch:,323,,Train,Loss:,0.086969,,Train,Acc:,0.858992,,Eval,Loss:,0.085307,,Eval,Acc:,0.865309,,PSNR:,24.305209
-epoch:,324,,Train,Loss:,0.086830,,Train,Acc:,0.859675,,Eval,Loss:,0.085181,,Eval,Acc:,0.866396,,PSNR:,24.224800
-epoch:,325,,Train,Loss:,0.086703,,Train,Acc:,0.858925,,Eval,Loss:,0.085046,,Eval,Acc:,0.866693,,PSNR:,24.519181
-epoch:,326,,Train,Loss:,0.086568,,Train,Acc:,0.859791,,Eval,Loss:,0.084906,,Eval,Acc:,0.867089,,PSNR:,24.623576
-epoch:,327,,Train,Loss:,0.086452,,Train,Acc:,0.859941,,Eval,Loss:,0.084785,,Eval,Acc:,0.867188,,PSNR:,23.498851
-epoch:,328,,Train,Loss:,0.086309,,Train,Acc:,0.859791,,Eval,Loss:,0.084666,,Eval,Acc:,0.866693,,PSNR:,24.724057
-epoch:,329,,Train,Loss:,0.086188,,Train,Acc:,0.859658,,Eval,Loss:,0.084526,,Eval,Acc:,0.867484,,PSNR:,25.071876
-epoch:,330,,Train,Loss:,0.086060,,Train,Acc:,0.859325,,Eval,Loss:,0.084394,,Eval,Acc:,0.864913,,PSNR:,24.654254
-epoch:,331,,Train,Loss:,0.085936,,Train,Acc:,0.859608,,Eval,Loss:,0.084273,,Eval,Acc:,0.868078,,PSNR:,24.500709
-epoch:,332,,Train,Loss:,0.085806,,Train,Acc:,0.859525,,Eval,Loss:,0.084141,,Eval,Acc:,0.866594,,PSNR:,24.343780
-epoch:,333,,Train,Loss:,0.085673,,Train,Acc:,0.860258,,Eval,Loss:,0.084026,,Eval,Acc:,0.866297,,PSNR:,23.971119
-epoch:,334,,Train,Loss:,0.085545,,Train,Acc:,0.860025,,Eval,Loss:,0.083910,,Eval,Acc:,0.868374,,PSNR:,24.577923
-epoch:,335,,Train,Loss:,0.085426,,Train,Acc:,0.861074,,Eval,Loss:,0.083763,,Eval,Acc:,0.867286,,PSNR:,23.889184
-epoch:,336,,Train,Loss:,0.085287,,Train,Acc:,0.860208,,Eval,Loss:,0.083653,,Eval,Acc:,0.869165,,PSNR:,25.659014
-epoch:,337,,Train,Loss:,0.085172,,Train,Acc:,0.860175,,Eval,Loss:,0.083527,,Eval,Acc:,0.866297,,PSNR:,24.362689
-epoch:,338,,Train,Loss:,0.085051,,Train,Acc:,0.860541,,Eval,Loss:,0.083405,,Eval,Acc:,0.867385,,PSNR:,23.938158
-epoch:,339,,Train,Loss:,0.084927,,Train,Acc:,0.860941,,Eval,Loss:,0.083293,,Eval,Acc:,0.866495,,PSNR:,24.621468
-epoch:,340,,Train,Loss:,0.084799,,Train,Acc:,0.860741,,Eval,Loss:,0.083166,,Eval,Acc:,0.868968,,PSNR:,24.057088
-epoch:,341,,Train,Loss:,0.084673,,Train,Acc:,0.861457,,Eval,Loss:,0.083033,,Eval,Acc:,0.867979,,PSNR:,23.665799
-epoch:,342,,Train,Loss:,0.084551,,Train,Acc:,0.861191,,Eval,Loss:,0.082921,,Eval,Acc:,0.867781,,PSNR:,25.060520
-epoch:,343,,Train,Loss:,0.084438,,Train,Acc:,0.860808,,Eval,Loss:,0.082797,,Eval,Acc:,0.868275,,PSNR:,23.198930
-epoch:,344,,Train,Loss:,0.084303,,Train,Acc:,0.861224,,Eval,Loss:,0.082672,,Eval,Acc:,0.868869,,PSNR:,25.232348
-epoch:,345,,Train,Loss:,0.084191,,Train,Acc:,0.861291,,Eval,Loss:,0.082549,,Eval,Acc:,0.868572,,PSNR:,25.088431
-epoch:,346,,Train,Loss:,0.084066,,Train,Acc:,0.861657,,Eval,Loss:,0.082434,,Eval,Acc:,0.868968,,PSNR:,23.902125
-epoch:,347,,Train,Loss:,0.083944,,Train,Acc:,0.861524,,Eval,Loss:,0.082314,,Eval,Acc:,0.868374,,PSNR:,23.782629
-epoch:,348,,Train,Loss:,0.083833,,Train,Acc:,0.861790,,Eval,Loss:,0.082190,,Eval,Acc:,0.868671,,PSNR:,24.919447
-epoch:,349,,Train,Loss:,0.083707,,Train,Acc:,0.861724,,Eval,Loss:,0.082077,,Eval,Acc:,0.867781,,PSNR:,25.226748
-epoch:,350,,Train,Loss:,0.083587,,Train,Acc:,0.861441,,Eval,Loss:,0.081956,,Eval,Acc:,0.869363,,PSNR:,25.309483
-epoch:,351,,Train,Loss:,0.083463,,Train,Acc:,0.862057,,Eval,Loss:,0.081849,,Eval,Acc:,0.868275,,PSNR:,25.852898
-epoch:,352,,Train,Loss:,0.083359,,Train,Acc:,0.861407,,Eval,Loss:,0.081732,,Eval,Acc:,0.869363,,PSNR:,23.057777
-epoch:,353,,Train,Loss:,0.083234,,Train,Acc:,0.861374,,Eval,Loss:,0.081604,,Eval,Acc:,0.869462,,PSNR:,25.323036
-epoch:,354,,Train,Loss:,0.083108,,Train,Acc:,0.862190,,Eval,Loss:,0.081493,,Eval,Acc:,0.869264,,PSNR:,25.568631
-epoch:,355,,Train,Loss:,0.082993,,Train,Acc:,0.861690,,Eval,Loss:,0.081364,,Eval,Acc:,0.868473,,PSNR:,25.778524
-epoch:,356,,Train,Loss:,0.082889,,Train,Acc:,0.861924,,Eval,Loss:,0.081253,,Eval,Acc:,0.868968,,PSNR:,26.200831
-epoch:,357,,Train,Loss:,0.082768,,Train,Acc:,0.861790,,Eval,Loss:,0.081146,,Eval,Acc:,0.869264,,PSNR:,25.464685
-epoch:,358,,Train,Loss:,0.082655,,Train,Acc:,0.862507,,Eval,Loss:,0.081035,,Eval,Acc:,0.868770,,PSNR:,25.114409
-epoch:,359,,Train,Loss:,0.082545,,Train,Acc:,0.862540,,Eval,Loss:,0.080927,,Eval,Acc:,0.869165,,PSNR:,24.417684
-epoch:,360,,Train,Loss:,0.082432,,Train,Acc:,0.862590,,Eval,Loss:,0.080812,,Eval,Acc:,0.869462,,PSNR:,23.854549
-epoch:,361,,Train,Loss:,0.082317,,Train,Acc:,0.862690,,Eval,Loss:,0.080709,,Eval,Acc:,0.869759,,PSNR:,24.975561
-epoch:,362,,Train,Loss:,0.082193,,Train,Acc:,0.862007,,Eval,Loss:,0.080571,,Eval,Acc:,0.867979,,PSNR:,24.983353
-epoch:,363,,Train,Loss:,0.082092,,Train,Acc:,0.862757,,Eval,Loss:,0.080461,,Eval,Acc:,0.869165,,PSNR:,25.516797
-epoch:,364,,Train,Loss:,0.081985,,Train,Acc:,0.862440,,Eval,Loss:,0.080372,,Eval,Acc:,0.869759,,PSNR:,24.418681
-epoch:,365,,Train,Loss:,0.081867,,Train,Acc:,0.862707,,Eval,Loss:,0.080237,,Eval,Acc:,0.870055,,PSNR:,25.302238
-epoch:,366,,Train,Loss:,0.081755,,Train,Acc:,0.862790,,Eval,Loss:,0.080123,,Eval,Acc:,0.869956,,PSNR:,24.519934
-epoch:,367,,Train,Loss:,0.081646,,Train,Acc:,0.862757,,Eval,Loss:,0.080014,,Eval,Acc:,0.871341,,PSNR:,24.519706
-epoch:,368,,Train,Loss:,0.081535,,Train,Acc:,0.862923,,Eval,Loss:,0.079916,,Eval,Acc:,0.870352,,PSNR:,24.690733
-epoch:,369,,Train,Loss:,0.081431,,Train,Acc:,0.863473,,Eval,Loss:,0.079810,,Eval,Acc:,0.870352,,PSNR:,24.791153
-epoch:,370,,Train,Loss:,0.081310,,Train,Acc:,0.863589,,Eval,Loss:,0.079696,,Eval,Acc:,0.868968,,PSNR:,24.754091
-epoch:,371,,Train,Loss:,0.081205,,Train,Acc:,0.862973,,Eval,Loss:,0.079589,,Eval,Acc:,0.869363,,PSNR:,24.556195
-epoch:,372,,Train,Loss:,0.081090,,Train,Acc:,0.863206,,Eval,Loss:,0.079473,,Eval,Acc:,0.871242,,PSNR:,25.469727
-epoch:,373,,Train,Loss:,0.080977,,Train,Acc:,0.863123,,Eval,Loss:,0.079378,,Eval,Acc:,0.869363,,PSNR:,25.210290
-epoch:,374,,Train,Loss:,0.080869,,Train,Acc:,0.863156,,Eval,Loss:,0.079265,,Eval,Acc:,0.870550,,PSNR:,26.061243
-epoch:,375,,Train,Loss:,0.080761,,Train,Acc:,0.863706,,Eval,Loss:,0.079161,,Eval,Acc:,0.871242,,PSNR:,25.535068
-epoch:,376,,Train,Loss:,0.080651,,Train,Acc:,0.863956,,Eval,Loss:,0.079027,,Eval,Acc:,0.869956,,PSNR:,25.931122
-epoch:,377,,Train,Loss:,0.080554,,Train,Acc:,0.863873,,Eval,Loss:,0.078948,,Eval,Acc:,0.868176,,PSNR:,24.313512
-epoch:,378,,Train,Loss:,0.080444,,Train,Acc:,0.863623,,Eval,Loss:,0.078827,,Eval,Acc:,0.869956,,PSNR:,23.946361
-epoch:,379,,Train,Loss:,0.080335,,Train,Acc:,0.863889,,Eval,Loss:,0.078741,,Eval,Acc:,0.870847,,PSNR:,26.085706
-epoch:,380,,Train,Loss:,0.080236,,Train,Acc:,0.863989,,Eval,Loss:,0.078622,,Eval,Acc:,0.870550,,PSNR:,24.144384
-epoch:,381,,Train,Loss:,0.080131,,Train,Acc:,0.863656,,Eval,Loss:,0.078526,,Eval,Acc:,0.870649,,PSNR:,24.312126
-epoch:,382,,Train,Loss:,0.080022,,Train,Acc:,0.864356,,Eval,Loss:,0.078420,,Eval,Acc:,0.871242,,PSNR:,25.735107
-epoch:,383,,Train,Loss:,0.079917,,Train,Acc:,0.864256,,Eval,Loss:,0.078315,,Eval,Acc:,0.869165,,PSNR:,25.233438
-epoch:,384,,Train,Loss:,0.079810,,Train,Acc:,0.863956,,Eval,Loss:,0.078215,,Eval,Acc:,0.868572,,PSNR:,25.298322
-epoch:,385,,Train,Loss:,0.079716,,Train,Acc:,0.863956,,Eval,Loss:,0.078104,,Eval,Acc:,0.870550,,PSNR:,24.704583
-epoch:,386,,Train,Loss:,0.079605,,Train,Acc:,0.864306,,Eval,Loss:,0.078032,,Eval,Acc:,0.870055,,PSNR:,25.062441
-epoch:,387,,Train,Loss:,0.079507,,Train,Acc:,0.863673,,Eval,Loss:,0.077902,,Eval,Acc:,0.871341,,PSNR:,25.145083
-epoch:,388,,Train,Loss:,0.079402,,Train,Acc:,0.864755,,Eval,Loss:,0.077795,,Eval,Acc:,0.871143,,PSNR:,24.152377
-epoch:,389,,Train,Loss:,0.079293,,Train,Acc:,0.863856,,Eval,Loss:,0.077709,,Eval,Acc:,0.870055,,PSNR:,25.497125
-epoch:,390,,Train,Loss:,0.079198,,Train,Acc:,0.865072,,Eval,Loss:,0.077595,,Eval,Acc:,0.871341,,PSNR:,25.243576
-epoch:,391,,Train,Loss:,0.079091,,Train,Acc:,0.864023,,Eval,Loss:,0.077505,,Eval,Acc:,0.871638,,PSNR:,25.858992
-epoch:,392,,Train,Loss:,0.078991,,Train,Acc:,0.865239,,Eval,Loss:,0.077404,,Eval,Acc:,0.872725,,PSNR:,26.011510
-epoch:,393,,Train,Loss:,0.078891,,Train,Acc:,0.864989,,Eval,Loss:,0.077306,,Eval,Acc:,0.870847,,PSNR:,24.794622
-epoch:,394,,Train,Loss:,0.078788,,Train,Acc:,0.865272,,Eval,Loss:,0.077219,,Eval,Acc:,0.870847,,PSNR:,24.217727
-epoch:,395,,Train,Loss:,0.078678,,Train,Acc:,0.865005,,Eval,Loss:,0.077090,,Eval,Acc:,0.871737,,PSNR:,26.257651
-epoch:,396,,Train,Loss:,0.078590,,Train,Acc:,0.864955,,Eval,Loss:,0.076996,,Eval,Acc:,0.871638,,PSNR:,24.524461
-epoch:,397,,Train,Loss:,0.078488,,Train,Acc:,0.865205,,Eval,Loss:,0.076901,,Eval,Acc:,0.872033,,PSNR:,25.894293
-epoch:,398,,Train,Loss:,0.078391,,Train,Acc:,0.865005,,Eval,Loss:,0.076784,,Eval,Acc:,0.871044,,PSNR:,25.363129
-epoch:,399,,Train,Loss:,0.078291,,Train,Acc:,0.865222,,Eval,Loss:,0.076706,,Eval,Acc:,0.873022,,PSNR:,25.607388
-epoch:,400,,Train,Loss:,0.078197,,Train,Acc:,0.865455,,Eval,Loss:,0.076603,,Eval,Acc:,0.871737,,PSNR:,26.288684
-epoch:,401,,Train,Loss:,0.078094,,Train,Acc:,0.864922,,Eval,Loss:,0.076518,,Eval,Acc:,0.871737,,PSNR:,25.031767
-epoch:,402,,Train,Loss:,0.077995,,Train,Acc:,0.865089,,Eval,Loss:,0.076416,,Eval,Acc:,0.872330,,PSNR:,25.733219
-epoch:,403,,Train,Loss:,0.077897,,Train,Acc:,0.865955,,Eval,Loss:,0.076330,,Eval,Acc:,0.870352,,PSNR:,26.997730
-epoch:,404,,Train,Loss:,0.077806,,Train,Acc:,0.865638,,Eval,Loss:,0.076222,,Eval,Acc:,0.871539,,PSNR:,23.613048
-epoch:,405,,Train,Loss:,0.077699,,Train,Acc:,0.866155,,Eval,Loss:,0.076114,,Eval,Acc:,0.873319,,PSNR:,25.310683
-epoch:,406,,Train,Loss:,0.077604,,Train,Acc:,0.865338,,Eval,Loss:,0.076037,,Eval,Acc:,0.873022,,PSNR:,25.004684
-epoch:,407,,Train,Loss:,0.077504,,Train,Acc:,0.866055,,Eval,Loss:,0.075945,,Eval,Acc:,0.873022,,PSNR:,25.619342
-epoch:,408,,Train,Loss:,0.077414,,Train,Acc:,0.865855,,Eval,Loss:,0.075833,,Eval,Acc:,0.872528,,PSNR:,25.005531
-epoch:,409,,Train,Loss:,0.077324,,Train,Acc:,0.865755,,Eval,Loss:,0.075737,,Eval,Acc:,0.871440,,PSNR:,25.599015
-epoch:,410,,Train,Loss:,0.077223,,Train,Acc:,0.865922,,Eval,Loss:,0.075659,,Eval,Acc:,0.873121,,PSNR:,24.702332
-epoch:,411,,Train,Loss:,0.077128,,Train,Acc:,0.866305,,Eval,Loss:,0.075554,,Eval,Acc:,0.871835,,PSNR:,26.404618
-epoch:,412,,Train,Loss:,0.077038,,Train,Acc:,0.865738,,Eval,Loss:,0.075467,,Eval,Acc:,0.872429,,PSNR:,24.943095
-epoch:,413,,Train,Loss:,0.076945,,Train,Acc:,0.865955,,Eval,Loss:,0.075370,,Eval,Acc:,0.871143,,PSNR:,25.172323
-epoch:,414,,Train,Loss:,0.076849,,Train,Acc:,0.866221,,Eval,Loss:,0.075278,,Eval,Acc:,0.871638,,PSNR:,25.913950
-epoch:,415,,Train,Loss:,0.076753,,Train,Acc:,0.865638,,Eval,Loss:,0.075182,,Eval,Acc:,0.871638,,PSNR:,26.375881
-epoch:,416,,Train,Loss:,0.076667,,Train,Acc:,0.865955,,Eval,Loss:,0.075087,,Eval,Acc:,0.873022,,PSNR:,25.075196
-epoch:,417,,Train,Loss:,0.076571,,Train,Acc:,0.866738,,Eval,Loss:,0.074990,,Eval,Acc:,0.871539,,PSNR:,24.772454
-epoch:,418,,Train,Loss:,0.076474,,Train,Acc:,0.866538,,Eval,Loss:,0.074924,,Eval,Acc:,0.873022,,PSNR:,26.428141
-epoch:,419,,Train,Loss:,0.076388,,Train,Acc:,0.865772,,Eval,Loss:,0.074810,,Eval,Acc:,0.872033,,PSNR:,23.914849
-epoch:,420,,Train,Loss:,0.076298,,Train,Acc:,0.866921,,Eval,Loss:,0.074716,,Eval,Acc:,0.873714,,PSNR:,25.424286
-epoch:,421,,Train,Loss:,0.076200,,Train,Acc:,0.866621,,Eval,Loss:,0.074647,,Eval,Acc:,0.874110,,PSNR:,26.057598
-epoch:,422,,Train,Loss:,0.076113,,Train,Acc:,0.866538,,Eval,Loss:,0.074535,,Eval,Acc:,0.873319,,PSNR:,24.891285
-epoch:,423,,Train,Loss:,0.076023,,Train,Acc:,0.867021,,Eval,Loss:,0.074458,,Eval,Acc:,0.872033,,PSNR:,24.847856
-epoch:,424,,Train,Loss:,0.075927,,Train,Acc:,0.866138,,Eval,Loss:,0.074373,,Eval,Acc:,0.873121,,PSNR:,26.002546
-epoch:,425,,Train,Loss:,0.075840,,Train,Acc:,0.867121,,Eval,Loss:,0.074272,,Eval,Acc:,0.873616,,PSNR:,23.762509
-epoch:,426,,Train,Loss:,0.075745,,Train,Acc:,0.866704,,Eval,Loss:,0.074183,,Eval,Acc:,0.873319,,PSNR:,25.067726
-epoch:,427,,Train,Loss:,0.075648,,Train,Acc:,0.867504,,Eval,Loss:,0.074112,,Eval,Acc:,0.873813,,PSNR:,25.909666
-epoch:,428,,Train,Loss:,0.075563,,Train,Acc:,0.867254,,Eval,Loss:,0.074003,,Eval,Acc:,0.872923,,PSNR:,26.254454
-epoch:,429,,Train,Loss:,0.075473,,Train,Acc:,0.866704,,Eval,Loss:,0.073912,,Eval,Acc:,0.873121,,PSNR:,24.900411
-epoch:,430,,Train,Loss:,0.075385,,Train,Acc:,0.866954,,Eval,Loss:,0.073829,,Eval,Acc:,0.873220,,PSNR:,25.824230
-epoch:,431,,Train,Loss:,0.075300,,Train,Acc:,0.866788,,Eval,Loss:,0.073739,,Eval,Acc:,0.871934,,PSNR:,25.303653
-epoch:,432,,Train,Loss:,0.075207,,Train,Acc:,0.867104,,Eval,Loss:,0.073655,,Eval,Acc:,0.873022,,PSNR:,25.253642
-epoch:,433,,Train,Loss:,0.075123,,Train,Acc:,0.867237,,Eval,Loss:,0.073583,,Eval,Acc:,0.873912,,PSNR:,25.696149
-epoch:,434,,Train,Loss:,0.075039,,Train,Acc:,0.867537,,Eval,Loss:,0.073482,,Eval,Acc:,0.872923,,PSNR:,26.444861
-epoch:,435,,Train,Loss:,0.074947,,Train,Acc:,0.867920,,Eval,Loss:,0.073404,,Eval,Acc:,0.873319,,PSNR:,25.924129
-epoch:,436,,Train,Loss:,0.074858,,Train,Acc:,0.867704,,Eval,Loss:,0.073322,,Eval,Acc:,0.873220,,PSNR:,25.651187
-epoch:,437,,Train,Loss:,0.074776,,Train,Acc:,0.867171,,Eval,Loss:,0.073217,,Eval,Acc:,0.873418,,PSNR:,25.978225
-epoch:,438,,Train,Loss:,0.074686,,Train,Acc:,0.867904,,Eval,Loss:,0.073145,,Eval,Acc:,0.872429,,PSNR:,26.458866
-epoch:,439,,Train,Loss:,0.074598,,Train,Acc:,0.867487,,Eval,Loss:,0.073042,,Eval,Acc:,0.874703,,PSNR:,26.131014
-epoch:,440,,Train,Loss:,0.074520,,Train,Acc:,0.867704,,Eval,Loss:,0.072979,,Eval,Acc:,0.874407,,PSNR:,23.868106
-epoch:,441,,Train,Loss:,0.074427,,Train,Acc:,0.867937,,Eval,Loss:,0.072880,,Eval,Acc:,0.873121,,PSNR:,26.659523
-epoch:,442,,Train,Loss:,0.074333,,Train,Acc:,0.867654,,Eval,Loss:,0.072790,,Eval,Acc:,0.874604,,PSNR:,25.936788
-epoch:,443,,Train,Loss:,0.074259,,Train,Acc:,0.867654,,Eval,Loss:,0.072707,,Eval,Acc:,0.874011,,PSNR:,25.590297
-epoch:,444,,Train,Loss:,0.074176,,Train,Acc:,0.868154,,Eval,Loss:,0.072636,,Eval,Acc:,0.875198,,PSNR:,25.666982
-epoch:,445,,Train,Loss:,0.074084,,Train,Acc:,0.867721,,Eval,Loss:,0.072539,,Eval,Acc:,0.873517,,PSNR:,26.666149
-epoch:,446,,Train,Loss:,0.074008,,Train,Acc:,0.868770,,Eval,Loss:,0.072453,,Eval,Acc:,0.874604,,PSNR:,25.967954
-epoch:,447,,Train,Loss:,0.073918,,Train,Acc:,0.868470,,Eval,Loss:,0.072389,,Eval,Acc:,0.874802,,PSNR:,25.249443
-epoch:,448,,Train,Loss:,0.073836,,Train,Acc:,0.868720,,Eval,Loss:,0.072293,,Eval,Acc:,0.873319,,PSNR:,26.161357
-epoch:,449,,Train,Loss:,0.073755,,Train,Acc:,0.867837,,Eval,Loss:,0.072210,,Eval,Acc:,0.874011,,PSNR:,26.125138
-epoch:,450,,Train,Loss:,0.073659,,Train,Acc:,0.868204,,Eval,Loss:,0.072130,,Eval,Acc:,0.873813,,PSNR:,26.718568
-epoch:,451,,Train,Loss:,0.073581,,Train,Acc:,0.868537,,Eval,Loss:,0.072051,,Eval,Acc:,0.874308,,PSNR:,27.788963
-epoch:,452,,Train,Loss:,0.073503,,Train,Acc:,0.868503,,Eval,Loss:,0.071970,,Eval,Acc:,0.875198,,PSNR:,25.798516
-epoch:,453,,Train,Loss:,0.073420,,Train,Acc:,0.868887,,Eval,Loss:,0.071884,,Eval,Acc:,0.874802,,PSNR:,26.722750
-epoch:,454,,Train,Loss:,0.073338,,Train,Acc:,0.869020,,Eval,Loss:,0.071804,,Eval,Acc:,0.875396,,PSNR:,26.055020
-epoch:,455,,Train,Loss:,0.073256,,Train,Acc:,0.868220,,Eval,Loss:,0.071710,,Eval,Acc:,0.875396,,PSNR:,25.332642
-epoch:,456,,Train,Loss:,0.073173,,Train,Acc:,0.868720,,Eval,Loss:,0.071628,,Eval,Acc:,0.873714,,PSNR:,25.103456
-epoch:,457,,Train,Loss:,0.073094,,Train,Acc:,0.869086,,Eval,Loss:,0.071563,,Eval,Acc:,0.875297,,PSNR:,24.351434
-epoch:,458,,Train,Loss:,0.073002,,Train,Acc:,0.868737,,Eval,Loss:,0.071477,,Eval,Acc:,0.874506,,PSNR:,25.721528
-epoch:,459,,Train,Loss:,0.072930,,Train,Acc:,0.868903,,Eval,Loss:,0.071402,,Eval,Acc:,0.875297,,PSNR:,26.435319
-epoch:,460,,Train,Loss:,0.072847,,Train,Acc:,0.868970,,Eval,Loss:,0.071312,,Eval,Acc:,0.874703,,PSNR:,26.140846
-epoch:,461,,Train,Loss:,0.072759,,Train,Acc:,0.868920,,Eval,Loss:,0.071241,,Eval,Acc:,0.874901,,PSNR:,27.381074
-epoch:,462,,Train,Loss:,0.072684,,Train,Acc:,0.868703,,Eval,Loss:,0.071160,,Eval,Acc:,0.874110,,PSNR:,25.987833
-epoch:,463,,Train,Loss:,0.072602,,Train,Acc:,0.868820,,Eval,Loss:,0.071079,,Eval,Acc:,0.873813,,PSNR:,26.215573
-epoch:,464,,Train,Loss:,0.072521,,Train,Acc:,0.869037,,Eval,Loss:,0.071012,,Eval,Acc:,0.875989,,PSNR:,27.484368
-epoch:,465,,Train,Loss:,0.072441,,Train,Acc:,0.868720,,Eval,Loss:,0.070926,,Eval,Acc:,0.875198,,PSNR:,26.479784
-epoch:,466,,Train,Loss:,0.072368,,Train,Acc:,0.869320,,Eval,Loss:,0.070847,,Eval,Acc:,0.873121,,PSNR:,26.270030
-epoch:,467,,Train,Loss:,0.072284,,Train,Acc:,0.868953,,Eval,Loss:,0.070769,,Eval,Acc:,0.874703,,PSNR:,26.066058
-epoch:,468,,Train,Loss:,0.072200,,Train,Acc:,0.869103,,Eval,Loss:,0.070706,,Eval,Acc:,0.874407,,PSNR:,26.145791
-epoch:,469,,Train,Loss:,0.072133,,Train,Acc:,0.868987,,Eval,Loss:,0.070605,,Eval,Acc:,0.876088,,PSNR:,26.025311
-epoch:,470,,Train,Loss:,0.072049,,Train,Acc:,0.869320,,Eval,Loss:,0.070525,,Eval,Acc:,0.874604,,PSNR:,26.092591
-epoch:,471,,Train,Loss:,0.071971,,Train,Acc:,0.869719,,Eval,Loss:,0.070454,,Eval,Acc:,0.875396,,PSNR:,25.956467
-epoch:,472,,Train,Loss:,0.071891,,Train,Acc:,0.869370,,Eval,Loss:,0.070380,,Eval,Acc:,0.875692,,PSNR:,26.560463
-epoch:,473,,Train,Loss:,0.071815,,Train,Acc:,0.869653,,Eval,Loss:,0.070305,,Eval,Acc:,0.874308,,PSNR:,25.603774
-epoch:,474,,Train,Loss:,0.071740,,Train,Acc:,0.869236,,Eval,Loss:,0.070218,,Eval,Acc:,0.875890,,PSNR:,26.144076
-epoch:,475,,Train,Loss:,0.071658,,Train,Acc:,0.870419,,Eval,Loss:,0.070143,,Eval,Acc:,0.875198,,PSNR:,26.366145
-epoch:,476,,Train,Loss:,0.071580,,Train,Acc:,0.869903,,Eval,Loss:,0.070079,,Eval,Acc:,0.875791,,PSNR:,26.991305
-epoch:,477,,Train,Loss:,0.071507,,Train,Acc:,0.869586,,Eval,Loss:,0.069993,,Eval,Acc:,0.876780,,PSNR:,26.362364
-epoch:,478,,Train,Loss:,0.071435,,Train,Acc:,0.870253,,Eval,Loss:,0.069911,,Eval,Acc:,0.876780,,PSNR:,24.697564
-epoch:,479,,Train,Loss:,0.071351,,Train,Acc:,0.870203,,Eval,Loss:,0.069843,,Eval,Acc:,0.875890,,PSNR:,26.453993
-epoch:,480,,Train,Loss:,0.071266,,Train,Acc:,0.870103,,Eval,Loss:,0.069773,,Eval,Acc:,0.875890,,PSNR:,27.300033
-epoch:,481,,Train,Loss:,0.071205,,Train,Acc:,0.870469,,Eval,Loss:,0.069690,,Eval,Acc:,0.874901,,PSNR:,25.925503
-epoch:,482,,Train,Loss:,0.071124,,Train,Acc:,0.870919,,Eval,Loss:,0.069610,,Eval,Acc:,0.876681,,PSNR:,27.874467
-epoch:,483,,Train,Loss:,0.071054,,Train,Acc:,0.869769,,Eval,Loss:,0.069546,,Eval,Acc:,0.876286,,PSNR:,26.051950
-epoch:,484,,Train,Loss:,0.070972,,Train,Acc:,0.870219,,Eval,Loss:,0.069459,,Eval,Acc:,0.874506,,PSNR:,26.601139
-epoch:,485,,Train,Loss:,0.070900,,Train,Acc:,0.870619,,Eval,Loss:,0.069400,,Eval,Acc:,0.875989,,PSNR:,25.360195
-epoch:,486,,Train,Loss:,0.070826,,Train,Acc:,0.869353,,Eval,Loss:,0.069328,,Eval,Acc:,0.876483,,PSNR:,25.890535
-epoch:,487,,Train,Loss:,0.070753,,Train,Acc:,0.870602,,Eval,Loss:,0.069251,,Eval,Acc:,0.876187,,PSNR:,25.837040
-epoch:,488,,Train,Loss:,0.070679,,Train,Acc:,0.870452,,Eval,Loss:,0.069164,,Eval,Acc:,0.876088,,PSNR:,26.567374
-epoch:,489,,Train,Loss:,0.070599,,Train,Acc:,0.870386,,Eval,Loss:,0.069098,,Eval,Acc:,0.876879,,PSNR:,27.697018
-epoch:,490,,Train,Loss:,0.070528,,Train,Acc:,0.870253,,Eval,Loss:,0.069029,,Eval,Acc:,0.874901,,PSNR:,27.410763
-epoch:,491,,Train,Loss:,0.070456,,Train,Acc:,0.870586,,Eval,Loss:,0.068951,,Eval,Acc:,0.875396,,PSNR:,26.362046
-epoch:,492,,Train,Loss:,0.070377,,Train,Acc:,0.870669,,Eval,Loss:,0.068887,,Eval,Acc:,0.875198,,PSNR:,26.574793
-epoch:,493,,Train,Loss:,0.070306,,Train,Acc:,0.870552,,Eval,Loss:,0.068813,,Eval,Acc:,0.875692,,PSNR:,24.635219
-epoch:,494,,Train,Loss:,0.070234,,Train,Acc:,0.870619,,Eval,Loss:,0.068748,,Eval,Acc:,0.876681,,PSNR:,26.653411
-epoch:,495,,Train,Loss:,0.070157,,Train,Acc:,0.870469,,Eval,Loss:,0.068674,,Eval,Acc:,0.876286,,PSNR:,26.822641
-epoch:,496,,Train,Loss:,0.070089,,Train,Acc:,0.871069,,Eval,Loss:,0.068583,,Eval,Acc:,0.875692,,PSNR:,27.209669
-epoch:,497,,Train,Loss:,0.070014,,Train,Acc:,0.870736,,Eval,Loss:,0.068515,,Eval,Acc:,0.876088,,PSNR:,26.606410
-epoch:,498,,Train,Loss:,0.069950,,Train,Acc:,0.870486,,Eval,Loss:,0.068447,,Eval,Acc:,0.876978,,PSNR:,25.208984
-epoch:,499,,Train,Loss:,0.069874,,Train,Acc:,0.870402,,Eval,Loss:,0.068377,,Eval,Acc:,0.877373,,PSNR:,26.948411
+epoch: 0, Train Loss: 2.026901, Train Acc: 0.182353, Eval Loss: 1.961236, Eval Acc: 0.275514, PSNR: 1.300320
+epoch: 1, Train Loss: 1.907429, Train Acc: 0.346299, Eval Loss: 1.836264, Eval Acc: 0.435819, PSNR: 0.826607
+epoch: 2, Train Loss: 1.780508, Train Acc: 0.473497, Eval Loss: 1.704980, Eval Acc: 0.524229, PSNR: 2.078429
+epoch: 3, Train Loss: 1.651039, Train Acc: 0.541828, Eval Loss: 1.576982, Eval Acc: 0.578916, PSNR: 3.096377
+epoch: 4, Train Loss: 1.531193, Train Acc: 0.589036, Eval Loss: 1.463892, Eval Acc: 0.611650, PSNR: 2.292651
+epoch: 5, Train Loss: 1.428061, Train Acc: 0.618553, Eval Loss: 1.368687, Eval Acc: 0.634593, PSNR: 2.500655
+epoch: 6, Train Loss: 1.341550, Train Acc: 0.640858, Eval Loss: 1.289321, Eval Acc: 0.654173, PSNR: 3.063429
+epoch: 7, Train Loss: 1.269196, Train Acc: 0.656433, Eval Loss: 1.222991, Eval Acc: 0.667820, PSNR: 3.567788
+epoch: 8, Train Loss: 1.209278, Train Acc: 0.668660, Eval Loss: 1.168608, Eval Acc: 0.679490, PSNR: 4.750904
+epoch: 9, Train Loss: 1.157275, Train Acc: 0.683219, Eval Loss: 1.119982, Eval Acc: 0.692247, PSNR: 3.866199
+epoch: 10, Train Loss: 1.113631, Train Acc: 0.692681, Eval Loss: 1.079034, Eval Acc: 0.697884, PSNR: 4.823395
+epoch: 11, Train Loss: 1.075073, Train Acc: 0.698994, Eval Loss: 1.043098, Eval Acc: 0.703916, PSNR: 4.370530
+epoch: 12, Train Loss: 1.041509, Train Acc: 0.706573, Eval Loss: 1.011679, Eval Acc: 0.713805, PSNR: 4.769633
+epoch: 13, Train Loss: 1.012656, Train Acc: 0.711987, Eval Loss: 0.984417, Eval Acc: 0.719442, PSNR: 4.200046
+epoch: 14, Train Loss: 0.986754, Train Acc: 0.717667, Eval Loss: 0.958990, Eval Acc: 0.722310, PSNR: 4.460904
+epoch: 15, Train Loss: 0.963694, Train Acc: 0.722148, Eval Loss: 0.938354, Eval Acc: 0.728837, PSNR: 4.812659
+epoch: 16, Train Loss: 0.942667, Train Acc: 0.726979, Eval Loss: 0.917668, Eval Acc: 0.729233, PSNR: 5.441668
+epoch: 17, Train Loss: 0.924220, Train Acc: 0.730694, Eval Loss: 0.899869, Eval Acc: 0.738924, PSNR: 4.843746
+epoch: 18, Train Loss: 0.906488, Train Acc: 0.735141, Eval Loss: 0.883851, Eval Acc: 0.738528, PSNR: 5.110721
+epoch: 19, Train Loss: 0.891146, Train Acc: 0.738473, Eval Loss: 0.868430, Eval Acc: 0.744066, PSNR: 5.923372
+epoch: 20, Train Loss: 0.876986, Train Acc: 0.742337, Eval Loss: 0.855399, Eval Acc: 0.746242, PSNR: 5.266967
+epoch: 21, Train Loss: 0.863150, Train Acc: 0.743104, Eval Loss: 0.841775, Eval Acc: 0.749407, PSNR: 5.779904
+epoch: 22, Train Loss: 0.851174, Train Acc: 0.747102, Eval Loss: 0.830357, Eval Acc: 0.750297, PSNR: 4.991646
+epoch: 23, Train Loss: 0.839484, Train Acc: 0.749200, Eval Loss: 0.819745, Eval Acc: 0.751384, PSNR: 5.365881
+epoch: 24, Train Loss: 0.828149, Train Acc: 0.752399, Eval Loss: 0.807880, Eval Acc: 0.755934, PSNR: 6.159239
+epoch: 25, Train Loss: 0.818516, Train Acc: 0.753848, Eval Loss: 0.798316, Eval Acc: 0.760087, PSNR: 6.173172
+epoch: 26, Train Loss: 0.808932, Train Acc: 0.755680, Eval Loss: 0.789902, Eval Acc: 0.761570, PSNR: 6.000539
+epoch: 27, Train Loss: 0.800763, Train Acc: 0.757146, Eval Loss: 0.779728, Eval Acc: 0.763548, PSNR: 7.619401
+epoch: 28, Train Loss: 0.791880, Train Acc: 0.759328, Eval Loss: 0.774342, Eval Acc: 0.764142, PSNR: 6.217797
+epoch: 29, Train Loss: 0.784469, Train Acc: 0.759412, Eval Loss: 0.764077, Eval Acc: 0.767801, PSNR: 7.037879
+epoch: 30, Train Loss: 0.776652, Train Acc: 0.763376, Eval Loss: 0.757643, Eval Acc: 0.765131, PSNR: 6.606024
+epoch: 31, Train Loss: 0.769949, Train Acc: 0.762510, Eval Loss: 0.751450, Eval Acc: 0.769778, PSNR: 6.597576
+epoch: 32, Train Loss: 0.763290, Train Acc: 0.765142, Eval Loss: 0.743981, Eval Acc: 0.771559, PSNR: 6.844929
+epoch: 33, Train Loss: 0.757181, Train Acc: 0.765708, Eval Loss: 0.737272, Eval Acc: 0.774525, PSNR: 6.376956
+epoch: 34, Train Loss: 0.751358, Train Acc: 0.768473, Eval Loss: 0.732586, Eval Acc: 0.773635, PSNR: 6.254144
+epoch: 35, Train Loss: 0.745102, Train Acc: 0.770139, Eval Loss: 0.726920, Eval Acc: 0.775811, PSNR: 6.503178
+epoch: 36, Train Loss: 0.739157, Train Acc: 0.769806, Eval Loss: 0.719325, Eval Acc: 0.775514, PSNR: 7.435896
+epoch: 37, Train Loss: 0.734132, Train Acc: 0.771005, Eval Loss: 0.717861, Eval Acc: 0.775613, PSNR: 6.913658
+epoch: 38, Train Loss: 0.729846, Train Acc: 0.772471, Eval Loss: 0.713374, Eval Acc: 0.776108, PSNR: 6.934572
+epoch: 39, Train Loss: 0.724337, Train Acc: 0.773921, Eval Loss: 0.706166, Eval Acc: 0.778382, PSNR: 7.654682
+epoch: 40, Train Loss: 0.719780, Train Acc: 0.774320, Eval Loss: 0.702945, Eval Acc: 0.781448, PSNR: 7.348821
+epoch: 41, Train Loss: 0.715374, Train Acc: 0.775420, Eval Loss: 0.697936, Eval Acc: 0.780657, PSNR: 6.559004
+epoch: 42, Train Loss: 0.711284, Train Acc: 0.775703, Eval Loss: 0.693782, Eval Acc: 0.785898, PSNR: 7.259025
+epoch: 43, Train Loss: 0.706795, Train Acc: 0.776553, Eval Loss: 0.689799, Eval Acc: 0.783920, PSNR: 7.364592
+epoch: 44, Train Loss: 0.703883, Train Acc: 0.777752, Eval Loss: 0.684637, Eval Acc: 0.785305, PSNR: 7.146401
+epoch: 45, Train Loss: 0.699620, Train Acc: 0.778885, Eval Loss: 0.680565, Eval Acc: 0.786294, PSNR: 6.889287
+epoch: 46, Train Loss: 0.695462, Train Acc: 0.779434, Eval Loss: 0.679392, Eval Acc: 0.784415, PSNR: 7.683272
+epoch: 47, Train Loss: 0.692160, Train Acc: 0.780917, Eval Loss: 0.674657, Eval Acc: 0.787579, PSNR: 7.964120
+epoch: 48, Train Loss: 0.689047, Train Acc: 0.781267, Eval Loss: 0.670710, Eval Acc: 0.788271, PSNR: 8.066799
+epoch: 49, Train Loss: 0.685436, Train Acc: 0.780917, Eval Loss: 0.668895, Eval Acc: 0.785206, PSNR: 7.873368
+epoch: 50, Train Loss: 0.682666, Train Acc: 0.782783, Eval Loss: 0.665809, Eval Acc: 0.791930, PSNR: 7.270962
+epoch: 51, Train Loss: 0.679113, Train Acc: 0.783465, Eval Loss: 0.662603, Eval Acc: 0.789656, PSNR: 7.534321
+epoch: 52, Train Loss: 0.676822, Train Acc: 0.784482, Eval Loss: 0.656372, Eval Acc: 0.790150, PSNR: 8.393096
+epoch: 53, Train Loss: 0.672781, Train Acc: 0.785248, Eval Loss: 0.655686, Eval Acc: 0.792623, PSNR: 8.050361
+epoch: 54, Train Loss: 0.670795, Train Acc: 0.784748, Eval Loss: 0.651732, Eval Acc: 0.796677, PSNR: 9.200989
+epoch: 55, Train Loss: 0.667668, Train Acc: 0.786730, Eval Loss: 0.648227, Eval Acc: 0.791831, PSNR: 7.406167
+epoch: 56, Train Loss: 0.665069, Train Acc: 0.786797, Eval Loss: 0.647867, Eval Acc: 0.794502, PSNR: 6.880095
+epoch: 57, Train Loss: 0.662767, Train Acc: 0.786830, Eval Loss: 0.644203, Eval Acc: 0.793809, PSNR: 7.420912
+epoch: 58, Train Loss: 0.659548, Train Acc: 0.787347, Eval Loss: 0.641282, Eval Acc: 0.796677, PSNR: 7.281404
+epoch: 59, Train Loss: 0.658031, Train Acc: 0.787463, Eval Loss: 0.640612, Eval Acc: 0.796183, PSNR: 7.612089
+epoch: 60, Train Loss: 0.655098, Train Acc: 0.788746, Eval Loss: 0.637938, Eval Acc: 0.794600, PSNR: 8.228233
+epoch: 61, Train Loss: 0.651919, Train Acc: 0.790512, Eval Loss: 0.633428, Eval Acc: 0.796875, PSNR: 6.860945
+epoch: 62, Train Loss: 0.650097, Train Acc: 0.789779, Eval Loss: 0.632970, Eval Acc: 0.797963, PSNR: 7.914541
+epoch: 63, Train Loss: 0.648375, Train Acc: 0.791228, Eval Loss: 0.629298, Eval Acc: 0.799644, PSNR: 8.327317
+epoch: 64, Train Loss: 0.646430, Train Acc: 0.791778, Eval Loss: 0.628319, Eval Acc: 0.801226, PSNR: 8.301686
+epoch: 65, Train Loss: 0.643993, Train Acc: 0.791295, Eval Loss: 0.626215, Eval Acc: 0.799248, PSNR: 7.786381
+epoch: 66, Train Loss: 0.642912, Train Acc: 0.790745, Eval Loss: 0.623074, Eval Acc: 0.800831, PSNR: 9.194502
+epoch: 67, Train Loss: 0.639437, Train Acc: 0.792894, Eval Loss: 0.622448, Eval Acc: 0.798655, PSNR: 9.572648
+epoch: 68, Train Loss: 0.637939, Train Acc: 0.793027, Eval Loss: 0.619523, Eval Acc: 0.800435, PSNR: 8.263870
+epoch: 69, Train Loss: 0.636576, Train Acc: 0.794360, Eval Loss: 0.617402, Eval Acc: 0.800138, PSNR: 8.006299
+epoch: 70, Train Loss: 0.634308, Train Acc: 0.794660, Eval Loss: 0.617049, Eval Acc: 0.799545, PSNR: 9.473525
+epoch: 71, Train Loss: 0.631844, Train Acc: 0.795009, Eval Loss: 0.615680, Eval Acc: 0.803303, PSNR: 8.625173
+epoch: 72, Train Loss: 0.630693, Train Acc: 0.794709, Eval Loss: 0.613104, Eval Acc: 0.802314, PSNR: 9.463932
+epoch: 73, Train Loss: 0.629115, Train Acc: 0.795193, Eval Loss: 0.611230, Eval Acc: 0.804292, PSNR: 8.330209
+epoch: 74, Train Loss: 0.626959, Train Acc: 0.796875, Eval Loss: 0.610360, Eval Acc: 0.802413, PSNR: 8.268603
+epoch: 75, Train Loss: 0.625456, Train Acc: 0.796192, Eval Loss: 0.610910, Eval Acc: 0.802314, PSNR: 7.815182
+epoch: 76, Train Loss: 0.623185, Train Acc: 0.797641, Eval Loss: 0.604791, Eval Acc: 0.804885, PSNR: 8.659703
+epoch: 77, Train Loss: 0.622786, Train Acc: 0.796425, Eval Loss: 0.603716, Eval Acc: 0.806171, PSNR: 8.230221
+epoch: 78, Train Loss: 0.620685, Train Acc: 0.797708, Eval Loss: 0.602785, Eval Acc: 0.804094, PSNR: 8.221173
+epoch: 79, Train Loss: 0.619104, Train Acc: 0.797891, Eval Loss: 0.599526, Eval Acc: 0.806072, PSNR: 9.048091
+epoch: 80, Train Loss: 0.617794, Train Acc: 0.798624, Eval Loss: 0.600381, Eval Acc: 0.802116, PSNR: 8.589096
+epoch: 81, Train Loss: 0.616239, Train Acc: 0.798374, Eval Loss: 0.596600, Eval Acc: 0.805083, PSNR: 9.708756
+epoch: 82, Train Loss: 0.614497, Train Acc: 0.799457, Eval Loss: 0.596228, Eval Acc: 0.807160, PSNR: 8.879459
+epoch: 83, Train Loss: 0.613599, Train Acc: 0.797858, Eval Loss: 0.595595, Eval Acc: 0.806962, PSNR: 8.591873
+epoch: 84, Train Loss: 0.612303, Train Acc: 0.798657, Eval Loss: 0.594837, Eval Acc: 0.805182, PSNR: 8.298165
+epoch: 85, Train Loss: 0.610672, Train Acc: 0.800123, Eval Loss: 0.593480, Eval Acc: 0.805676, PSNR: 8.493822
+epoch: 86, Train Loss: 0.609633, Train Acc: 0.799274, Eval Loss: 0.590612, Eval Acc: 0.808445, PSNR: 9.012846
+epoch: 87, Train Loss: 0.607234, Train Acc: 0.801373, Eval Loss: 0.592415, Eval Acc: 0.804490, PSNR: 8.719577
+epoch: 88, Train Loss: 0.606360, Train Acc: 0.800673, Eval Loss: 0.588775, Eval Acc: 0.807061, PSNR: 8.840274
+epoch: 89, Train Loss: 0.604572, Train Acc: 0.801806, Eval Loss: 0.589968, Eval Acc: 0.807753, PSNR: 8.688368
+epoch: 90, Train Loss: 0.604189, Train Acc: 0.802739, Eval Loss: 0.586241, Eval Acc: 0.808445, PSNR: 8.922282
+epoch: 91, Train Loss: 0.603066, Train Acc: 0.802022, Eval Loss: 0.584221, Eval Acc: 0.812104, PSNR: 8.738423
+epoch: 92, Train Loss: 0.601329, Train Acc: 0.802372, Eval Loss: 0.583937, Eval Acc: 0.809434, PSNR: 8.648848
+epoch: 93, Train Loss: 0.600476, Train Acc: 0.801856, Eval Loss: 0.581812, Eval Acc: 0.809138, PSNR: 9.336985
+epoch: 94, Train Loss: 0.599965, Train Acc: 0.802405, Eval Loss: 0.581827, Eval Acc: 0.809138, PSNR: 8.974243
+epoch: 95, Train Loss: 0.597512, Train Acc: 0.803288, Eval Loss: 0.580185, Eval Acc: 0.810423, PSNR: 8.004803
+epoch: 96, Train Loss: 0.597021, Train Acc: 0.803588, Eval Loss: 0.577984, Eval Acc: 0.809731, PSNR: 8.139433
+epoch: 97, Train Loss: 0.596272, Train Acc: 0.803305, Eval Loss: 0.578495, Eval Acc: 0.807951, PSNR: 8.728855
+epoch: 98, Train Loss: 0.595205, Train Acc: 0.803188, Eval Loss: 0.575463, Eval Acc: 0.808643, PSNR: 8.722023
+epoch: 99, Train Loss: 0.593005, Train Acc: 0.804021, Eval Loss: 0.576655, Eval Acc: 0.812401, PSNR: 9.568199
+epoch: 100, Train Loss: 0.592380, Train Acc: 0.804871, Eval Loss: 0.574953, Eval Acc: 0.814676, PSNR: 8.931657
+epoch: 101, Train Loss: 0.592120, Train Acc: 0.804304, Eval Loss: 0.574141, Eval Acc: 0.810028, PSNR: 9.667093
+epoch: 102, Train Loss: 0.591103, Train Acc: 0.805370, Eval Loss: 0.574406, Eval Acc: 0.813291, PSNR: 8.812151
+epoch: 103, Train Loss: 0.588700, Train Acc: 0.804538, Eval Loss: 0.572803, Eval Acc: 0.812698, PSNR: 9.257199
+epoch: 104, Train Loss: 0.588620, Train Acc: 0.806137, Eval Loss: 0.569501, Eval Acc: 0.810819, PSNR: 9.016935
+epoch: 105, Train Loss: 0.587395, Train Acc: 0.804854, Eval Loss: 0.570153, Eval Acc: 0.811214, PSNR: 9.378974
+epoch: 106, Train Loss: 0.586709, Train Acc: 0.805021, Eval Loss: 0.568950, Eval Acc: 0.812401, PSNR: 9.542564
+epoch: 107, Train Loss: 0.586031, Train Acc: 0.805687, Eval Loss: 0.567574, Eval Acc: 0.810918, PSNR: 9.656297
+epoch: 108, Train Loss: 0.585252, Train Acc: 0.806503, Eval Loss: 0.566107, Eval Acc: 0.814478, PSNR: 9.403396
+epoch: 109, Train Loss: 0.583515, Train Acc: 0.807053, Eval Loss: 0.564905, Eval Acc: 0.813884, PSNR: 9.459683
+epoch: 110, Train Loss: 0.583049, Train Acc: 0.806936, Eval Loss: 0.565338, Eval Acc: 0.809830, PSNR: 10.123777
+epoch: 111, Train Loss: 0.581892, Train Acc: 0.807036, Eval Loss: 0.566438, Eval Acc: 0.812698, PSNR: 9.872947
+epoch: 112, Train Loss: 0.581421, Train Acc: 0.807186, Eval Loss: 0.564161, Eval Acc: 0.815665, PSNR: 9.857272
+epoch: 113, Train Loss: 0.579717, Train Acc: 0.807403, Eval Loss: 0.562015, Eval Acc: 0.815467, PSNR: 9.198045
+epoch: 114, Train Loss: 0.579079, Train Acc: 0.807403, Eval Loss: 0.561840, Eval Acc: 0.818137, PSNR: 8.747262
+epoch: 115, Train Loss: 0.578646, Train Acc: 0.806986, Eval Loss: 0.562843, Eval Acc: 0.815566, PSNR: 9.113764
+epoch: 116, Train Loss: 0.578090, Train Acc: 0.807719, Eval Loss: 0.561821, Eval Acc: 0.814379, PSNR: 9.043351
+epoch: 117, Train Loss: 0.577092, Train Acc: 0.807736, Eval Loss: 0.561491, Eval Acc: 0.813983, PSNR: 10.043585
+epoch: 118, Train Loss: 0.576206, Train Acc: 0.809285, Eval Loss: 0.558593, Eval Acc: 0.815566, PSNR: 9.360089
+epoch: 119, Train Loss: 0.574956, Train Acc: 0.809701, Eval Loss: 0.557595, Eval Acc: 0.817346, PSNR: 10.064439
+epoch: 120, Train Loss: 0.574248, Train Acc: 0.808902, Eval Loss: 0.557218, Eval Acc: 0.816060, PSNR: 9.524588
+epoch: 121, Train Loss: 0.574216, Train Acc: 0.809135, Eval Loss: 0.554566, Eval Acc: 0.813687, PSNR: 8.855951
+epoch: 122, Train Loss: 0.573226, Train Acc: 0.809135, Eval Loss: 0.555415, Eval Acc: 0.816653, PSNR: 9.720057
+epoch: 123, Train Loss: 0.572503, Train Acc: 0.810834, Eval Loss: 0.553333, Eval Acc: 0.816258, PSNR: 9.888138
+epoch: 124, Train Loss: 0.571545, Train Acc: 0.810368, Eval Loss: 0.553011, Eval Acc: 0.817642, PSNR: 8.910706
+epoch: 125, Train Loss: 0.571195, Train Acc: 0.809185, Eval Loss: 0.552809, Eval Acc: 0.819324, PSNR: 10.493295
+epoch: 126, Train Loss: 0.570452, Train Acc: 0.810018, Eval Loss: 0.553720, Eval Acc: 0.819818, PSNR: 10.781597
+epoch: 127, Train Loss: 0.569216, Train Acc: 0.810351, Eval Loss: 0.550841, Eval Acc: 0.816752, PSNR: 10.195491
+epoch: 128, Train Loss: 0.568368, Train Acc: 0.811017, Eval Loss: 0.550842, Eval Acc: 0.815763, PSNR: 8.989477
+epoch: 129, Train Loss: 0.567589, Train Acc: 0.811750, Eval Loss: 0.550410, Eval Acc: 0.821994, PSNR: 10.941091
+epoch: 130, Train Loss: 0.566956, Train Acc: 0.810334, Eval Loss: 0.547158, Eval Acc: 0.819225, PSNR: 8.928315
+epoch: 131, Train Loss: 0.566907, Train Acc: 0.810951, Eval Loss: 0.548822, Eval Acc: 0.817840, PSNR: 8.461431
+epoch: 132, Train Loss: 0.565532, Train Acc: 0.810951, Eval Loss: 0.548810, Eval Acc: 0.818038, PSNR: 9.551273
+epoch: 133, Train Loss: 0.565446, Train Acc: 0.811917, Eval Loss: 0.547610, Eval Acc: 0.816456, PSNR: 9.926392
+epoch: 134, Train Loss: 0.564933, Train Acc: 0.811667, Eval Loss: 0.547017, Eval Acc: 0.817939, PSNR: 9.726654
+epoch: 135, Train Loss: 0.563145, Train Acc: 0.811517, Eval Loss: 0.546105, Eval Acc: 0.818038, PSNR: 9.305979
+epoch: 136, Train Loss: 0.562738, Train Acc: 0.811301, Eval Loss: 0.544975, Eval Acc: 0.819126, PSNR: 10.291852
+epoch: 137, Train Loss: 0.562908, Train Acc: 0.811634, Eval Loss: 0.544910, Eval Acc: 0.818532, PSNR: 8.616069
+epoch: 138, Train Loss: 0.561550, Train Acc: 0.812650, Eval Loss: 0.545022, Eval Acc: 0.818236, PSNR: 10.302499
+epoch: 139, Train Loss: 0.561450, Train Acc: 0.813483, Eval Loss: 0.544334, Eval Acc: 0.818038, PSNR: 9.784752
+epoch: 140, Train Loss: 0.560146, Train Acc: 0.813233, Eval Loss: 0.542017, Eval Acc: 0.818829, PSNR: 9.936421
+epoch: 141, Train Loss: 0.559573, Train Acc: 0.813549, Eval Loss: 0.542145, Eval Acc: 0.819225, PSNR: 10.360216
+epoch: 142, Train Loss: 0.559351, Train Acc: 0.812567, Eval Loss: 0.540778, Eval Acc: 0.818335, PSNR: 10.143892
+epoch: 143, Train Loss: 0.558861, Train Acc: 0.814466, Eval Loss: 0.540807, Eval Acc: 0.820411, PSNR: 10.088517
+epoch: 144, Train Loss: 0.557353, Train Acc: 0.814949, Eval Loss: 0.542457, Eval Acc: 0.821796, PSNR: 9.190712
+epoch: 145, Train Loss: 0.557412, Train Acc: 0.813266, Eval Loss: 0.540763, Eval Acc: 0.821598, PSNR: 10.227631
+epoch: 146, Train Loss: 0.555976, Train Acc: 0.814899, Eval Loss: 0.540085, Eval Acc: 0.819225, PSNR: 9.976641
+epoch: 147, Train Loss: 0.556502, Train Acc: 0.813316, Eval Loss: 0.538254, Eval Acc: 0.820807, PSNR: 9.677830
+epoch: 148, Train Loss: 0.555351, Train Acc: 0.814299, Eval Loss: 0.539751, Eval Acc: 0.817642, PSNR: 9.547465
+epoch: 149, Train Loss: 0.554484, Train Acc: 0.814616, Eval Loss: 0.537813, Eval Acc: 0.819521, PSNR: 9.905361
+epoch: 150, Train Loss: 0.554448, Train Acc: 0.814582, Eval Loss: 0.537998, Eval Acc: 0.820807, PSNR: 10.560835
+epoch: 151, Train Loss: 0.552789, Train Acc: 0.816448, Eval Loss: 0.536995, Eval Acc: 0.821994, PSNR: 9.319565
+epoch: 152, Train Loss: 0.552901, Train Acc: 0.816231, Eval Loss: 0.537884, Eval Acc: 0.821895, PSNR: 9.814985
+epoch: 153, Train Loss: 0.553017, Train Acc: 0.813999, Eval Loss: 0.535900, Eval Acc: 0.822389, PSNR: 10.404397
+epoch: 154, Train Loss: 0.552454, Train Acc: 0.815482, Eval Loss: 0.537605, Eval Acc: 0.821005, PSNR: 10.308616
+epoch: 155, Train Loss: 0.552669, Train Acc: 0.814649, Eval Loss: 0.532446, Eval Acc: 0.821697, PSNR: 10.058199
+epoch: 156, Train Loss: 0.551003, Train Acc: 0.815482, Eval Loss: 0.533030, Eval Acc: 0.824862, PSNR: 9.684869
+epoch: 157, Train Loss: 0.550984, Train Acc: 0.815981, Eval Loss: 0.533664, Eval Acc: 0.820016, PSNR: 10.137298
+epoch: 158, Train Loss: 0.550482, Train Acc: 0.816698, Eval Loss: 0.532847, Eval Acc: 0.819719, PSNR: 8.868210
+epoch: 159, Train Loss: 0.550146, Train Acc: 0.816814, Eval Loss: 0.533492, Eval Acc: 0.825356, PSNR: 10.604090
+epoch: 160, Train Loss: 0.549547, Train Acc: 0.816065, Eval Loss: 0.531306, Eval Acc: 0.823576, PSNR: 10.922816
+epoch: 161, Train Loss: 0.549184, Train Acc: 0.814932, Eval Loss: 0.531529, Eval Acc: 0.820411, PSNR: 10.534286
+epoch: 162, Train Loss: 0.548791, Train Acc: 0.815865, Eval Loss: 0.531809, Eval Acc: 0.822093, PSNR: 9.785270
+epoch: 163, Train Loss: 0.547586, Train Acc: 0.816448, Eval Loss: 0.529622, Eval Acc: 0.822983, PSNR: 9.662093
+epoch: 164, Train Loss: 0.547629, Train Acc: 0.816031, Eval Loss: 0.528635, Eval Acc: 0.826246, PSNR: 8.693791
+epoch: 165, Train Loss: 0.546924, Train Acc: 0.815598, Eval Loss: 0.528366, Eval Acc: 0.824960, PSNR: 10.249739
+epoch: 166, Train Loss: 0.545854, Train Acc: 0.816881, Eval Loss: 0.528945, Eval Acc: 0.820016, PSNR: 10.163845
+epoch: 167, Train Loss: 0.545664, Train Acc: 0.817048, Eval Loss: 0.528002, Eval Acc: 0.824268, PSNR: 10.059518
+epoch: 168, Train Loss: 0.545307, Train Acc: 0.818180, Eval Loss: 0.530227, Eval Acc: 0.821598, PSNR: 9.427902
+epoch: 169, Train Loss: 0.545620, Train Acc: 0.815915, Eval Loss: 0.527611, Eval Acc: 0.823279, PSNR: 9.976178
+epoch: 170, Train Loss: 0.544948, Train Acc: 0.816298, Eval Loss: 0.528781, Eval Acc: 0.822389, PSNR: 11.017856
+epoch: 171, Train Loss: 0.544234, Train Acc: 0.817547, Eval Loss: 0.527875, Eval Acc: 0.822488, PSNR: 10.903611
+epoch: 172, Train Loss: 0.543509, Train Acc: 0.817264, Eval Loss: 0.523988, Eval Acc: 0.823774, PSNR: 9.186703
+epoch: 173, Train Loss: 0.543386, Train Acc: 0.818647, Eval Loss: 0.527144, Eval Acc: 0.822686, PSNR: 9.794057
+epoch: 174, Train Loss: 0.542188, Train Acc: 0.817814, Eval Loss: 0.525565, Eval Acc: 0.823576, PSNR: 10.368830
+epoch: 175, Train Loss: 0.542456, Train Acc: 0.818364, Eval Loss: 0.526406, Eval Acc: 0.822191, PSNR: 9.673718
+epoch: 176, Train Loss: 0.542822, Train Acc: 0.816398, Eval Loss: 0.525661, Eval Acc: 0.824367, PSNR: 10.603326
+epoch: 177, Train Loss: 0.541287, Train Acc: 0.818547, Eval Loss: 0.525084, Eval Acc: 0.826938, PSNR: 10.150055
+epoch: 178, Train Loss: 0.540643, Train Acc: 0.818963, Eval Loss: 0.525076, Eval Acc: 0.825059, PSNR: 10.080245
+epoch: 179, Train Loss: 0.540393, Train Acc: 0.818330, Eval Loss: 0.522043, Eval Acc: 0.824367, PSNR: 10.256233
+epoch: 180, Train Loss: 0.540362, Train Acc: 0.818647, Eval Loss: 0.521254, Eval Acc: 0.826938, PSNR: 8.622608
+epoch: 181, Train Loss: 0.538919, Train Acc: 0.819663, Eval Loss: 0.521437, Eval Acc: 0.823774, PSNR: 10.859997
+epoch: 182, Train Loss: 0.540053, Train Acc: 0.818014, Eval Loss: 0.522414, Eval Acc: 0.827334, PSNR: 10.702927
+epoch: 183, Train Loss: 0.539401, Train Acc: 0.818580, Eval Loss: 0.522417, Eval Acc: 0.825554, PSNR: 9.983749
+epoch: 184, Train Loss: 0.538760, Train Acc: 0.818813, Eval Loss: 0.520887, Eval Acc: 0.825850, PSNR: 9.978575
+epoch: 185, Train Loss: 0.537573, Train Acc: 0.819630, Eval Loss: 0.521038, Eval Acc: 0.824070, PSNR: 9.825384
+epoch: 186, Train Loss: 0.537951, Train Acc: 0.819680, Eval Loss: 0.517769, Eval Acc: 0.827334, PSNR: 10.880801
+epoch: 187, Train Loss: 0.537308, Train Acc: 0.818830, Eval Loss: 0.519390, Eval Acc: 0.826345, PSNR: 10.162154
+epoch: 188, Train Loss: 0.536372, Train Acc: 0.818497, Eval Loss: 0.520756, Eval Acc: 0.826048, PSNR: 11.404612
+epoch: 189, Train Loss: 0.536383, Train Acc: 0.819646, Eval Loss: 0.518037, Eval Acc: 0.828422, PSNR: 10.461280
+epoch: 190, Train Loss: 0.535711, Train Acc: 0.820396, Eval Loss: 0.519004, Eval Acc: 0.825752, PSNR: 10.398344
+epoch: 191, Train Loss: 0.536015, Train Acc: 0.820246, Eval Loss: 0.518857, Eval Acc: 0.824862, PSNR: 10.346627
+epoch: 192, Train Loss: 0.535182, Train Acc: 0.820163, Eval Loss: 0.518592, Eval Acc: 0.825158, PSNR: 9.507345
+epoch: 193, Train Loss: 0.535554, Train Acc: 0.819813, Eval Loss: 0.516287, Eval Acc: 0.827532, PSNR: 9.581924
+epoch: 194, Train Loss: 0.534044, Train Acc: 0.820779, Eval Loss: 0.518288, Eval Acc: 0.827037, PSNR: 10.232278
+epoch: 195, Train Loss: 0.533975, Train Acc: 0.820229, Eval Loss: 0.518556, Eval Acc: 0.824664, PSNR: 10.548305
+epoch: 196, Train Loss: 0.533290, Train Acc: 0.820496, Eval Loss: 0.516493, Eval Acc: 0.826345, PSNR: 10.593833
+epoch: 197, Train Loss: 0.532964, Train Acc: 0.820146, Eval Loss: 0.512824, Eval Acc: 0.828224, PSNR: 9.669181
+epoch: 198, Train Loss: 0.533310, Train Acc: 0.820979, Eval Loss: 0.517179, Eval Acc: 0.826543, PSNR: 10.842111
+epoch: 199, Train Loss: 0.532700, Train Acc: 0.820163, Eval Loss: 0.513839, Eval Acc: 0.826147, PSNR: 10.435366
+epoch: 200, Train Loss: 0.532316, Train Acc: 0.820896, Eval Loss: 0.514374, Eval Acc: 0.827037, PSNR: 9.436280
+epoch: 201, Train Loss: 0.530747, Train Acc: 0.821695, Eval Loss: 0.516116, Eval Acc: 0.825752, PSNR: 10.936073
+epoch: 202, Train Loss: 0.531439, Train Acc: 0.821362, Eval Loss: 0.514349, Eval Acc: 0.826345, PSNR: 9.795572
+epoch: 203, Train Loss: 0.530754, Train Acc: 0.822078, Eval Loss: 0.512550, Eval Acc: 0.827532, PSNR: 10.579607
+epoch: 204, Train Loss: 0.529868, Train Acc: 0.821045, Eval Loss: 0.514879, Eval Acc: 0.828026, PSNR: 10.539570
+epoch: 205, Train Loss: 0.530422, Train Acc: 0.821312, Eval Loss: 0.513916, Eval Acc: 0.828718, PSNR: 9.920784
+epoch: 206, Train Loss: 0.530199, Train Acc: 0.820912, Eval Loss: 0.511113, Eval Acc: 0.832476, PSNR: 10.604030
+epoch: 207, Train Loss: 0.530068, Train Acc: 0.820496, Eval Loss: 0.512919, Eval Acc: 0.827532, PSNR: 10.345404
+epoch: 208, Train Loss: 0.528634, Train Acc: 0.821329, Eval Loss: 0.509859, Eval Acc: 0.829509, PSNR: 11.138452
+epoch: 209, Train Loss: 0.529634, Train Acc: 0.821595, Eval Loss: 0.509905, Eval Acc: 0.830894, PSNR: 9.466452
+epoch: 210, Train Loss: 0.528477, Train Acc: 0.821962, Eval Loss: 0.509387, Eval Acc: 0.827828, PSNR: 9.354639
+epoch: 211, Train Loss: 0.528434, Train Acc: 0.821312, Eval Loss: 0.511736, Eval Acc: 0.829015, PSNR: 9.742813
+epoch: 212, Train Loss: 0.528319, Train Acc: 0.822311, Eval Loss: 0.510265, Eval Acc: 0.831487, PSNR: 10.429542
+epoch: 213, Train Loss: 0.527450, Train Acc: 0.822295, Eval Loss: 0.509933, Eval Acc: 0.830004, PSNR: 10.560158
+epoch: 214, Train Loss: 0.527936, Train Acc: 0.822311, Eval Loss: 0.507901, Eval Acc: 0.829312, PSNR: 9.385739
+epoch: 215, Train Loss: 0.526403, Train Acc: 0.822828, Eval Loss: 0.507863, Eval Acc: 0.832674, PSNR: 9.892021
+epoch: 216, Train Loss: 0.527308, Train Acc: 0.821195, Eval Loss: 0.510005, Eval Acc: 0.830696, PSNR: 10.794875
+epoch: 217, Train Loss: 0.526475, Train Acc: 0.821145, Eval Loss: 0.509897, Eval Acc: 0.828817, PSNR: 9.959440
+epoch: 218, Train Loss: 0.526507, Train Acc: 0.821628, Eval Loss: 0.508912, Eval Acc: 0.830498, PSNR: 10.558840
+epoch: 219, Train Loss: 0.524957, Train Acc: 0.824177, Eval Loss: 0.508462, Eval Acc: 0.828422, PSNR: 10.984432
+epoch: 220, Train Loss: 0.526153, Train Acc: 0.823028, Eval Loss: 0.509463, Eval Acc: 0.829707, PSNR: 9.954480
+epoch: 221, Train Loss: 0.525707, Train Acc: 0.822511, Eval Loss: 0.508132, Eval Acc: 0.829905, PSNR: 11.698226
+epoch: 222, Train Loss: 0.524949, Train Acc: 0.823078, Eval Loss: 0.507748, Eval Acc: 0.829015, PSNR: 9.798251
+epoch: 223, Train Loss: 0.524718, Train Acc: 0.822311, Eval Loss: 0.504796, Eval Acc: 0.831883, PSNR: 11.183934
+epoch: 224, Train Loss: 0.524548, Train Acc: 0.822828, Eval Loss: 0.507603, Eval Acc: 0.828916, PSNR: 11.462145
+epoch: 225, Train Loss: 0.524661, Train Acc: 0.822961, Eval Loss: 0.505735, Eval Acc: 0.828916, PSNR: 9.447414
+epoch: 226, Train Loss: 0.523522, Train Acc: 0.823677, Eval Loss: 0.506606, Eval Acc: 0.827631, PSNR: 9.739588
+epoch: 227, Train Loss: 0.522662, Train Acc: 0.822994, Eval Loss: 0.507170, Eval Acc: 0.829707, PSNR: 9.722008
+epoch: 228, Train Loss: 0.523092, Train Acc: 0.824044, Eval Loss: 0.505586, Eval Acc: 0.829509, PSNR: 10.522400
+epoch: 229, Train Loss: 0.523582, Train Acc: 0.823394, Eval Loss: 0.506171, Eval Acc: 0.829411, PSNR: 9.828881
+epoch: 230, Train Loss: 0.522319, Train Acc: 0.824160, Eval Loss: 0.505183, Eval Acc: 0.833465, PSNR: 11.740781
+epoch: 231, Train Loss: 0.522409, Train Acc: 0.824327, Eval Loss: 0.504196, Eval Acc: 0.832575, PSNR: 10.687814
+epoch: 232, Train Loss: 0.522321, Train Acc: 0.824077, Eval Loss: 0.504973, Eval Acc: 0.830597, PSNR: 10.172359
+epoch: 233, Train Loss: 0.522378, Train Acc: 0.822911, Eval Loss: 0.505350, Eval Acc: 0.828323, PSNR: 9.255399
+epoch: 234, Train Loss: 0.521211, Train Acc: 0.823144, Eval Loss: 0.505738, Eval Acc: 0.830301, PSNR: 9.785945
+epoch: 235, Train Loss: 0.521976, Train Acc: 0.823511, Eval Loss: 0.504283, Eval Acc: 0.831092, PSNR: 9.545077
+epoch: 236, Train Loss: 0.521657, Train Acc: 0.823444, Eval Loss: 0.503103, Eval Acc: 0.829707, PSNR: 10.296213
+epoch: 237, Train Loss: 0.521147, Train Acc: 0.824644, Eval Loss: 0.501214, Eval Acc: 0.832278, PSNR: 9.606077
+epoch: 238, Train Loss: 0.520770, Train Acc: 0.823278, Eval Loss: 0.503266, Eval Acc: 0.830696, PSNR: 11.259895
+epoch: 239, Train Loss: 0.520728, Train Acc: 0.824177, Eval Loss: 0.500578, Eval Acc: 0.833465, PSNR: 11.908533
+epoch: 240, Train Loss: 0.519393, Train Acc: 0.824444, Eval Loss: 0.500583, Eval Acc: 0.831290, PSNR: 9.898353
+epoch: 241, Train Loss: 0.519228, Train Acc: 0.824277, Eval Loss: 0.503321, Eval Acc: 0.831487, PSNR: 10.348352
+epoch: 242, Train Loss: 0.518193, Train Acc: 0.824277, Eval Loss: 0.501593, Eval Acc: 0.830004, PSNR: 11.381461
+epoch: 243, Train Loss: 0.519337, Train Acc: 0.824410, Eval Loss: 0.501177, Eval Acc: 0.832773, PSNR: 10.106372
+epoch: 244, Train Loss: 0.518450, Train Acc: 0.825343, Eval Loss: 0.501708, Eval Acc: 0.829114, PSNR: 10.477981
+epoch: 245, Train Loss: 0.518053, Train Acc: 0.825326, Eval Loss: 0.502006, Eval Acc: 0.831982, PSNR: 10.495175
+epoch: 246, Train Loss: 0.517971, Train Acc: 0.824877, Eval Loss: 0.498355, Eval Acc: 0.831685, PSNR: 10.549247
+epoch: 247, Train Loss: 0.517638, Train Acc: 0.824160, Eval Loss: 0.503319, Eval Acc: 0.829905, PSNR: 10.859522
+epoch: 248, Train Loss: 0.517048, Train Acc: 0.825227, Eval Loss: 0.500544, Eval Acc: 0.830696, PSNR: 11.337641
+epoch: 249, Train Loss: 0.517687, Train Acc: 0.824760, Eval Loss: 0.496624, Eval Acc: 0.832081, PSNR: 10.562109
+epoch: 250, Train Loss: 0.516482, Train Acc: 0.825843, Eval Loss: 0.499400, Eval Acc: 0.833070, PSNR: 9.652472
+epoch: 251, Train Loss: 0.517013, Train Acc: 0.824743, Eval Loss: 0.501543, Eval Acc: 0.831487, PSNR: 10.640163
+epoch: 252, Train Loss: 0.516688, Train Acc: 0.824777, Eval Loss: 0.498148, Eval Acc: 0.831290, PSNR: 11.121300
+epoch: 253, Train Loss: 0.516977, Train Acc: 0.826842, Eval Loss: 0.495161, Eval Acc: 0.833366, PSNR: 10.851595
+epoch: 254, Train Loss: 0.514966, Train Acc: 0.825793, Eval Loss: 0.497437, Eval Acc: 0.833267, PSNR: 10.403190
+epoch: 255, Train Loss: 0.516064, Train Acc: 0.825710, Eval Loss: 0.497315, Eval Acc: 0.831685, PSNR: 11.146940
+epoch: 256, Train Loss: 0.514633, Train Acc: 0.826293, Eval Loss: 0.497514, Eval Acc: 0.833564, PSNR: 11.431038
+epoch: 257, Train Loss: 0.514700, Train Acc: 0.825993, Eval Loss: 0.499027, Eval Acc: 0.830894, PSNR: 10.145323
+epoch: 258, Train Loss: 0.514863, Train Acc: 0.825493, Eval Loss: 0.496422, Eval Acc: 0.832773, PSNR: 11.432847
+epoch: 259, Train Loss: 0.513422, Train Acc: 0.825710, Eval Loss: 0.496547, Eval Acc: 0.832476, PSNR: 11.295994
+epoch: 260, Train Loss: 0.515268, Train Acc: 0.826393, Eval Loss: 0.493831, Eval Acc: 0.833960, PSNR: 8.824327
+epoch: 261, Train Loss: 0.514174, Train Acc: 0.825893, Eval Loss: 0.496329, Eval Acc: 0.834256, PSNR: 10.794861
+epoch: 262, Train Loss: 0.514043, Train Acc: 0.826226, Eval Loss: 0.498887, Eval Acc: 0.831290, PSNR: 10.449530
+epoch: 263, Train Loss: 0.514636, Train Acc: 0.826443, Eval Loss: 0.496275, Eval Acc: 0.833564, PSNR: 11.001035
+epoch: 264, Train Loss: 0.513720, Train Acc: 0.825843, Eval Loss: 0.497956, Eval Acc: 0.830795, PSNR: 10.621827
+epoch: 265, Train Loss: 0.513289, Train Acc: 0.826459, Eval Loss: 0.496422, Eval Acc: 0.833169, PSNR: 10.816113
+epoch: 266, Train Loss: 0.512333, Train Acc: 0.825959, Eval Loss: 0.496250, Eval Acc: 0.831586, PSNR: 11.567882
+epoch: 267, Train Loss: 0.512098, Train Acc: 0.827225, Eval Loss: 0.496437, Eval Acc: 0.831982, PSNR: 10.965002
+epoch: 268, Train Loss: 0.513731, Train Acc: 0.825526, Eval Loss: 0.495040, Eval Acc: 0.834850, PSNR: 10.739374
+epoch: 269, Train Loss: 0.512675, Train Acc: 0.827176, Eval Loss: 0.495209, Eval Acc: 0.837025, PSNR: 10.545249
+epoch: 270, Train Loss: 0.512674, Train Acc: 0.825626, Eval Loss: 0.492390, Eval Acc: 0.835047, PSNR: 10.477026
+epoch: 271, Train Loss: 0.512269, Train Acc: 0.827342, Eval Loss: 0.494227, Eval Acc: 0.833070, PSNR: 11.091098
+epoch: 272, Train Loss: 0.511251, Train Acc: 0.826426, Eval Loss: 0.492249, Eval Acc: 0.834652, PSNR: 9.707271
+epoch: 273, Train Loss: 0.510633, Train Acc: 0.827309, Eval Loss: 0.494589, Eval Acc: 0.833564, PSNR: 10.734956
+epoch: 274, Train Loss: 0.511684, Train Acc: 0.827825, Eval Loss: 0.493422, Eval Acc: 0.835443, PSNR: 12.096188
+epoch: 275, Train Loss: 0.512169, Train Acc: 0.826676, Eval Loss: 0.496295, Eval Acc: 0.831784, PSNR: 10.763611
+epoch: 276, Train Loss: 0.510395, Train Acc: 0.826526, Eval Loss: 0.495848, Eval Acc: 0.830498, PSNR: 10.470332
+epoch: 277, Train Loss: 0.510813, Train Acc: 0.827192, Eval Loss: 0.492401, Eval Acc: 0.831487, PSNR: 11.190354
+epoch: 278, Train Loss: 0.510455, Train Acc: 0.827475, Eval Loss: 0.497228, Eval Acc: 0.833762, PSNR: 10.208981
+epoch: 279, Train Loss: 0.510536, Train Acc: 0.826692, Eval Loss: 0.493751, Eval Acc: 0.833366, PSNR: 11.458524
+epoch: 280, Train Loss: 0.509998, Train Acc: 0.827225, Eval Loss: 0.491418, Eval Acc: 0.834059, PSNR: 10.525941
+epoch: 281, Train Loss: 0.510090, Train Acc: 0.827625, Eval Loss: 0.492561, Eval Acc: 0.834059, PSNR: 9.851832
+epoch: 282, Train Loss: 0.508892, Train Acc: 0.826992, Eval Loss: 0.491442, Eval Acc: 0.831982, PSNR: 11.053471
+epoch: 283, Train Loss: 0.508978, Train Acc: 0.827908, Eval Loss: 0.493542, Eval Acc: 0.834454, PSNR: 11.814477
+epoch: 284, Train Loss: 0.508739, Train Acc: 0.828658, Eval Loss: 0.492610, Eval Acc: 0.833169, PSNR: 12.050839
+epoch: 285, Train Loss: 0.509245, Train Acc: 0.826742, Eval Loss: 0.491497, Eval Acc: 0.836926, PSNR: 10.876230
+epoch: 286, Train Loss: 0.509498, Train Acc: 0.827292, Eval Loss: 0.495610, Eval Acc: 0.831487, PSNR: 11.772333
+epoch: 287, Train Loss: 0.509308, Train Acc: 0.826859, Eval Loss: 0.487516, Eval Acc: 0.835146, PSNR: 11.955933
+epoch: 288, Train Loss: 0.508207, Train Acc: 0.827459, Eval Loss: 0.490630, Eval Acc: 0.833366, PSNR: 10.457295
+epoch: 289, Train Loss: 0.507983, Train Acc: 0.828025, Eval Loss: 0.491268, Eval Acc: 0.835740, PSNR: 10.129572
+epoch: 290, Train Loss: 0.507260, Train Acc: 0.828158, Eval Loss: 0.489834, Eval Acc: 0.836432, PSNR: 10.801136
+epoch: 291, Train Loss: 0.508005, Train Acc: 0.827542, Eval Loss: 0.489193, Eval Acc: 0.835245, PSNR: 10.550208
+epoch: 292, Train Loss: 0.507891, Train Acc: 0.827992, Eval Loss: 0.491165, Eval Acc: 0.834949, PSNR: 11.389432
+epoch: 293, Train Loss: 0.507693, Train Acc: 0.827509, Eval Loss: 0.491441, Eval Acc: 0.835839, PSNR: 10.603753
+epoch: 294, Train Loss: 0.508351, Train Acc: 0.827908, Eval Loss: 0.489020, Eval Acc: 0.836432, PSNR: 11.779385
+epoch: 295, Train Loss: 0.507104, Train Acc: 0.827842, Eval Loss: 0.488818, Eval Acc: 0.836432, PSNR: 10.407051
+epoch: 296, Train Loss: 0.507181, Train Acc: 0.827542, Eval Loss: 0.488328, Eval Acc: 0.837718, PSNR: 10.306095
+epoch: 297, Train Loss: 0.506911, Train Acc: 0.829091, Eval Loss: 0.489637, Eval Acc: 0.833960, PSNR: 10.676390
+epoch: 298, Train Loss: 0.506499, Train Acc: 0.828591, Eval Loss: 0.487596, Eval Acc: 0.837816, PSNR: 11.745486
+epoch: 299, Train Loss: 0.506993, Train Acc: 0.827142, Eval Loss: 0.487461, Eval Acc: 0.833663, PSNR: 11.308024
+epoch: 300, Train Loss: 0.504977, Train Acc: 0.829874, Eval Loss: 0.489001, Eval Acc: 0.836234, PSNR: 10.525025
+epoch: 301, Train Loss: 0.506209, Train Acc: 0.828025, Eval Loss: 0.488627, Eval Acc: 0.837718, PSNR: 10.805611
+epoch: 302, Train Loss: 0.505953, Train Acc: 0.827958, Eval Loss: 0.488552, Eval Acc: 0.834850, PSNR: 10.233721
+epoch: 303, Train Loss: 0.506227, Train Acc: 0.828925, Eval Loss: 0.489784, Eval Acc: 0.834157, PSNR: 10.799015
+epoch: 304, Train Loss: 0.504415, Train Acc: 0.828808, Eval Loss: 0.484657, Eval Acc: 0.838904, PSNR: 12.055779
+epoch: 305, Train Loss: 0.505379, Train Acc: 0.829474, Eval Loss: 0.491307, Eval Acc: 0.834059, PSNR: 10.771001
+epoch: 306, Train Loss: 0.504439, Train Acc: 0.829274, Eval Loss: 0.487068, Eval Acc: 0.837421, PSNR: 11.586776
+epoch: 307, Train Loss: 0.504139, Train Acc: 0.828292, Eval Loss: 0.488163, Eval Acc: 0.837816, PSNR: 11.374446
+epoch: 308, Train Loss: 0.503976, Train Acc: 0.829741, Eval Loss: 0.484092, Eval Acc: 0.835740, PSNR: 11.351956
+epoch: 309, Train Loss: 0.503972, Train Acc: 0.828858, Eval Loss: 0.487651, Eval Acc: 0.836828, PSNR: 11.380560
+epoch: 310, Train Loss: 0.503733, Train Acc: 0.829974, Eval Loss: 0.487548, Eval Acc: 0.836828, PSNR: 10.258400
+epoch: 311, Train Loss: 0.504000, Train Acc: 0.828991, Eval Loss: 0.487953, Eval Acc: 0.836036, PSNR: 10.915778
+epoch: 312, Train Loss: 0.503840, Train Acc: 0.828475, Eval Loss: 0.485894, Eval Acc: 0.835938, PSNR: 11.312112
+epoch: 313, Train Loss: 0.503114, Train Acc: 0.829241, Eval Loss: 0.485119, Eval Acc: 0.837915, PSNR: 10.703308
+epoch: 314, Train Loss: 0.503374, Train Acc: 0.829141, Eval Loss: 0.487292, Eval Acc: 0.835740, PSNR: 10.957614
+epoch: 315, Train Loss: 0.502493, Train Acc: 0.829258, Eval Loss: 0.486151, Eval Acc: 0.837421, PSNR: 10.177527
+epoch: 316, Train Loss: 0.501743, Train Acc: 0.830057, Eval Loss: 0.485966, Eval Acc: 0.838212, PSNR: 10.342277
+epoch: 317, Train Loss: 0.503304, Train Acc: 0.829741, Eval Loss: 0.486084, Eval Acc: 0.837915, PSNR: 11.262726
+epoch: 318, Train Loss: 0.502985, Train Acc: 0.829924, Eval Loss: 0.484637, Eval Acc: 0.837223, PSNR: 9.826394
+epoch: 319, Train Loss: 0.502443, Train Acc: 0.829174, Eval Loss: 0.483398, Eval Acc: 0.839003, PSNR: 10.400093
+epoch: 320, Train Loss: 0.501171, Train Acc: 0.830074, Eval Loss: 0.483485, Eval Acc: 0.839003, PSNR: 10.910309
+epoch: 321, Train Loss: 0.502177, Train Acc: 0.830041, Eval Loss: 0.485679, Eval Acc: 0.834652, PSNR: 11.244602
+epoch: 322, Train Loss: 0.501681, Train Acc: 0.830907, Eval Loss: 0.483831, Eval Acc: 0.839893, PSNR: 12.300806
+epoch: 323, Train Loss: 0.501594, Train Acc: 0.831207, Eval Loss: 0.486394, Eval Acc: 0.836234, PSNR: 11.544095
+epoch: 324, Train Loss: 0.501498, Train Acc: 0.830924, Eval Loss: 0.485248, Eval Acc: 0.840783, PSNR: 10.135994
+epoch: 325, Train Loss: 0.501059, Train Acc: 0.830141, Eval Loss: 0.484127, Eval Acc: 0.836135, PSNR: 11.132505
+epoch: 326, Train Loss: 0.501590, Train Acc: 0.828825, Eval Loss: 0.482989, Eval Acc: 0.836729, PSNR: 11.556538
+epoch: 327, Train Loss: 0.501238, Train Acc: 0.828558, Eval Loss: 0.480575, Eval Acc: 0.840783, PSNR: 11.326984
+epoch: 328, Train Loss: 0.500843, Train Acc: 0.829924, Eval Loss: 0.482982, Eval Acc: 0.840190, PSNR: 12.151577
+epoch: 329, Train Loss: 0.500821, Train Acc: 0.829058, Eval Loss: 0.482208, Eval Acc: 0.837619, PSNR: 11.368019
+epoch: 330, Train Loss: 0.500965, Train Acc: 0.829408, Eval Loss: 0.482955, Eval Acc: 0.839893, PSNR: 11.055732
+epoch: 331, Train Loss: 0.500118, Train Acc: 0.830524, Eval Loss: 0.482760, Eval Acc: 0.837322, PSNR: 11.087920
+epoch: 332, Train Loss: 0.499466, Train Acc: 0.830824, Eval Loss: 0.482161, Eval Acc: 0.837421, PSNR: 10.331598
+epoch: 333, Train Loss: 0.500445, Train Acc: 0.829891, Eval Loss: 0.483270, Eval Acc: 0.838113, PSNR: 11.121104
+epoch: 334, Train Loss: 0.499638, Train Acc: 0.830540, Eval Loss: 0.481385, Eval Acc: 0.838212, PSNR: 10.670608
+epoch: 335, Train Loss: 0.498999, Train Acc: 0.830674, Eval Loss: 0.480943, Eval Acc: 0.840783, PSNR: 11.273653
+epoch: 336, Train Loss: 0.499162, Train Acc: 0.830224, Eval Loss: 0.482585, Eval Acc: 0.837223, PSNR: 12.084469
+epoch: 337, Train Loss: 0.499867, Train Acc: 0.829624, Eval Loss: 0.480235, Eval Acc: 0.840783, PSNR: 10.645266
+epoch: 338, Train Loss: 0.499110, Train Acc: 0.830091, Eval Loss: 0.482051, Eval Acc: 0.837223, PSNR: 11.123093
+epoch: 339, Train Loss: 0.498598, Train Acc: 0.830857, Eval Loss: 0.484942, Eval Acc: 0.835047, PSNR: 12.287696
+epoch: 340, Train Loss: 0.497342, Train Acc: 0.831223, Eval Loss: 0.482109, Eval Acc: 0.840190, PSNR: 11.562084
+epoch: 341, Train Loss: 0.497854, Train Acc: 0.831923, Eval Loss: 0.480553, Eval Acc: 0.839003, PSNR: 11.082781
+epoch: 342, Train Loss: 0.498581, Train Acc: 0.831107, Eval Loss: 0.482341, Eval Acc: 0.836036, PSNR: 10.376198
+epoch: 343, Train Loss: 0.498624, Train Acc: 0.830007, Eval Loss: 0.479615, Eval Acc: 0.841475, PSNR: 11.119364
+epoch: 344, Train Loss: 0.497958, Train Acc: 0.829291, Eval Loss: 0.480621, Eval Acc: 0.838509, PSNR: 11.136281
+epoch: 345, Train Loss: 0.497711, Train Acc: 0.831490, Eval Loss: 0.481516, Eval Acc: 0.836135, PSNR: 10.644536
+epoch: 346, Train Loss: 0.498291, Train Acc: 0.831307, Eval Loss: 0.481451, Eval Acc: 0.836234, PSNR: 9.877507
+epoch: 347, Train Loss: 0.497984, Train Acc: 0.830973, Eval Loss: 0.480639, Eval Acc: 0.839498, PSNR: 11.465270
+epoch: 348, Train Loss: 0.497864, Train Acc: 0.830307, Eval Loss: 0.482396, Eval Acc: 0.840487, PSNR: 12.014427
+epoch: 349, Train Loss: 0.497607, Train Acc: 0.831773, Eval Loss: 0.482519, Eval Acc: 0.840289, PSNR: 11.338256
+epoch: 350, Train Loss: 0.497364, Train Acc: 0.830524, Eval Loss: 0.479699, Eval Acc: 0.839597, PSNR: 11.179122
+epoch: 351, Train Loss: 0.496866, Train Acc: 0.831507, Eval Loss: 0.482643, Eval Acc: 0.837619, PSNR: 11.613927
+epoch: 352, Train Loss: 0.496553, Train Acc: 0.831073, Eval Loss: 0.480142, Eval Acc: 0.838904, PSNR: 11.205378
+epoch: 353, Train Loss: 0.497869, Train Acc: 0.831357, Eval Loss: 0.478962, Eval Acc: 0.840289, PSNR: 11.418946
+epoch: 354, Train Loss: 0.495462, Train Acc: 0.831623, Eval Loss: 0.480753, Eval Acc: 0.838805, PSNR: 11.243108
+epoch: 355, Train Loss: 0.496466, Train Acc: 0.831523, Eval Loss: 0.478402, Eval Acc: 0.839893, PSNR: 11.115317
+epoch: 356, Train Loss: 0.495902, Train Acc: 0.830824, Eval Loss: 0.479383, Eval Acc: 0.839399, PSNR: 12.735769
+epoch: 357, Train Loss: 0.495337, Train Acc: 0.831973, Eval Loss: 0.482027, Eval Acc: 0.838608, PSNR: 10.310595
+epoch: 358, Train Loss: 0.494864, Train Acc: 0.832972, Eval Loss: 0.479630, Eval Acc: 0.838410, PSNR: 11.025759
+epoch: 359, Train Loss: 0.495733, Train Acc: 0.830624, Eval Loss: 0.477194, Eval Acc: 0.839201, PSNR: 12.169751
+epoch: 360, Train Loss: 0.495694, Train Acc: 0.831540, Eval Loss: 0.478158, Eval Acc: 0.839498, PSNR: 9.986843
+epoch: 361, Train Loss: 0.495178, Train Acc: 0.830907, Eval Loss: 0.478476, Eval Acc: 0.843552, PSNR: 11.006842
+epoch: 362, Train Loss: 0.494872, Train Acc: 0.832856, Eval Loss: 0.479098, Eval Acc: 0.838608, PSNR: 9.827160
+epoch: 363, Train Loss: 0.495457, Train Acc: 0.831557, Eval Loss: 0.474890, Eval Acc: 0.841278, PSNR: 11.635508
+epoch: 364, Train Loss: 0.495646, Train Acc: 0.831890, Eval Loss: 0.477230, Eval Acc: 0.840487, PSNR: 10.570256
+epoch: 365, Train Loss: 0.494153, Train Acc: 0.832073, Eval Loss: 0.478564, Eval Acc: 0.840981, PSNR: 11.070173
+epoch: 366, Train Loss: 0.494962, Train Acc: 0.831973, Eval Loss: 0.479402, Eval Acc: 0.841278, PSNR: 11.370631
+epoch: 367, Train Loss: 0.494001, Train Acc: 0.830973, Eval Loss: 0.476939, Eval Acc: 0.841080, PSNR: 11.811627
+epoch: 368, Train Loss: 0.493709, Train Acc: 0.832656, Eval Loss: 0.477414, Eval Acc: 0.839102, PSNR: 11.338909
+epoch: 369, Train Loss: 0.493042, Train Acc: 0.832906, Eval Loss: 0.479181, Eval Acc: 0.839794, PSNR: 11.313168
+epoch: 370, Train Loss: 0.493884, Train Acc: 0.833156, Eval Loss: 0.476703, Eval Acc: 0.843058, PSNR: 11.036717
+epoch: 371, Train Loss: 0.494473, Train Acc: 0.831606, Eval Loss: 0.476805, Eval Acc: 0.839794, PSNR: 10.541231
+epoch: 372, Train Loss: 0.493687, Train Acc: 0.832289, Eval Loss: 0.476185, Eval Acc: 0.841179, PSNR: 10.892810
+epoch: 373, Train Loss: 0.493958, Train Acc: 0.831290, Eval Loss: 0.477556, Eval Acc: 0.838212, PSNR: 11.827525
+epoch: 374, Train Loss: 0.493351, Train Acc: 0.832556, Eval Loss: 0.477509, Eval Acc: 0.841772, PSNR: 10.820313
+epoch: 375, Train Loss: 0.493315, Train Acc: 0.831973, Eval Loss: 0.477359, Eval Acc: 0.841377, PSNR: 10.714760
+epoch: 376, Train Loss: 0.493048, Train Acc: 0.832090, Eval Loss: 0.476602, Eval Acc: 0.838904, PSNR: 11.485469
+epoch: 377, Train Loss: 0.493513, Train Acc: 0.831373, Eval Loss: 0.476186, Eval Acc: 0.840487, PSNR: 11.563220
+epoch: 378, Train Loss: 0.492091, Train Acc: 0.834005, Eval Loss: 0.476485, Eval Acc: 0.839300, PSNR: 11.604026
+epoch: 379, Train Loss: 0.492573, Train Acc: 0.832306, Eval Loss: 0.476954, Eval Acc: 0.839992, PSNR: 13.205561
+epoch: 380, Train Loss: 0.492920, Train Acc: 0.832856, Eval Loss: 0.477250, Eval Acc: 0.840091, PSNR: 10.757373
+epoch: 381, Train Loss: 0.493895, Train Acc: 0.831323, Eval Loss: 0.474749, Eval Acc: 0.840684, PSNR: 11.365476
+epoch: 382, Train Loss: 0.492510, Train Acc: 0.832573, Eval Loss: 0.475896, Eval Acc: 0.841475, PSNR: 11.797040
+epoch: 383, Train Loss: 0.491748, Train Acc: 0.832256, Eval Loss: 0.474328, Eval Acc: 0.840091, PSNR: 10.648104
+epoch: 384, Train Loss: 0.490946, Train Acc: 0.832706, Eval Loss: 0.475838, Eval Acc: 0.840981, PSNR: 10.807786
+epoch: 385, Train Loss: 0.492757, Train Acc: 0.833256, Eval Loss: 0.473020, Eval Acc: 0.841970, PSNR: 12.727152
+epoch: 386, Train Loss: 0.492735, Train Acc: 0.831973, Eval Loss: 0.472121, Eval Acc: 0.842959, PSNR: 10.628345
+epoch: 387, Train Loss: 0.491891, Train Acc: 0.832423, Eval Loss: 0.474907, Eval Acc: 0.842959, PSNR: 12.491103
+epoch: 388, Train Loss: 0.491873, Train Acc: 0.832872, Eval Loss: 0.474491, Eval Acc: 0.840684, PSNR: 11.255402
+epoch: 389, Train Loss: 0.491428, Train Acc: 0.833422, Eval Loss: 0.474180, Eval Acc: 0.841278, PSNR: 11.974673
+epoch: 390, Train Loss: 0.491523, Train Acc: 0.832423, Eval Loss: 0.473348, Eval Acc: 0.839102, PSNR: 12.190473
+epoch: 391, Train Loss: 0.490917, Train Acc: 0.833089, Eval Loss: 0.474139, Eval Acc: 0.841574, PSNR: 13.173497
+epoch: 392, Train Loss: 0.491114, Train Acc: 0.832756, Eval Loss: 0.474522, Eval Acc: 0.843058, PSNR: 10.176564
+epoch: 393, Train Loss: 0.491299, Train Acc: 0.833339, Eval Loss: 0.474110, Eval Acc: 0.839597, PSNR: 11.085710
+epoch: 394, Train Loss: 0.490478, Train Acc: 0.832006, Eval Loss: 0.471700, Eval Acc: 0.840289, PSNR: 11.522674
+epoch: 395, Train Loss: 0.490817, Train Acc: 0.833922, Eval Loss: 0.472456, Eval Acc: 0.842662, PSNR: 11.832378
+epoch: 396, Train Loss: 0.489630, Train Acc: 0.833822, Eval Loss: 0.472152, Eval Acc: 0.844838, PSNR: 11.292909
+epoch: 397, Train Loss: 0.491097, Train Acc: 0.832090, Eval Loss: 0.473881, Eval Acc: 0.841179, PSNR: 12.166777
+epoch: 398, Train Loss: 0.491230, Train Acc: 0.833672, Eval Loss: 0.471269, Eval Acc: 0.840882, PSNR: 10.717024
+epoch: 399, Train Loss: 0.489959, Train Acc: 0.834255, Eval Loss: 0.473817, Eval Acc: 0.841179, PSNR: 12.473657
+epoch: 400, Train Loss: 0.489055, Train Acc: 0.833872, Eval Loss: 0.472701, Eval Acc: 0.843651, PSNR: 11.328837
+epoch: 401, Train Loss: 0.489858, Train Acc: 0.833322, Eval Loss: 0.472145, Eval Acc: 0.841475, PSNR: 10.148048
+epoch: 402, Train Loss: 0.491161, Train Acc: 0.832189, Eval Loss: 0.473260, Eval Acc: 0.842761, PSNR: 10.038295
+epoch: 403, Train Loss: 0.490952, Train Acc: 0.833322, Eval Loss: 0.469770, Eval Acc: 0.844047, PSNR: 10.924166
+epoch: 404, Train Loss: 0.488580, Train Acc: 0.833722, Eval Loss: 0.474327, Eval Acc: 0.840289, PSNR: 11.479426
+epoch: 405, Train Loss: 0.489606, Train Acc: 0.833356, Eval Loss: 0.470813, Eval Acc: 0.841772, PSNR: 11.954397
+epoch: 406, Train Loss: 0.490292, Train Acc: 0.832989, Eval Loss: 0.474130, Eval Acc: 0.837322, PSNR: 10.963431
+epoch: 407, Train Loss: 0.488283, Train Acc: 0.834472, Eval Loss: 0.472272, Eval Acc: 0.839300, PSNR: 11.795894
+epoch: 408, Train Loss: 0.488183, Train Acc: 0.834088, Eval Loss: 0.470380, Eval Acc: 0.842464, PSNR: 11.446629
+epoch: 409, Train Loss: 0.488631, Train Acc: 0.834322, Eval Loss: 0.470920, Eval Acc: 0.843750, PSNR: 11.043546
+epoch: 410, Train Loss: 0.487944, Train Acc: 0.833689, Eval Loss: 0.470645, Eval Acc: 0.841673, PSNR: 11.513040
+epoch: 411, Train Loss: 0.488513, Train Acc: 0.833789, Eval Loss: 0.470817, Eval Acc: 0.841673, PSNR: 10.697539
+epoch: 412, Train Loss: 0.489164, Train Acc: 0.833172, Eval Loss: 0.467612, Eval Acc: 0.845036, PSNR: 12.813477
+epoch: 413, Train Loss: 0.489549, Train Acc: 0.834272, Eval Loss: 0.469343, Eval Acc: 0.843750, PSNR: 12.137738
+epoch: 414, Train Loss: 0.488362, Train Acc: 0.833489, Eval Loss: 0.470796, Eval Acc: 0.844244, PSNR: 12.051882
+epoch: 415, Train Loss: 0.488660, Train Acc: 0.832906, Eval Loss: 0.469782, Eval Acc: 0.843849, PSNR: 10.121685
+epoch: 416, Train Loss: 0.486810, Train Acc: 0.834305, Eval Loss: 0.469464, Eval Acc: 0.839893, PSNR: 10.845285
+epoch: 417, Train Loss: 0.487320, Train Acc: 0.834605, Eval Loss: 0.472685, Eval Acc: 0.842860, PSNR: 13.463479
+epoch: 418, Train Loss: 0.487397, Train Acc: 0.834155, Eval Loss: 0.469780, Eval Acc: 0.841377, PSNR: 11.262266
+epoch: 419, Train Loss: 0.487112, Train Acc: 0.834222, Eval Loss: 0.468626, Eval Acc: 0.841475, PSNR: 11.212083
+epoch: 420, Train Loss: 0.486741, Train Acc: 0.833755, Eval Loss: 0.471079, Eval Acc: 0.842959, PSNR: 11.279574
+epoch: 421, Train Loss: 0.487922, Train Acc: 0.833422, Eval Loss: 0.471110, Eval Acc: 0.843256, PSNR: 10.752398
+epoch: 422, Train Loss: 0.487447, Train Acc: 0.834538, Eval Loss: 0.469341, Eval Acc: 0.841772, PSNR: 11.446351
+epoch: 423, Train Loss: 0.486367, Train Acc: 0.833922, Eval Loss: 0.471291, Eval Acc: 0.840882, PSNR: 11.355042
+epoch: 424, Train Loss: 0.487421, Train Acc: 0.834905, Eval Loss: 0.468013, Eval Acc: 0.843058, PSNR: 10.651643
+epoch: 425, Train Loss: 0.486821, Train Acc: 0.833905, Eval Loss: 0.469062, Eval Acc: 0.842366, PSNR: 13.043176
+epoch: 426, Train Loss: 0.486114, Train Acc: 0.833939, Eval Loss: 0.467090, Eval Acc: 0.843750, PSNR: 11.134928
+epoch: 427, Train Loss: 0.486675, Train Acc: 0.834638, Eval Loss: 0.468560, Eval Acc: 0.844640, PSNR: 11.302732
+epoch: 428, Train Loss: 0.485364, Train Acc: 0.835488, Eval Loss: 0.468260, Eval Acc: 0.844838, PSNR: 10.818074
+epoch: 429, Train Loss: 0.487117, Train Acc: 0.834488, Eval Loss: 0.467243, Eval Acc: 0.843849, PSNR: 11.173515
+epoch: 430, Train Loss: 0.487186, Train Acc: 0.834005, Eval Loss: 0.468485, Eval Acc: 0.840091, PSNR: 10.189293
+epoch: 431, Train Loss: 0.486161, Train Acc: 0.835038, Eval Loss: 0.469860, Eval Acc: 0.844541, PSNR: 11.051890
+epoch: 432, Train Loss: 0.486218, Train Acc: 0.834188, Eval Loss: 0.469667, Eval Acc: 0.843157, PSNR: 11.660919
+epoch: 433, Train Loss: 0.485463, Train Acc: 0.835288, Eval Loss: 0.470115, Eval Acc: 0.841574, PSNR: 10.215226
+epoch: 434, Train Loss: 0.486618, Train Acc: 0.834688, Eval Loss: 0.467866, Eval Acc: 0.843750, PSNR: 10.422933
+epoch: 435, Train Loss: 0.485676, Train Acc: 0.834888, Eval Loss: 0.469963, Eval Acc: 0.842761, PSNR: 12.888691
+epoch: 436, Train Loss: 0.485658, Train Acc: 0.836121, Eval Loss: 0.467912, Eval Acc: 0.843256, PSNR: 11.154555
+epoch: 437, Train Loss: 0.485249, Train Acc: 0.835255, Eval Loss: 0.468300, Eval Acc: 0.844343, PSNR: 10.802899
+epoch: 438, Train Loss: 0.484793, Train Acc: 0.834805, Eval Loss: 0.467567, Eval Acc: 0.845530, PSNR: 12.608966
+epoch: 439, Train Loss: 0.484051, Train Acc: 0.836254, Eval Loss: 0.466449, Eval Acc: 0.842563, PSNR: 11.997791
+epoch: 440, Train Loss: 0.485109, Train Acc: 0.835554, Eval Loss: 0.468634, Eval Acc: 0.840684, PSNR: 11.590919
+epoch: 441, Train Loss: 0.484580, Train Acc: 0.834039, Eval Loss: 0.468818, Eval Acc: 0.841970, PSNR: 12.531278
+epoch: 442, Train Loss: 0.484262, Train Acc: 0.835155, Eval Loss: 0.465961, Eval Acc: 0.843157, PSNR: 12.616718
+epoch: 443, Train Loss: 0.484767, Train Acc: 0.834638, Eval Loss: 0.468891, Eval Acc: 0.843849, PSNR: 11.788914
+epoch: 444, Train Loss: 0.484848, Train Acc: 0.835488, Eval Loss: 0.466041, Eval Acc: 0.843651, PSNR: 11.658207
+epoch: 445, Train Loss: 0.484346, Train Acc: 0.835588, Eval Loss: 0.464750, Eval Acc: 0.845926, PSNR: 12.071071
+epoch: 446, Train Loss: 0.484588, Train Acc: 0.835521, Eval Loss: 0.467083, Eval Acc: 0.846519, PSNR: 11.461531
+epoch: 447, Train Loss: 0.484223, Train Acc: 0.834888, Eval Loss: 0.467712, Eval Acc: 0.842464, PSNR: 11.275407
+epoch: 448, Train Loss: 0.484796, Train Acc: 0.833889, Eval Loss: 0.465221, Eval Acc: 0.844640, PSNR: 11.664687
+epoch: 449, Train Loss: 0.484911, Train Acc: 0.835621, Eval Loss: 0.465426, Eval Acc: 0.843453, PSNR: 11.510252
+epoch: 450, Train Loss: 0.483575, Train Acc: 0.834871, Eval Loss: 0.464656, Eval Acc: 0.845629, PSNR: 11.428695
+epoch: 451, Train Loss: 0.483767, Train Acc: 0.835987, Eval Loss: 0.464321, Eval Acc: 0.844047, PSNR: 12.178837
+epoch: 452, Train Loss: 0.483531, Train Acc: 0.835155, Eval Loss: 0.465058, Eval Acc: 0.847903, PSNR: 11.152242
+epoch: 453, Train Loss: 0.484382, Train Acc: 0.834188, Eval Loss: 0.467226, Eval Acc: 0.843651, PSNR: 11.691437
+epoch: 454, Train Loss: 0.483956, Train Acc: 0.836570, Eval Loss: 0.469399, Eval Acc: 0.841179, PSNR: 11.728092
+epoch: 455, Train Loss: 0.484107, Train Acc: 0.833389, Eval Loss: 0.468217, Eval Acc: 0.841574, PSNR: 11.396615
+epoch: 456, Train Loss: 0.483497, Train Acc: 0.835338, Eval Loss: 0.468322, Eval Acc: 0.841970, PSNR: 10.292048
+epoch: 457, Train Loss: 0.482862, Train Acc: 0.835788, Eval Loss: 0.466221, Eval Acc: 0.840585, PSNR: 12.346196
+epoch: 458, Train Loss: 0.483147, Train Acc: 0.835554, Eval Loss: 0.464193, Eval Acc: 0.843157, PSNR: 11.437922
+epoch: 459, Train Loss: 0.483585, Train Acc: 0.835638, Eval Loss: 0.468060, Eval Acc: 0.843750, PSNR: 10.920354
+epoch: 460, Train Loss: 0.482659, Train Acc: 0.835604, Eval Loss: 0.469858, Eval Acc: 0.840190, PSNR: 13.185269
+epoch: 461, Train Loss: 0.483745, Train Acc: 0.834405, Eval Loss: 0.463962, Eval Acc: 0.845926, PSNR: 10.374482
+epoch: 462, Train Loss: 0.482355, Train Acc: 0.836104, Eval Loss: 0.467426, Eval Acc: 0.841673, PSNR: 11.294932
+epoch: 463, Train Loss: 0.482579, Train Acc: 0.835471, Eval Loss: 0.465909, Eval Acc: 0.841673, PSNR: 12.165334
+epoch: 464, Train Loss: 0.482435, Train Acc: 0.835138, Eval Loss: 0.465234, Eval Acc: 0.842563, PSNR: 10.953756
+epoch: 465, Train Loss: 0.482737, Train Acc: 0.835504, Eval Loss: 0.465277, Eval Acc: 0.845036, PSNR: 11.475539
+epoch: 466, Train Loss: 0.481986, Train Acc: 0.834222, Eval Loss: 0.463392, Eval Acc: 0.845332, PSNR: 12.138469
+epoch: 467, Train Loss: 0.482768, Train Acc: 0.836054, Eval Loss: 0.463798, Eval Acc: 0.843948, PSNR: 10.803003
+epoch: 468, Train Loss: 0.481874, Train Acc: 0.837320, Eval Loss: 0.464382, Eval Acc: 0.844244, PSNR: 12.631816
+epoch: 469, Train Loss: 0.482256, Train Acc: 0.834522, Eval Loss: 0.463507, Eval Acc: 0.843750, PSNR: 10.546044
+epoch: 470, Train Loss: 0.482043, Train Acc: 0.835921, Eval Loss: 0.462955, Eval Acc: 0.846915, PSNR: 12.712601
+epoch: 471, Train Loss: 0.482227, Train Acc: 0.835738, Eval Loss: 0.466918, Eval Acc: 0.845332, PSNR: 12.096258
+epoch: 472, Train Loss: 0.481854, Train Acc: 0.835521, Eval Loss: 0.462209, Eval Acc: 0.846816, PSNR: 12.619791
+epoch: 473, Train Loss: 0.481280, Train Acc: 0.836404, Eval Loss: 0.466233, Eval Acc: 0.841970, PSNR: 11.195639
+epoch: 474, Train Loss: 0.481837, Train Acc: 0.835888, Eval Loss: 0.463215, Eval Acc: 0.844541, PSNR: 10.881471
+epoch: 475, Train Loss: 0.482021, Train Acc: 0.837004, Eval Loss: 0.465024, Eval Acc: 0.845431, PSNR: 10.919419
+epoch: 476, Train Loss: 0.481215, Train Acc: 0.836471, Eval Loss: 0.463268, Eval Acc: 0.846025, PSNR: 12.168175
+epoch: 477, Train Loss: 0.481540, Train Acc: 0.835804, Eval Loss: 0.463306, Eval Acc: 0.843354, PSNR: 11.746073
+epoch: 478, Train Loss: 0.480650, Train Acc: 0.837137, Eval Loss: 0.463974, Eval Acc: 0.843058, PSNR: 12.438566
+epoch: 479, Train Loss: 0.481622, Train Acc: 0.835421, Eval Loss: 0.463917, Eval Acc: 0.845728, PSNR: 11.877365
+epoch: 480, Train Loss: 0.481402, Train Acc: 0.835638, Eval Loss: 0.462908, Eval Acc: 0.846222, PSNR: 11.733709
+epoch: 481, Train Loss: 0.480747, Train Acc: 0.836421, Eval Loss: 0.462570, Eval Acc: 0.843948, PSNR: 11.407715
+epoch: 482, Train Loss: 0.481307, Train Acc: 0.836104, Eval Loss: 0.464720, Eval Acc: 0.843750, PSNR: 11.176225
+epoch: 483, Train Loss: 0.481458, Train Acc: 0.836920, Eval Loss: 0.465025, Eval Acc: 0.844838, PSNR: 11.396571
+epoch: 484, Train Loss: 0.479629, Train Acc: 0.837253, Eval Loss: 0.464437, Eval Acc: 0.841278, PSNR: 13.046922
+epoch: 485, Train Loss: 0.479866, Train Acc: 0.835504, Eval Loss: 0.464609, Eval Acc: 0.848101, PSNR: 11.595041
+epoch: 486, Train Loss: 0.479934, Train Acc: 0.835421, Eval Loss: 0.464004, Eval Acc: 0.842366, PSNR: 11.278069
+epoch: 487, Train Loss: 0.480082, Train Acc: 0.836654, Eval Loss: 0.462404, Eval Acc: 0.844739, PSNR: 11.640815
+epoch: 488, Train Loss: 0.480591, Train Acc: 0.836987, Eval Loss: 0.462926, Eval Acc: 0.846519, PSNR: 12.685744
+epoch: 489, Train Loss: 0.480354, Train Acc: 0.836954, Eval Loss: 0.461143, Eval Acc: 0.844343, PSNR: 11.904515
+epoch: 490, Train Loss: 0.480896, Train Acc: 0.837253, Eval Loss: 0.463589, Eval Acc: 0.842860, PSNR: 10.636200
+epoch: 491, Train Loss: 0.479583, Train Acc: 0.836954, Eval Loss: 0.461641, Eval Acc: 0.845728, PSNR: 12.956445
+epoch: 492, Train Loss: 0.479140, Train Acc: 0.837337, Eval Loss: 0.461111, Eval Acc: 0.846222, PSNR: 11.153252
+epoch: 493, Train Loss: 0.479734, Train Acc: 0.836954, Eval Loss: 0.462956, Eval Acc: 0.842563, PSNR: 13.373188
+epoch: 494, Train Loss: 0.480047, Train Acc: 0.836054, Eval Loss: 0.460700, Eval Acc: 0.844047, PSNR: 10.929458
+epoch: 495, Train Loss: 0.480001, Train Acc: 0.836604, Eval Loss: 0.464855, Eval Acc: 0.842761, PSNR: 12.510774
+epoch: 496, Train Loss: 0.478815, Train Acc: 0.837120, Eval Loss: 0.462884, Eval Acc: 0.844739, PSNR: 12.361378
+epoch: 497, Train Loss: 0.479665, Train Acc: 0.837470, Eval Loss: 0.464655, Eval Acc: 0.844640, PSNR: 12.617220
+epoch: 498, Train Loss: 0.479530, Train Acc: 0.837154, Eval Loss: 0.463575, Eval Acc: 0.844640, PSNR: 12.887277
+epoch: 499, Train Loss: 0.477915, Train Acc: 0.836271, Eval Loss: 0.464348, Eval Acc: 0.845134, PSNR: 12.448296
