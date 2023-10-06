@@ -373,7 +373,7 @@ class Solver(object):
                     file = ('Semantic-Learning-Reproduce/results/acc_svhn_mnist_%.2f.csv' % compression_rate)
                     data = pd.DataFrame(acc_all_np)
                     data.to_csv(file, index=False)
-
+    
                 if (step + 1) % 15000 == 0:
                     # save models
                     # save the model parameters for each epoch
