@@ -185,9 +185,8 @@ class Solver(object):
             mlp_encoder = mlp_encoder.to(device)
             mlp_mnist = mlp_mnist.to(device)
 
-            mlp_encoder.load_state_dict(torch.load('MLP_MNIST'
-                                                   '_encoder_combining_%.6f.pkl' % compression_rate))
-            mlp_mnist.load_state_dict(torch.load('MLP_MNIST.pkl'))
+            mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST_encoder_combining_%.6f.pkl' % compression_rate))
+            mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST.pkl'))
 
             svhn_iter = iter(self.svhn_loader)
             mnist_iter = iter(self.mnist_loader)
