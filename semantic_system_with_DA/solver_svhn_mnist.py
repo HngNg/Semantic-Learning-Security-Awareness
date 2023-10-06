@@ -6,6 +6,7 @@
 @file: solver_svhn_mnist.py
 @time: 2022/3/6 14:31
 """
+import copy
 import torch
 import torch.nn as nn
 import torchvision
