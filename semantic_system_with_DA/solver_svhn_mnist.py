@@ -198,6 +198,8 @@ class Solver(object):
             # print('mnist_iter.next()[0]', mnist_iter.next()[0].size())
             data_svhn_iter = next(svhn_iter)
             data_mnist_iter = next(mnist_iter)
+            
+            # Two lines below is originally turned on
             # fixed_svhn = self.to_var(data_svhn_iter[0])  # iterator(可迭代对象的下一个值)
             # fixed_mnist = self.to_var(data_mnist_iter[0])
 
@@ -213,9 +215,9 @@ class Solver(object):
                     svhn_iter = iter(self.svhn_loader)
 
                 # load svhn and mnist dataset
-                svhn, s_labels = svhn_iter.next()
+                svhn, s_labels = next(svhn_iter)
                 svhn, s_labels = self.to_var(svhn), self.to_var(s_labels).long().squeeze()
-                mnist, m_labels = mnist_iter.next()
+                mnist, m_labels = next(mnist_iter)
                 mnist, m_labels = self.to_var(mnist), self.to_var(m_labels)
 
                 if self.use_labels:
