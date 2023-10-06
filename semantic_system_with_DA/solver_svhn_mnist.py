@@ -370,7 +370,7 @@ class Solver(object):
                     # print('saved %s' % path)
 
                     acc_all_np = np.array(self.train_acc)
-                    file = ('./results/acc_svhn_mnist_%.2f.csv' % compression_rate)
+                    file = ('Semantic-Learning-Reproduce/results/acc_svhn_mnist_%.2f.csv' % compression_rate)
                     data = pd.DataFrame(acc_all_np)
                     data.to_csv(file, index=False)
 
