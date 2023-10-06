@@ -196,8 +196,10 @@ class Solver(object):
             # fixed mnist and svhn for sampling
             # print('svhn_iter.next()[0]', svhn_iter.next()[0].size())
             # print('mnist_iter.next()[0]', mnist_iter.next()[0].size())
-            fixed_svhn = self.to_var(svhn_iter.next()[0])  # iterator(可迭代对象的下一个值)
-            fixed_mnist = self.to_var(mnist_iter.next()[0])
+            data_svhn_iter = next(svhn_iter)
+            data_mnist_iter = next(mnist_iter)
+            fixed_svhn = self.to_var(data_svhn_iter[0])  # iterator(可迭代对象的下一个值)
+            fixed_mnist = self.to_var(data_mnist_iter[0])
 
             # loss if use_labels = True
             criterion = nn.CrossEntropyLoss()
