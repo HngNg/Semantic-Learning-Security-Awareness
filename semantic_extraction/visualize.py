@@ -47,24 +47,24 @@ with open(csv_file_2, 'r') as file:
             # Append data to the lists
             train_loss.append(train_loss__)
 
-# with open(csv_file_3, 'r') as file:
-#     csv_reader = csv.reader(file)
-#     for row in csv_reader:
-#         # if cnt > 1: break
-#         # cnt += 1
-#         if row:
-#             # Split the row by commas and extract relevant information
-#             epoch_info = row[0]
-#             train_psnr__ = float(epoch_info)
-#             cnt3 += 1
+with open(csv_file_3, 'r') as file:
+    csv_reader = csv.reader(file)
+    for row in csv_reader:
+        # if cnt > 1: break
+        # cnt += 1
+        if row:
+            # Split the row by commas and extract relevant information
+            epoch_info = row[0]
+            train_psnr__ = float(epoch_info)
+            cnt3 += 1
 
-#             # Append data to the lists
-#             train_psnr.append(train_psnr__)
+            # Append data to the lists
+            train_psnr.append(train_psnr__)
 
 # Create the accuracy plot
 plt.figure(figsize=(10, 6))
 plt.plot(epochs, train_acc, label='Train Accuracy', marker='o')
-plt.plot(epochs, train_loss, label='Train Loss', marker='o')
+# plt.plot(epochs, train_loss, label='Train Loss', marker='o')
 # plt.plot(epochs, train_psnr, label='Train PSNR', marker='o')
 
 # Add labels and a legend
