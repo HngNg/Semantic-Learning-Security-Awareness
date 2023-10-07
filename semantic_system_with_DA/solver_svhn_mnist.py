@@ -168,7 +168,9 @@ class Solver(object):
                     out_square = np.square(x_np)
                     aver = np.sum(out_square) / np.size(out_square)
 
-                    snr = 3  # dB
+                    snr = 13  # dB
+                    # Change this snr to 13
+
                     aver_noise = aver / 10 ** (snr / 10)
                     noise = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
                     # noise = noise.to(device)
