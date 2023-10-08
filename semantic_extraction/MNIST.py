@@ -245,19 +245,33 @@ for snr_val in range (6, 11):
     # Accuracy against compression rate
     # torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
 
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
+    # data = pd.DataFrame(eval_losses)
+    # data.to_csv(file, index=False)
+
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
+    # data = pd.DataFrame(eval_acces)
+    # data.to_csv(file, index=False)
+
+    # eval_psnr = np.array(psnr_all)
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
+    # data = pd.DataFrame(eval_psnr)
+    # data.to_csv(file, index=False)
+
+
     # Accuracy against snr at compression rate of 0.8
     torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
 
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
+    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_losses)
     data.to_csv(file, index=False)
 
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
+    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_acces)
     data.to_csv(file, index=False)
 
     eval_psnr = np.array(psnr_all)
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
+    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_psnr)
     data.to_csv(file, index=False)
 
