@@ -21,8 +21,11 @@ from PIL import Image
 
 raw_dim = 28 * 28  # shape of the raw image
 
+for snr_val in range (3, 11):
+    rate = 8 
+
 # for rate in range(50):
-for rate in range(8, 9):
+# for rate in range(8, 9):
 # for rate in range (1, 10):
     # compression_rate = (rate + 1) * 0.02
     # compression_rate = min((rate + 10) * 0.1, 1)
@@ -64,7 +67,7 @@ for rate in range(8, 9):
             aver = np.sum(out_square) / np.size(out_square)
 
             # snr = 3  # dB
-            snr = 10  # dB
+            snr = snr_val  # dB
             aver_noise = aver / 10 ** (snr / 10)
             noise = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
             # noise = noise.to(device)
@@ -237,7 +240,11 @@ for rate in range(8, 9):
                       eval_loss / len(test_data), eval_acc / len(test_data), psnr))
 
     # save model and results
-    torch.save(mlp_encoder.state_dict(), ('MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
+    # Accuracy against compression rate
+    # torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
+
+    # Accuracy against snr at compression rate of 0.8
+    torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
 
     file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
     data = pd.DataFrame(eval_losses)
