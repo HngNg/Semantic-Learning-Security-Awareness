@@ -21,7 +21,7 @@ from PIL import Image
 
 raw_dim = 28 * 28  # shape of the raw image
 
-for snr_val in range (3, 11):
+for snr_val in range (6, 11):
     rate = 8 
 
 # for rate in range(50):
@@ -67,6 +67,7 @@ for snr_val in range (3, 11):
             aver = np.sum(out_square) / np.size(out_square)
 
             # snr = 3  # dB
+            # snr = 10  # dB
             snr = snr_val  # dB
             aver_noise = aver / 10 ** (snr / 10)
             noise = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
@@ -158,6 +159,7 @@ for snr_val in range (3, 11):
 
     print('Training Start')
     print('Compression Rate:', compression_rate)
+    print('SNR Value:', snr_val)
     # Originally, the training had 500 epochs, and it should be 100 to avoid overfiting
     epoch_len = 100
     out = None
