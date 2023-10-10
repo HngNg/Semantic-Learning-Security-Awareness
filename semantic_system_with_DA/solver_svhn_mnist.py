@@ -138,11 +138,17 @@ class Solver(object):
         flag = 0
 
         acc_all_all = []
+
         # for iii in range(9):
-        for iii in range(7, 8):
+        #     acc_all_np = []
+        #     compression_rate = (iii + 1) * 0.1
+        #     print('compression rate:', compression_rate)
+        
+        for snr_ in range(3, 11):
             acc_all_np = []
-            compression_rate = (iii + 1) * 0.1
+            compression_rate = 0.8
             print('compression rate:', compression_rate)
+            print('SNR = ', snr_)
 
             class MLP(nn.Module):
                 def __init__(self):
@@ -168,8 +174,10 @@ class Solver(object):
                     out_square = np.square(x_np)
                     aver = np.sum(out_square) / np.size(out_square)
 
-                    snr = 13  # dB
+                    # snr = 3  # dB
                     # Change this snr to 13
+
+                    snr = snr_
 
                     aver_noise = aver / 10 ** (snr / 10)
                     noise = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
@@ -188,7 +196,9 @@ class Solver(object):
             mlp_encoder = mlp_encoder.to(device)
             mlp_mnist = mlp_mnist.to(device)
 
-            mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST_encoder_combining_%.6f.pkl' % compression_rate))
+            mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/MLP_MNIST_encoder_combining_%d.pkl' % snr_))
+
+            # mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST_encoder_combining_%.6f.pkl' % compression_rate))
             mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST.pkl'))
 
             svhn_iter = iter(self.svhn_loader)
@@ -372,7 +382,8 @@ class Solver(object):
                     # print('saved %s' % path)
 
                     acc_all_np = np.array(self.train_acc)
-                    file = ('Semantic-Learning-Reproduce/results/acc_svhn_mnist_%.2f.csv' % compression_rate)
+                    # file = ('Semantic-Learning-Reproduce/results/acc_svhn_mnist_%.2f.csv' % compression_rate)
+                    file = ('Semantic-Learning-Reproduce/results/acc_svhn_mnist_%d.csv' % snr_)
                     data = pd.DataFrame(acc_all_np)
                     data.to_csv(file, index=False)
     
