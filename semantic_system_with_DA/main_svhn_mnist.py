@@ -53,8 +53,8 @@ if __name__ == '__main__':
     # training hyper-parameters
     # parser.add_argument('--train_iters', type=int, default=10000)
     parser.add_argument('--train_iters', type=int, default=40000)
-    # parser.add_argument('--batch_size', type=int, default=64)
-    parser.add_argument('--batch_size', type=int, default=128)
+    parser.add_argument('--batch_size', type=int, default=64)
+    # parser.add_argument('--batch_size', type=int, default=128)
     
     parser.add_argument('--num_workers', type=int, default=2)
     parser.add_argument('--lr', type=float, default=0.0002)
