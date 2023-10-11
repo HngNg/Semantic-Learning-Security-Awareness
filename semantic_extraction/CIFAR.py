@@ -29,6 +29,7 @@ import warnings
 import cv2
 import argparse
 from argparse import ArgumentParser
+from semantic_extraction.MNIST import MLP_MNIST
 
 warnings.filterwarnings("ignore")
 
@@ -336,7 +337,7 @@ for lambda_var in range(1):
         def criterion_pretraining(x_in, y_in, raw_in):
             # out_tmp1 = nn.CrossEntropyLoss()
             out_tmp2 = nn.MSELoss()
-            z_in = mlp_mnist(x_in)
+            z_in = MLP_MNIST(x_in)
             mse_in = lambda2 * out_tmp2(x_in, raw_in)
             loss_channel = mse_in
             return loss_channel
