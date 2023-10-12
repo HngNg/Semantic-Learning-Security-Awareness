@@ -144,7 +144,8 @@ class Solver(object):
         #     compression_rate = (iii + 1) * 0.1
         #     print('compression rate:', compression_rate)
         
-        for snr_ in range(3, 11):
+        # for snr_ in range(3, 11):
+        for snr_ in range(3, 6):
             acc_all_np = []
             compression_rate = 0.8
             print('compression rate:', compression_rate)
@@ -196,8 +197,10 @@ class Solver(object):
             mlp_encoder = mlp_encoder.to(device)
             mlp_mnist = mlp_mnist.to(device)
 
+            # encoder
             mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/MLP_MNIST_encoder_combining_%d.pkl' % snr_))
 
+            # classifier
             # mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST_encoder_combining_%.6f.pkl' % compression_rate))
             mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST.pkl'))
 
