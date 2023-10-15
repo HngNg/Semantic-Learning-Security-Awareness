@@ -2,20 +2,23 @@
 pytorch implementation of "Deep Learning-Enabled Semantic Communication Systems with Task-Unaware Transmitter and Dynamic Data"
 
 ## Prerequites
-* [Python 3.7]
-* [PyTorch 0.1.12]
-* [Torchvision 0.9.1]
-* [Torch 1.5.1]
-* [Numpy 1.21.2]
+* [PyTorch 1.8.0]
+* [Torchvision 0.9.0]
+* [Google Auth]
+* [Numpy 1.22.4]
+
+``` python
+!pip install numpy==1.22.4 
+!pip install google-auth
+!pip install pytorch==1.8.0 torchvision==0.9.0 -y
+```
 
 ## The folders
 ["semantic_extraction"](./semantic_extraction) and ["semantic_system_with_DA"](./semantic_system_with_DA) are the semantic extraction part and the data adaptation part of the proposed method in the paper.   
 
-The details are represented in the two sub-folders.
+
 
 ## Citation
-
-Please use the following BibTeX citation if you use this repository in your work:
 
 ```
 @article{Deep_semantic_comm_2022,
