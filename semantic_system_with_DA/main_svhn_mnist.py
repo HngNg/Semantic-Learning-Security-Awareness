@@ -51,8 +51,8 @@ if __name__ == '__main__':
     parser.add_argument('--num_classes', type=int, default=10)
 
     # training hyper-parameters
-    parser.add_argument('--train_iters', type=int, default=10000)
-    # parser.add_argument('--train_iters', type=int, default=40000)
+    # parser.add_argument('--train_iters', type=int, default=10000)
+    parser.add_argument('--train_iters', type=int, default=40000)
     parser.add_argument('--batch_size', type=int, default=64)
     # parser.add_argument('--batch_size', type=int, default=128)
     
@@ -65,6 +65,7 @@ if __name__ == '__main__':
     parser.add_argument('--mode', type=str, default='train')
     parser.add_argument('--model_path', type=str, default='./models')
     parser.add_argument('--sample_path', type=str, default='./samples')
+    # Try starting from hear to encrypt MNIST
     parser.add_argument('--mnist_path', type=str, default='./mnist')
     parser.add_argument('--svhn_path', type=str, default='./svhn')
     parser.add_argument('--log_step', type=int, default=10)

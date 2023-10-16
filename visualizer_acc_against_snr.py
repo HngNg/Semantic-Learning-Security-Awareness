@@ -6,7 +6,7 @@ epochs = []
 train_acc = []
 
 plt.figure(figsize=(10, 10))
-for snr_ in range (3, 11):
+for snr_ in range (3, 4):
     csv_file = 'results/training_outcome_' + str(snr_) + '.csv'
     # Read the CSV file and extract data
     cnt = 0

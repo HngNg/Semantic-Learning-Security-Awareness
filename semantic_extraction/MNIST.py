@@ -21,8 +21,8 @@ from PIL import Image
 
 raw_dim = 28 * 28  # shape of the raw image
 
-# for snr_val in range (3, 11):
-for snr_val in range (9, 11):
+for snr_val in range (3, 11):
+# for snr_val in range (9, 11):
     rate = 8 
 
 # for rate in range(50):
@@ -36,14 +36,14 @@ for snr_val in range (9, 11):
     lambda1 = 1 - compression_rate
     lambda2 = compression_rate
 
-    class MLP(nn.Module):
+    class MLP_bob(nn.Module):
         # coders
         def __init__(self):
-            super(MLP, self).__init__()
+            super(MLP_bob, self).__init__()
             self.fc1 = nn.Linear(28 * 28, channel)
             self.fc2 = nn.Linear(channel, 28 * 28)
 
-        def forward(self, x):
+        def forward(self, x, y):
             # x = F.relu(self.fc1(x))
             # encoder
             x = self.fc1(x)
@@ -71,10 +71,11 @@ for snr_val in range (9, 11):
             # snr = 10  # dB
             snr = snr_val  # dB
             aver_noise = aver / 10 ** (snr / 10)
-            noise = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
+            noise_bob = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
+            noise_eve = noise_bob + np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
             # noise = noise.to(device)
 
-            x_np = x_np + noise
+            x_np = x_np + noise_bob
             x = torch.from_numpy(x_np)
             x = x.to(torch.float32)
 
@@ -82,6 +83,53 @@ for snr_val in range (9, 11):
             x = self.fc2(x)
             return x
 
+
+    class MLP_eve(nn.Module):
+        # coders
+        def __init__(self):
+            super(MLP_eve, self).__init__()
+            self.fc1 = nn.Linear(28 * 28, channel)
+            self.fc2 = nn.Linear(channel, 28 * 28)
+
+        def forward(self, x, y):
+            # x = F.relu(self.fc1(x))
+            # encoder
+            x = self.fc1(x)
+
+            # scale and quantize
+            x = x.detach().cpu()
+            x_max = torch.max(x)
+            x_tmp = copy.deepcopy(torch.div(x, x_max))
+
+            # quantize
+            x_tmp = copy.deepcopy(torch.mul(x_tmp, 256))
+            x_tmp = copy.deepcopy(x_tmp.clone().type(torch.int))
+            x_tmp = copy.deepcopy(x_tmp.clone().type(torch.float32))
+            x_tmp = copy.deepcopy(torch.div(x_tmp, 256))
+
+            x = copy.deepcopy(torch.mul(x_tmp, x_max))
+
+            # add noise
+            x_np = x.detach().numpy()
+            # x_np = x.numpy()
+            out_square = np.square(x_np)
+            aver = np.sum(out_square) / np.size(out_square)
+
+            # snr = 3  # dB
+            # snr = 10  # dB
+            snr = snr_val  # dB
+            aver_noise = aver / 10 ** (snr / 10)
+            noise_bob = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
+            noise_eve = noise_bob + np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
+            # noise = noise.to(device)
+
+            x_np = x_np + noise_bob
+            x = torch.from_numpy(x_np)
+            x = x.to(torch.float32)
+
+            # decoder
+            x = self.fc2(x)
+            return x
 
     class MLP_MNIST(nn.Module):
         # classifier
@@ -101,7 +149,8 @@ for snr_val in range (9, 11):
             return x
 
 
-    mlp_encoder = MLP()
+    mlp_encoder_bob = MLP_bob()
+    mlp_encoder_eve = MLP_eve()
     mlp_mnist = MLP_MNIST()
 
     # load the MNIST classifier
