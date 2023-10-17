@@ -195,8 +195,10 @@ for snr_val in range (3, 11):
         loss_channel = lambda1 * out_tmp1(z_in, y_in) + lambda2 * mse_in
         return loss_channel
 
+
+    # Bod's CNN
     # SGD or Adam
-    optimizer = torch.optim.SGD(mlp_encoder.parameters(), 1e-3)
+    optimizer = torch.optim.SGD(mlp_encoder_bob.parameters(), 1e-3)
 
     losses = []
     acces = []
@@ -207,7 +209,7 @@ for snr_val in range (3, 11):
 
     model_dict = mlp_mnist.state_dict()
 
-    print('Training Start')
+    print('Training for Bob start')
     print('Compression Rate:', compression_rate)
     print('SNR Value:', snr_val)
     # Originally, the training had 500 epochs, and it should be 100 to avoid overfiting
@@ -217,13 +219,13 @@ for snr_val in range (3, 11):
         train_loss = 0
         train_acc = 0
         psnr_aver = 0
-        mlp_encoder.train()
+        mlp_encoder_bob.train()
         for im, label in train_data:
             im = Variable(im)
             label = Variable(label)
 
             # forward
-            out = mlp_encoder(im)
+            out = mlp_encoder_bob(im)
             out_mnist = mlp_mnist(out)
 
             loss = criterion(out, label, im)
@@ -260,7 +262,7 @@ for snr_val in range (3, 11):
 
         eval_loss = 0
         eval_acc = 0
-        mlp_encoder.eval()
+        mlp_encoder_bob.eval()
         for im, label in test_data:
             # image_recover = data_inv_transform(im[0])
             # pil_img = Image.fromarray(np.uint8(image_recover))
@@ -269,7 +271,7 @@ for snr_val in range (3, 11):
             im = Variable(im)
             label = Variable(label)
 
-            out = mlp_encoder(im)
+            out = mlp_encoder_bob(im)
 
             out_mnist = mlp_mnist(out)
 
@@ -310,7 +312,7 @@ for snr_val in range (3, 11):
 
 
     # Accuracy against snr at compression rate of 0.8
-    torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
+    torch.save(mlp_encoder_bob.state_dict(), ('Semantic-Learning-Reproduce/results/Bob_MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
 
     # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%d.csv' % snr_val)
     # data = pd.DataFrame(eval_losses)
@@ -329,7 +331,144 @@ for snr_val in range (3, 11):
     for ii in range(len(out)):
         image_recover = data_inv_transform(out[ii])
         pil_img = Image.fromarray(np.uint8(image_recover))
-        pil_img.save("Semantic-Learning-Reproduce/semantic_extraction/image_recover_combing/mnist_train_%d_%f.jpg" % (ii, compression_rate))
+        pil_img.save("Semantic-Learning-Reproduce/semantic_extraction/image_recover_combing/mnist_train_bob_%d_%f.jpg" % (ii, compression_rate))
+
+
+    # Eve's CNN
+    optimizer = torch.optim.SGD(mlp_encoder_eve.parameters(), 1e-3)
+
+    losses = []
+    acces = []
+    eval_losses = []
+    eval_acces = []
+    psnr_all = []
+    psnr = None
+
+    model_dict = mlp_mnist.state_dict()
+
+    print('Training for Eve start')
+    print('Compression Rate:', compression_rate)
+    print('SNR Value:', snr_val)
+    # Originally, the training had 500 epochs, and it should be 100 to avoid overfiting
+    epoch_len = 100
+    out = None
+    for e in range(epoch_len):
+        train_loss = 0
+        train_acc = 0
+        psnr_aver = 0
+        mlp_encoder_eve.train()
+        for im, label in train_data:
+            im = Variable(im)
+            label = Variable(label)
+
+            # forward
+            out = mlp_encoder_eve(im)
+            out_mnist = mlp_mnist(out)
+
+            loss = criterion(out, label, im)
+            cr1 = nn.MSELoss()
+            mse = cr1(out, im)
+            out_np = out.detach().numpy()
+            psnr = 10 * np.log10(np.max(out_np) ** 2 / mse.detach().numpy() ** 2)
+            psnr_aver += psnr
+
+            # backward
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            train_loss += loss.item()
+
+            # calculate accuracy
+            _, pred = out_mnist.max(1)
+            num_correct = (pred == label).sum().item()
+            acc = num_correct / im.shape[0]
+            train_acc += acc
+
+        # mlp_mnist_diff = copy.deepcopy(mlp_mnist.state_dict())
+        # counter = 0
+        # print('counter', counter)
+        # for kk in model_dict.keys():
+        #     mlp_mnist_diff[kk] = torch.sub(mlp_mnist.state_dict()[kk], mlp_mnist_ini.state_dict()[kk])
+        #     if counter == 0:
+        #         print('diff of mlp_mnist', mlp_mnist_diff[kk])
+        #     counter += 1
+
+        losses.append(train_loss / len(train_data))
+        acces.append(train_acc / len(train_data))
+        psnr_all.append(psnr_aver/ len(train_data))
+
+        eval_loss = 0
+        eval_acc = 0
+        mlp_encoder_eve.eval()
+        for im, label in test_data:
+            # image_recover = data_inv_transform(im[0])
+            # pil_img = Image.fromarray(np.uint8(image_recover))
+            # pil_img.show()
+
+            im = Variable(im)
+            label = Variable(label)
+
+            out = mlp_encoder_eve(im)
+
+            out_mnist = mlp_mnist(out)
+
+            # if e % 4 == 0:
+            #     print('decoder input:', im)
+            #     print('decoder output:', out)
+
+            loss = criterion(out, label, im)
+            eval_loss += loss.item()
+
+            _, pred = out_mnist.max(1)
+            num_correct = (pred == label).sum().item()
+            acc = num_correct / im.shape[0]
+            eval_acc += acc
+
+        eval_losses.append(eval_loss / len(test_data))
+        eval_acces.append(eval_acc / len(test_data))
+        print('epoch: {}, Train Loss: {:.6f}, Train Acc: {:.6f}, Eval Loss: {:.6f}, Eval Acc: {:.6f}, PSNR: {:.6f}'
+              .format(e, train_loss / len(train_data), train_acc / len(train_data),
+                      eval_loss / len(test_data), eval_acc / len(test_data), psnr))
+
+    # save model and results
+    # Accuracy against compression rate
+    # torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
+
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
+    # data = pd.DataFrame(eval_losses)
+    # data.to_csv(file, index=False)
+
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
+    # data = pd.DataFrame(eval_acces)
+    # data.to_csv(file, index=False)
+
+    # eval_psnr = np.array(psnr_all)
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
+    # data = pd.DataFrame(eval_psnr)
+    # data.to_csv(file, index=False)
+
+
+    # Accuracy against snr at compression rate of 0.8
+    torch.save(mlp_encoder_eve.state_dict(), ('Semantic-Learning-Reproduce/results/Eve_MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
+
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%d.csv' % snr_val)
+    # data = pd.DataFrame(eval_losses)
+    # data.to_csv(file, index=False)
+
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%d.csv' % snr_val)
+    # data = pd.DataFrame(eval_acces)
+    # data.to_csv(file, index=False)
+
+    # eval_psnr = np.array(psnr_all)
+    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%d.csv' % snr_val)
+    # data = pd.DataFrame(eval_psnr)
+    # data.to_csv(file, index=False)
+
+    # save the recovered images
+    for ii in range(len(out)):
+        image_recover = data_inv_transform(out[ii])
+        pil_img = Image.fromarray(np.uint8(image_recover))
+        pil_img.save("Semantic-Learning-Reproduce/semantic_extraction/image_recover_combing/mnist_train_eve_%d_%f.jpg" % (ii, compression_rate))
 
 
 
