@@ -43,7 +43,7 @@ for snr_val in range (3, 11):
             self.fc1 = nn.Linear(28 * 28, channel)
             self.fc2 = nn.Linear(channel, 28 * 28)
 
-        def forward(self, x, y):
+        def forward(self, x):
             # x = F.relu(self.fc1(x))
             # encoder
             x = self.fc1(x)
@@ -91,7 +91,7 @@ for snr_val in range (3, 11):
             self.fc1 = nn.Linear(28 * 28, channel)
             self.fc2 = nn.Linear(channel, 28 * 28)
 
-        def forward(self, x, y):
+        def forward(self, x):
             # x = F.relu(self.fc1(x))
             # encoder
             x = self.fc1(x)
