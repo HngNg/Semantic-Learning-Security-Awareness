@@ -123,7 +123,7 @@ for snr_val in range (10, 11):
             noise_eve = noise_bob + np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
             # noise = noise.to(device)
 
-            x_np = x_np + noise_bob
+            x_np = x_np + noise_eve
             x = torch.from_numpy(x_np)
             x = x.to(torch.float32)
 
