@@ -153,7 +153,7 @@ for snr_val in range (10, 11):
     mlp_mnist = MLP_MNIST()
 
     # load the MNIST classifier
-    mlp_mnist.load_state_dict(torch.load('MLP_MNIST.pkl'))
+    mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_extraction/MLP_MNIST.pkl'))
 
     # mlp_mnist_ini = copy.deepcopy(mlp_mnist)
 
