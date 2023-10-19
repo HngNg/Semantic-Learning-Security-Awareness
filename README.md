@@ -1,22 +1,14 @@
-# Deep-Learning-Enabled-Semantic-Communication-Systems-with-Task-Unaware-Transmitter-and-Dynamic-Data
-pytorch implementation of "Deep Learning-Enabled Semantic Communication Systems with Task-Unaware Transmitter and Dynamic Data"
+# Semantic-Communication-Systems-with-Unaware-Transmitter-and-Security-Awareness
 
 ## Prerequites
 * [PyTorch 1.8.0]
 * [Torchvision 0.9.0]
-* [Google Auth]
 * [Numpy 1.22.4]
 
 ``` python
 !pip install numpy==1.22.4 
-!pip install google-auth
 !pip install pytorch==1.8.0 torchvision==0.9.0 -y
 ```
-
-## The folders
-["semantic_extraction"](./semantic_extraction) and ["semantic_system_with_DA"](./semantic_system_with_DA) are the semantic extraction part and the data adaptation part of the proposed method in the paper.   
-
-
 
 ## Citation
 
@@ -27,5 +19,11 @@ pytorch implementation of "Deep Learning-Enabled Semantic Communication Systems 
   journal={arXiv preprint arXiv:2205.00271},
   year={2022}
 }
-```
 
+@article{Wireless_Image_Transmission_with_Semantic_and_Security_Awareness,
+  title={Wireless Image Transmission with Semantic and Security Awareness},
+  author={Maojun Zhang, Yang Li, Zezhong Zhang, Guangxu Zhu, Caijun Zhong},
+  journal={	arXiv:2212.00227 [cs.IT]},
+  year={2022}```
+}
+```
