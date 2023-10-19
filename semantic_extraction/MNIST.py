@@ -72,7 +72,6 @@ for snr_val in range (10, 11):
             snr = snr_val  # dB
             aver_noise = aver / 10 ** (snr / 10)
             noise_bob = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
-            noise_eve = noise_bob + np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
             # noise = noise.to(device)
 
             x_np = x_np + noise_bob
@@ -120,14 +119,8 @@ for snr_val in range (10, 11):
             snr = snr_val  # dB
 
             aver_noise = aver / 10 ** (snr / 10)
-            noise_bob = np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
-            # noise_eve = noise_bob + np.random.random(size=x_np.shape) * np.sqrt(aver_noise)
-
-            # noise = noise.to(device)
-            noise_var = 10**(-snr / 10.0)
-
-            # Generate Gaussian noise with the calculated variance
-            noise_eve = noise_bob + np.random.normal(0, np.sqrt(noise_var), x_np.shape)
+            noise_factor = 10
+            noise_eve = np.random.random(size=x_np.shape) * np.sqrt(aver_noise) * noise_factor
 
             x_np = x_np + noise_eve
             x = torch.from_numpy(x_np)
