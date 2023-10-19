@@ -119,7 +119,7 @@ for snr_val in range (10, 11):
             snr = snr_val  # dB
 
             aver_noise = aver / 10 ** (snr / 10)
-            noise_factor = 10
+            noise_factor = 100
             noise_eve = np.random.random(size=x_np.shape) * np.sqrt(aver_noise) * noise_factor
 
             x_np = x_np + noise_eve
