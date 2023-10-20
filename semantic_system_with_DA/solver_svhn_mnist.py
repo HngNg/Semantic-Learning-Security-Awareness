@@ -198,11 +198,11 @@ class Solver(object):
             mlp_mnist = mlp_mnist.to(device)
 
             # encoder
-            mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/MLP_MNIST_encoder_combining_%d.pkl' % snr_))
+            mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/MLP_MNIST_encoder_combining_%d.pkl' % snr_))
 
             # classifier
-            # mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST_encoder_combining_%.6f.pkl' % compression_rate))
-            mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_system_with_DA/MLP_MNIST.pkl'))
+            # mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/semantic_system_with_DA/MLP_MNIST_encoder_combining_%.6f.pkl' % compression_rate))
+            mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/semantic_system_with_DA/MLP_MNIST.pkl'))
 
             svhn_iter = iter(self.svhn_loader)
             mnist_iter = iter(self.mnist_loader)
@@ -385,8 +385,8 @@ class Solver(object):
                     # print('saved %s' % path)
 
                     acc_all_np = np.array(self.train_acc)
-                    # file = ('Semantic-Learning-Reproduce/results/acc_svhn_mnist_%.2f.csv' % compression_rate)
-                    file = ('Semantic-Learning-Reproduce/results/acc_svhn_mnist_%d.csv' % snr_)
+                    # file = ('Semantic-Learning-Security-Awareness/results/acc_svhn_mnist_%.2f.csv' % compression_rate)
+                    file = ('Semantic-Learning-Security-Awareness/results/acc_svhn_mnist_%d.csv' % snr_)
                     data = pd.DataFrame(acc_all_np)
                     data.to_csv(file, index=False)
     

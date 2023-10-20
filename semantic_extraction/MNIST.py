@@ -153,7 +153,7 @@ for snr_val in range (3, 11):
     mlp_mnist = MLP_MNIST()
 
     # load the MNIST classifier
-    mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Reproduce/semantic_extraction/MLP_MNIST.pkl'))
+    mlp_mnist.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/semantic_extraction/MLP_MNIST.pkl'))
 
     # mlp_mnist_ini = copy.deepcopy(mlp_mnist)
 
@@ -294,35 +294,35 @@ for snr_val in range (3, 11):
 
     # save model and results
     # Accuracy against compression rate
-    # torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
+    # torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Security-Awareness/results/MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
 
-    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
     # data = pd.DataFrame(eval_losses)
     # data.to_csv(file, index=False)
 
-    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
     # data = pd.DataFrame(eval_acces)
     # data.to_csv(file, index=False)
 
     # eval_psnr = np.array(psnr_all)
-    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
     # data = pd.DataFrame(eval_psnr)
     # data.to_csv(file, index=False)
 
 
     # Accuracy against snr at compression rate of 0.8
-    torch.save(mlp_encoder_bob.state_dict(), ('Semantic-Learning-Reproduce/results/Bob_MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
+    torch.save(mlp_encoder_bob.state_dict(), ('Semantic-Learning-Security-Awareness/results/Bob_MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
 
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/Bob_loss_semantic_combining_%d.csv' % snr_val)
+    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Bob_loss_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_losses)
     data.to_csv(file, index=False)
 
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/Bob_acc_semantic_combining_%d.csv' % snr_val)
+    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Bob_acc_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_acces)
     data.to_csv(file, index=False)
 
     eval_psnr = np.array(psnr_all)
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/Bob_psnr_semantic_combining_%d.csv' % snr_val)
+    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Bob_psnr_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_psnr)
     data.to_csv(file, index=False)
 
@@ -330,7 +330,7 @@ for snr_val in range (3, 11):
     for ii in range(len(out)):
         image_recover = data_inv_transform(out[ii])
         pil_img = Image.fromarray(np.uint8(image_recover))
-        pil_img.save("Semantic-Learning-Reproduce/semantic_extraction/image_recover_combing/mnist_train_bob_%d_%f.jpg" % (ii, compression_rate))
+        pil_img.save("Semantic-Learning-Security-Awareness/semantic_extraction/image_recover_combing/mnist_train_bob_%d_%f.jpg" % (ii, compression_rate))
 
 
     # Eve's CNN
@@ -431,35 +431,35 @@ for snr_val in range (3, 11):
 
     # save model and results
     # Accuracy against compression rate
-    # torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Reproduce/results/MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
+    # torch.save(mlp_encoder.state_dict(), ('Semantic-Learning-Security-Awareness/results/MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
 
-    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/loss_semantic_combining_%f.csv' % compression_rate)
     # data = pd.DataFrame(eval_losses)
     # data.to_csv(file, index=False)
 
-    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/acc_semantic_combining_%f.csv' % compression_rate)
     # data = pd.DataFrame(eval_acces)
     # data.to_csv(file, index=False)
 
     # eval_psnr = np.array(psnr_all)
-    # file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/psnr_semantic_combining_%f.csv' % compression_rate)
     # data = pd.DataFrame(eval_psnr)
     # data.to_csv(file, index=False)
 
 
     # Accuracy against snr at compression rate of 0.8
-    torch.save(mlp_encoder_eve.state_dict(), ('Semantic-Learning-Reproduce/results/Eve_MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
+    torch.save(mlp_encoder_eve.state_dict(), ('Semantic-Learning-Security-Awareness/results/Eve_MLP_MNIST_encoder_combining_%d.pkl' % snr_val))
 
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/Eve_loss_semantic_combining_%d.csv' % snr_val)
+    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Eve_loss_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_losses)
     data.to_csv(file, index=False)
 
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/Eve_acc_semantic_combining_%d.csv' % snr_val)
+    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Eve_acc_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_acces)
     data.to_csv(file, index=False)
 
     eval_psnr = np.array(psnr_all)
-    file = ('Semantic-Learning-Reproduce/results/MLP_sem_MNIST/Eve_psnr_semantic_combining_%d.csv' % snr_val)
+    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Eve_psnr_semantic_combining_%d.csv' % snr_val)
     data = pd.DataFrame(eval_psnr)
     data.to_csv(file, index=False)
 
@@ -467,7 +467,7 @@ for snr_val in range (3, 11):
     for ii in range(len(out)):
         image_recover = data_inv_transform(out[ii])
         pil_img = Image.fromarray(np.uint8(image_recover))
-        pil_img.save("Semantic-Learning-Reproduce/semantic_extraction/image_recover_combing/mnist_train_eve_%d_%f.jpg" % (ii, compression_rate))
+        pil_img.save("Semantic-Learning-Security-Awareness/semantic_extraction/image_recover_combing/mnist_train_eve_%d_%f.jpg" % (ii, compression_rate))
 
 
 
