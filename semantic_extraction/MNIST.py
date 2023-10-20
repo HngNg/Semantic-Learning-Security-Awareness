@@ -22,6 +22,8 @@ from PIL import Image
 raw_dim = 28 * 28  # shape of the raw image
 
 for snr_val in range (3, 11):
+    if snr_val == 4:
+        snr_val = 10
 # for snr_val in range (9, 11):
     rate = 8 
 
