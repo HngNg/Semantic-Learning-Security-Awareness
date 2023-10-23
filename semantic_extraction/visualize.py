@@ -8,64 +8,94 @@ train_loss = []
 train_psnr = []
 
 # Path to your CSV file
-csv_file_1 = 'results/MLP_sem_MNIST/acc_semantic_combining_0.100000.csv'
-csv_file_2 = 'results/MLP_sem_MNIST/loss_semantic_combining_0.100000.csv'
-csv_file_3 = 'results/MLP_sem_MNIST/psnr_semantic_combining_0.100000.csv'
+bob_csv = ['results/MLP_sem_MNIST/Bob_acc_semantic_combining_', 
+           'results/MLP_sem_MNIST/Bob_loss_semantic_combining_', 
+           'results/MLP_sem_MNIST/Bob_psnr_semantic_combining_']
 
-cnt1 = 0
-cnt2 = 0
-cnt3 = 0
+eve_csv = ['results/MLP_sem_MNIST/eve_acc_semantic_combining_',
+           'results/MLP_sem_MNIST/eve_loss_semantic_combining_', 
+           'results/MLP_sem_MNIST/eve_psnr_semantic_combining_']
 
-# Read the CSV file and extract data
-with open(csv_file_1, 'r') as file:
-    csv_reader = csv.reader(file)
-    for row in csv_reader:
-        # if cnt > 1: break
-        # cnt += 1
-        if row:
-            # Split the row by commas and extract relevant information
-            epoch_info = row[0]
-            epoch_number = cnt1 
-            train_accuracy__ = float(epoch_info)
-            cnt1 += 1
-
-            # Append data to the lists
-            epochs.append(epoch_number)
-            train_acc.append(train_accuracy__)
-
-with open(csv_file_2, 'r') as file:
-    csv_reader = csv.reader(file)
-    for row in csv_reader:
-        # if cnt > 1: break
-        # cnt += 1
-        if row:
-            # Split the row by commas and extract relevant information
-            epoch_info = row[0]
-            train_loss__ = float(epoch_info)
-            cnt2 += 1
-
-            # Append data to the lists
-            train_loss.append(train_loss__)
-
-with open(csv_file_3, 'r') as file:
-    csv_reader = csv.reader(file)
-    for row in csv_reader:
-        # if cnt > 1: break
-        # cnt += 1
-        if row:
-            # Split the row by commas and extract relevant information
-            epoch_info = row[0]
-            train_psnr__ = float(epoch_info)
-            cnt3 += 1
-
-            # Append data to the lists
-            train_psnr.append(train_psnr__)
-
-# Create the accuracy plot
 plt.figure(figsize=(10, 6))
-plt.plot(epochs, train_acc, label='Train Accuracy', marker='o')
-# plt.plot(epochs, train_loss, label='Train Loss', marker='o')
-# plt.plot(epochs, train_psnr, label='Train PSNR', marker='o')
+
+#Bob
+# for snr_ in range (3, 11):
+for snr_ in range (3, 5):
+    if (snr_ == 4): snr_ = 10
+
+    epochs = []
+    train_acc = []
+    train_loss = []
+    train_psnr = []
+    for file_name in bob_csv:
+        with open(file_name + str(snr_) + ".csv", 'r') as file:
+            csv_reader = csv.reader(file)
+            cnt = 0
+            for row in csv_reader:
+                if row and ("acc" in file_name):
+                    epoch_num = cnt
+                    cnt += 1
+                    epochs.append(epoch_num)
+
+                    epoch_info = row[0]
+                    train_accuracy__ = float(epoch_info)
+                    train_acc.append(train_accuracy__)
+
+                if row and ("loss" in file_name):
+                    epoch_info = row[0]
+                    train_loss__ = float(epoch_info)
+                    train_loss.append(train_loss__)
+
+                # if row and ("psnr" in file_name):
+                #     epoch_info = row[0]
+                #     train_psnr__ = float(epoch_info)
+                #     train_acc.append(train_psnr__)
+        
+    plt.plot(epochs, train_acc, label='Bob - Accuracy, SNR ' +str(snr_), marker='o')
+    # plt.plot(epochs, train_loss, label='Bob - Loss, SNR ' + str(snr_), marker='o')
+    # plt.plot(epochs, train_psnr, label='Bob - Train PSNR', marker='o')
+
+#Eve
+# for snr_ in range (3, 11):
+for snr_ in range (3, 5):
+    if (snr_ == 4): snr_ = 10
+
+    epochs = []
+    train_acc = []
+    train_loss = []
+    train_psnr = []
+    for file_name in eve_csv:
+        with open(file_name + str(snr_) + ".csv", 'r') as file:
+            csv_reader = csv.reader(file)
+            cnt = 0
+            for row in csv_reader:
+                if row and ("acc" in file_name):
+                    epoch_num = cnt
+                    cnt += 1
+                    epochs.append(epoch_num)
+
+                    epoch_info = row[0]
+                    train_accuracy__ = float(epoch_info)
+                    train_acc.append(train_accuracy__)
+
+                if row and ("loss" in file_name):
+                    epoch_info = row[0]
+                    train_loss__ = float(epoch_info)
+                    train_loss.append(train_loss__)
+
+                # if row and ("psnr" in file_name):
+                #     epoch_info = row[0]
+                #     train_psnr__ = float(epoch_info)
+                #     train_acc.append(train_psnr__)
+        
+    plt.plot(epochs, train_acc, label='Eve - Accuracy, SNR ' +str(snr_), marker='o')
+    # plt.plot(epochs, train_loss, label='Eve - Loss, SNR ' + str(snr_), marker='o')
+    # plt.plot(epochs, train_psnr, label='Eve - Train PSNR', marker='o')
+
+                    
+# Create the accuracy plot
+
+
 
 # Add labels and a legend
 plt.xlabel('Epoch')
