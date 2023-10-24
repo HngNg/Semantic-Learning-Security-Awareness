@@ -21,8 +21,8 @@ from PIL import Image
 
 raw_dim = 28 * 28  # shape of the raw image
 
-for snr_val in range (-5, 21, 5):
-# for snr_val in range (9, 11):
+# for snr_val in range (-5, 21, 5):
+for snr_val in range (-5, -4, 5):
     rate = 8 
 
 # for rate in range(50):
@@ -321,16 +321,16 @@ for snr_val in range (-5, 21, 5):
     data = pd.DataFrame(eval_acces)
     data.to_csv(file, index=False)
 
-    eval_psnr = np.array(psnr_all)
-    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Bob_psnr_semantic_combining_%d.csv' % snr_val)
-    data = pd.DataFrame(eval_psnr)
-    data.to_csv(file, index=False)
+    # eval_psnr = np.array(psnr_all)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Bob_psnr_semantic_combining_%d.csv' % snr_val)
+    # data = pd.DataFrame(eval_psnr)
+    # data.to_csv(file, index=False)
 
     # save the recovered images
     for ii in range(len(out)):
         image_recover = data_inv_transform(out[ii])
         pil_img = Image.fromarray(np.uint8(image_recover))
-        pil_img.save("Semantic-Learning-Security-Awareness/semantic_extraction/image_recover_combing/mnist_train_bob_%d_%f.jpg" % (ii, compression_rate))
+        pil_img.save("Semantic-Learning-Security-Awareness/semantic_extraction/image_recover_combing/Bob_mnist_train_%d_%f.jpg" % (ii, compression_rate))
 
 
     # Eve's CNN
@@ -458,16 +458,16 @@ for snr_val in range (-5, 21, 5):
     data = pd.DataFrame(eval_acces)
     data.to_csv(file, index=False)
 
-    eval_psnr = np.array(psnr_all)
-    file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Eve_psnr_semantic_combining_%d.csv' % snr_val)
-    data = pd.DataFrame(eval_psnr)
-    data.to_csv(file, index=False)
+    # eval_psnr = np.array(psnr_all)
+    # file = ('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Eve_psnr_semantic_combining_%d.csv' % snr_val)
+    # data = pd.DataFrame(eval_psnr)
+    # data.to_csv(file, index=False)
 
     # save the recovered images
     for ii in range(len(out)):
         image_recover = data_inv_transform(out[ii])
         pil_img = Image.fromarray(np.uint8(image_recover))
-        pil_img.save("Semantic-Learning-Security-Awareness/semantic_extraction/image_recover_combing/mnist_train_eve_%d_%f.jpg" % (ii, compression_rate))
+        pil_img.save("Semantic-Learning-Security-Awareness/semantic_extraction/image_recover_combing/Eve_mnist_train_%d_%f.jpg" % (ii, compression_rate))
 
 
 
