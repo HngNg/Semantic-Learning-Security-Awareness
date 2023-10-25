@@ -10,7 +10,7 @@ plt.figure(figsize=(10, 6))
 # Define a colormap for line colors
 colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'purple']
 
-for snr_ in range (10,11):
+for snr_ in range (3,11):
     # Path to your CSV file
     # csv_file = 'results/acc_svhn_mnist_0.80.csv'
     csv_file = 'results/acc_svhn_mnist_' + str(snr_) + '.csv'
@@ -32,7 +32,7 @@ for snr_ in range (10,11):
                 epochs.append(epoch_number)
                 train_acc.append(train_accuracy)
 
-    plt.plot(epochs, train_acc, label='SNR = ' + str(snr_), marker='', color = colors[snr_-3])
+        plt.plot(epochs, train_acc, label='SNR = ' + str(snr_), marker='', color = colors[snr_-3])
     # plt.plot(epochs, train_acc, label='SNR = ' + str(snr_))
     epochs = []
     train_acc = []
