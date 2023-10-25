@@ -145,7 +145,7 @@ class Solver(object):
         #     print('compression rate:', compression_rate)
         
         # for snr_ in range(3, 11):
-        for snr_ in range(3, 6):
+        for snr_ in range(-5, 21, 5):
             acc_all_np = []
             compression_rate = 0.8
             print('compression rate:', compression_rate)
@@ -198,7 +198,7 @@ class Solver(object):
             mlp_mnist = mlp_mnist.to(device)
 
             # encoder
-            mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/MLP_MNIST_encoder_combining_%d.pkl' % snr_))
+            mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/results/MLP_sem_MNIST/Eve_MLP_MNIST_encoder_combining_%d.pkl' % snr_))
 
             # classifier
             # mlp_encoder.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/semantic_system_with_DA/MLP_MNIST_encoder_combining_%.6f.pkl' % compression_rate))
@@ -386,7 +386,7 @@ class Solver(object):
 
                     acc_all_np = np.array(self.train_acc)
                     # file = ('Semantic-Learning-Security-Awareness/results/acc_svhn_mnist_%.2f.csv' % compression_rate)
-                    file = ('Semantic-Learning-Security-Awareness/results/acc_svhn_mnist_%d.csv' % snr_)
+                    file = ('Semantic-Learning-Security-Awareness/results/Eve_acc_svhn_mnist_%d.csv' % snr_)
                     data = pd.DataFrame(acc_all_np)
                     data.to_csv(file, index=False)
     

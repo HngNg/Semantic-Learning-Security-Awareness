@@ -9,20 +9,19 @@ train_psnr = []
 
 # Path to your CSV file
 bob_csv = ['results/MLP_sem_MNIST/Bob_acc_semantic_combining_', 
-           'results/MLP_sem_MNIST/Bob_loss_semantic_combining_', 
-           'results/MLP_sem_MNIST/Bob_psnr_semantic_combining_']
+           'results/MLP_sem_MNIST/Bob_loss_semantic_combining_']
 
 eve_csv = ['results/MLP_sem_MNIST/eve_acc_semantic_combining_',
-           'results/MLP_sem_MNIST/eve_loss_semantic_combining_', 
-           'results/MLP_sem_MNIST/eve_psnr_semantic_combining_']
+           'results/MLP_sem_MNIST/eve_loss_semantic_combining_']
 
 plt.figure(figsize=(10, 6))
+color_cnt = 0
+colors = ['b', 'g', 'r', 'c', 'm', 'y', 'k', 'w', '#FF5733', '#33FF57', '#5733FF', '#33FFC3' ]
 
 #Bob
 # for snr_ in range (3, 11):
-for snr_ in range (3, 5):
-    if (snr_ == 4): snr_ = 10
-
+for snr_ in range (-5, 21, 5):
+    
     epochs = []
     train_acc = []
     train_loss = []
@@ -57,7 +56,7 @@ for snr_ in range (3, 5):
 
 #Eve
 # for snr_ in range (3, 11):
-for snr_ in range (3, 5):
+for snr_ in range (-5, 21, 5):
     if (snr_ == 4): snr_ = 10
 
     epochs = []
@@ -80,15 +79,18 @@ for snr_ in range (3, 5):
 
                 if row and ("loss" in file_name):
                     epoch_info = row[0]
-                    train_loss__ = float(epoch_info)
-                    train_loss.append(train_loss__)
-
+                    try:
+                        train_loss__ = float(epoch_info)
+                        train_loss.append(train_loss__)
+                    except ValueError:
+                        train_loss.append(100)
                 # if row and ("psnr" in file_name):
                 #     epoch_info = row[0]
                 #     train_psnr__ = float(epoch_info)
                 #     train_acc.append(train_psnr__)
         
-    plt.plot(epochs, train_acc, label='Eve - Accuracy, SNR ' +str(snr_), marker='o')
+    plt.plot(epochs, train_acc, label='Eve - Accuracy, SNR ' +str(snr_), marker='o', color = colors[color_cnt])
+    color_cnt+=1
     # plt.plot(epochs, train_loss, label='Eve - Loss, SNR ' + str(snr_), marker='o')
     # plt.plot(epochs, train_psnr, label='Eve - Train PSNR', marker='o')
 
