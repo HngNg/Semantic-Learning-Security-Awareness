@@ -56,8 +56,7 @@ for snr_ in range (-5, 21, 5):
 
 #Eve
 # for snr_ in range (3, 11):
-# for snr_ in range (-5, 21, 5):
-for snr_ in range (20, 21, 5):
+for snr_ in range (-5, 21, 5):
 
     epochs = []
     train_acc = []
