@@ -22,7 +22,7 @@ from PIL import Image
 raw_dim = 28 * 28  # shape of the raw image
 
 # for snr_val in range (-5, 21, 5):
-for snr_ in range (20, 21, 5):
+for snr_val in range (20, 21, 5):
     rate = 8 
 
 # for rate in range(50):
