@@ -30,6 +30,8 @@ import cv2
 import argparse
 from argparse import ArgumentParser
 # from semantic_extraction.MNIST import MLP_MNIST
+import ssl
+ssl._create_default_https_context = ssl._create_unverified_context
 
 warnings.filterwarnings("ignore")
 
