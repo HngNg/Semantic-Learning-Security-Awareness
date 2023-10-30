@@ -29,7 +29,7 @@ import warnings
 import cv2
 import argparse
 from argparse import ArgumentParser
-from semantic_extraction.MNIST import MLP_MNIST
+# from semantic_extraction.MNIST import MLP_MNIST
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -83,6 +83,23 @@ def conv_relu(in_channels, out_channels, kernel, stride=1, padding=0):
         nn.ReLU(True)
     )
     return layer
+
+class MLP_MNIST(nn.Module):
+    # classifier
+    def __init__(self):
+        super(MLP_MNIST, self).__init__()
+        self.fc1 = nn.Linear(28 * 28, 500)
+        self.fc2 = nn.Linear(500, 250)
+        self.fc3 = nn.Linear(250, 125)
+        # self.fc4 = nn.Linear(125, 10)
+        self.fc4 = nn.Linear(125, 10)
+
+    def forward(self, x):
+        x = F.relu(self.fc1(x))
+        x = F.relu(self.fc2(x))
+        x = F.relu(self.fc3(x))
+        x = self.fc4(x)
+        return x
 
 
 class inception(nn.Module):
