@@ -217,7 +217,7 @@ def train(net, train_data, valid_data, num_epochs, optimizer, criterion):
 
         prev_time = cur_time
         print(epoch_str + time_str)
-        # torch.save(net.state_dict(), 'google_net.pkl')
+        torch.save(net.state_dict(), 'google_net.pkl')
 
 
 train(net, train_data, test_data, 20, optimizer, criterion)

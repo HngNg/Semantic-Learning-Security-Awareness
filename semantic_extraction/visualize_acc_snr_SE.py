@@ -59,6 +59,8 @@ for snr_ in range (-5, 21, 5):
                 epoch_info = last_row[0]
                 train_accuracy__ = float(epoch_info)
                 train_acc.append(train_accuracy__)
+                
+# train_acc = [0.098697,0.098681,0.100213,0.105061,0.124967,0.171042]
 plt.plot(snr, train_acc, label='Eve - Accuracy, SNR ' +str(snr_), marker='o', color = colors[color_cnt])
 color_cnt+=1
     # plt.plot(epochs, train_loss, label='Eve - Loss, SNR ' + str(snr_), marker='o')
