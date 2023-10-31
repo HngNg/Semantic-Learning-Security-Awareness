@@ -229,10 +229,11 @@ for lambda_var in range(1):
     classifier = googlenet(3, 10)
     classifier.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/semantic_extraction/google_net.pkl'))  # load the trained model
     classifier.to(device)
-    # SGD or Adam
+    # SGD or Adam 
     optimizer_classifier = torch.optim.SGD(classifier.parameters(), lr=0.01)
     criterion_classifier = nn.CrossEntropyLoss()  # loss of classifier
-    for rate in range(10):
+    # for rate in range(10):
+    for rate in range (8,9):   
         compression_rate = min((rate + 1) * 0.1, 1)
         # channel = max(np.sqrt(32 * (1 - compression_rate) / 2), 1)
         channel = max(np.sqrt(96 * (1 - compression_rate) / 3), 1)
@@ -477,8 +478,8 @@ for lambda_var in range(1):
                 if e % 10 == 0 and counter == 1:
                     im_data = to_data(im)
                     out_data = to_data(out)
-                    im_data = im_data.astype(np.uint8)
-                    out_data = out_data.astype(np.uint8)
+                    # im_data = im_data.astype(np.uint8)
+                    # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
                     merged = merged.astype(np.uint8)
@@ -487,8 +488,8 @@ for lambda_var in range(1):
                     # save the images
                     path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
                         e, lambda1, compression_rate))
-                    # scipy.misc.imsave(path, merged)
-                    imageio.imwrite(path, merged)
+                    scipy.misc.imsave(path, merged)
+                    # imageio.imwrite(path, merged)
                     print('saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
