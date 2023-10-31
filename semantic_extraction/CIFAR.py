@@ -435,7 +435,7 @@ for lambda_var in range(1):
             mlp_encoder.train()
             counter = 0
             for im, label in train_data:
-                im = Variable(im)
+                im = Variable(np.uint8(im))
                 label = Variable(label)
 
                 im = im.to(device)
