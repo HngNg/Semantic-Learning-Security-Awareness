@@ -299,6 +299,7 @@ for lambda_var in range(1):
                 noise = torch.randn(size=out.shape) * np.sqrt(aver_noise)
                 noise = noise.to(device)
 
+                out = out.to(device)
                 out = out + noise
                 # out = torch.from_numpy(out)
                 # out = out.to(torch.float32)
