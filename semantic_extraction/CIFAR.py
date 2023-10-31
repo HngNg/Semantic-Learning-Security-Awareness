@@ -227,7 +227,7 @@ for lambda_var in range(1):
 
     # classifier = get_classifier('googlenet')
     classifier = googlenet(3, 10)
-    classifier.load_state_dict(torch.load('google_net.pkl'))  # load the trained model
+    classifier.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/semantic_extraction/google_net.pkl'))  # load the trained model
     classifier.to(device)
     # SGD or Adam
     optimizer_classifier = torch.optim.SGD(classifier.parameters(), lr=0.01)
