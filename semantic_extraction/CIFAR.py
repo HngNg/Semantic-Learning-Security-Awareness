@@ -378,7 +378,7 @@ for lambda_var in range(1):
         epoch_len = 100
         out = None
 
-        for e in range(opts.pretain_epoch):
+        for e in range(opts.pretrain_epoch):
             train_loss = 0
             train_acc = 0
             psnr_aver = 0
