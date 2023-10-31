@@ -378,7 +378,8 @@ for lambda_var in range(1):
 
         print('Training Start')
         print('Compression Rate:', compression_rate)
-        epoch_len = 100
+        # epoch_len = 100
+        epoch_len = 20
         out = None
 
         for e in range(opts.pretrain_epoch):
@@ -483,7 +484,7 @@ for lambda_var in range(1):
                     # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
-                    merged = merged.astype(np.uint8)
+                    # merged = merged.astype(np.uint8) 
 
                     # print('lambda 1:', lambda1)
                     # save the images
