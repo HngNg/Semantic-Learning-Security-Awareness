@@ -19,7 +19,6 @@ import numpy as np
 import copy
 import torch
 from torch import nn
-import scipy
 from torch.autograd import Variable
 from PIL import Image
 import torchvision.transforms as transforms
@@ -29,6 +28,8 @@ import warnings
 import cv2
 import argparse
 from argparse import ArgumentParser
+import scipy
+import scipy.misc
 # from semantic_extraction.MNIST import MLP_MNIST
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
