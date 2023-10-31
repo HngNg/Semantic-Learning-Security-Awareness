@@ -481,13 +481,13 @@ for lambda_var in range(1):
 
                     # print('lambda 1:', lambda1)
                     # save the images
-                    path = os.path.join('images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
+                    path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
                     imageio.imwrite(path, merged)
                     print('saved %s' % path)
 
-                    path = os.path.join('images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
+                    path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
                     imageio.imwrite(path, merged2)
@@ -556,13 +556,13 @@ for lambda_var in range(1):
         # torch.save(mlp_encoder.state_dict(), ('MLP_MNIST_encoder_combining_%f.pkl' % compression_rate))
 
         # save the results
-        file = ('./CIFAR/MLP_sem_CIFAR/acc_semantic_combining_%.2f_lambda_%.2f.csv' % (
+        file = ('Semantic-Learning-Security-Awareness/semantic_extraction/CIFAR/MLP_sem_CIFAR/acc_semantic_combining_%.2f_lambda_%.2f.csv' % (
             compression_rate, lambda1))
         data = pd.DataFrame(acces)
         data.to_csv(file, index=False)
 
         eval_psnr = np.array(psnr_all)
-        file = ('./CIFAR/MLP_sem_CIFAR/psnr_semantic_combining_%.2f_lambda_%.2f.csv' % (
+        file = ('Semantic-Learning-Security-Awareness/semantic_extraction/CIFAR/MLP_sem_CIFAR/psnr_semantic_combining_%.2f_lambda_%.2f.csv' % (
             compression_rate, lambda1))
         data = pd.DataFrame(eval_psnr)
         data.to_csv(file, index=False)
