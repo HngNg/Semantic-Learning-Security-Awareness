@@ -479,12 +479,16 @@ for lambda_var in range(1):
 
                 if e % 10 == 0 and counter == 1:
                     im_data = to_data(im)
+                    im_data = np.repeat(im_data, 3, axis=-1)
+
                     out_data = to_data(out)
+                    out_data = np.repeat(out_data, 3, axis=-1)
+
                     # im_data = im_data.astype(np.uint8)
                     # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
-                    merged = (merged).astype(np.uint8) 
+                    # merged = (merged).astype(np.uint8) 
 
 
                     # print('lambda 1:', lambda1)
@@ -492,7 +496,7 @@ for lambda_var in range(1):
                     path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
-                    imageio.imwrite(path, out_data)
+                    imageio.imwrite(path, merged)
                     print('saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
