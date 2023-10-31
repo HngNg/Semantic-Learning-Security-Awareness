@@ -484,14 +484,15 @@ for lambda_var in range(1):
                     # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
-                    merged = (merged*255).astype(np.uint8) 
+                    merged = (merged).astype(np.uint8) 
+
 
                     # print('lambda 1:', lambda1)
                     # save the images
                     path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
-                    imageio.imwrite(path, merged)
+                    imageio.imwrite(path, im_data)
                     print('saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
