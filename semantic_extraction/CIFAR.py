@@ -479,9 +479,11 @@ for lambda_var in range(1):
 
                 if e % 10 == 0 and counter == 1:
                     im_data = to_data(im)
+                    print(im_data.shape)
                     # im_data = np.repeat(im_data, 3, axis=-1)
 
                     out_data = to_data(out)
+                    print(out_data.shape)
                     # out_data = np.repeat(out_data, 3, axis=-1)
 
                     im_data = im_data.astype(np.uint8)
