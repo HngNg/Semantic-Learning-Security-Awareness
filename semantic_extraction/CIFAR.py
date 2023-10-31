@@ -435,7 +435,7 @@ for lambda_var in range(1):
             mlp_encoder.train()
             counter = 0
             for im, label in train_data:
-                im = Variable(np.uint8(im))
+                im = Variable(im)
                 label = Variable(label)
 
                 im = im.to(device)
@@ -477,6 +477,9 @@ for lambda_var in range(1):
                 if e % 10 == 0 and counter == 1:
                     im_data = to_data(im)
                     out_data = to_data(out)
+                    im_data = im_data.astype(np.uint8)
+                    out_data = out_data.astype(np.uint8)
+
                     merged = merge_images(im_data, out_data)
 
                     # print('lambda 1:', lambda1)
