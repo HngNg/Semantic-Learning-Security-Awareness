@@ -491,11 +491,11 @@ for lambda_var in range(1):
                     imageio.imwrite(path, merged)
                     print('saved %s' % path)
 
-                    path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
-                        e, lambda1, compression_rate))
-                    # scipy.misc.imsave(path, merged)
-                    imageio.imwrite(path, merged2)
-                    print('saved %s' % path)
+                    # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
+                    #     e, lambda1, compression_rate))
+                    # # scipy.misc.imsave(path, merged)
+                    # imageio.imwrite(path, merged2)
+                    # print('saved %s' % path)
 
                     # path = os.path.join('images/im-epoch-%d-lambda-%d-compre-%d.png' % (
                     #     e, lambda1, compression_rate))
