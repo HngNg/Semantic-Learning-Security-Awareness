@@ -484,7 +484,7 @@ for lambda_var in range(1):
                     # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
-                    # merged = merged.astype(np.uint8) 
+                    merged = (merged*255).astype(np.uint8) 
 
                     # print('lambda 1:', lambda1)
                     # save the images
