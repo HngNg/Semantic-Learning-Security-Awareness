@@ -30,7 +30,7 @@ import argparse
 from argparse import ArgumentParser
 import scipy
 # import scipy.misc
-# from semantic_extraction.MNIST import MLP_MNIST
+from semantic_extraction.MNIST import MLP_MNIST
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
@@ -501,7 +501,7 @@ for lambda_var in range(1):
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
                     # imageio.imwrite(path, merged)
-                    cv.imwrite(path, merged)
+                    cv2.imwrite(path, merged)
                     print('saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
