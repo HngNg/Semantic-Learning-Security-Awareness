@@ -205,7 +205,8 @@ def get_acc(output, label):
 def merge_images(sources, targets, k=10):
     _, _, h, w = sources.shape
     row = int(np.sqrt(64))
-    merged = np.zeros([3, row * h, row * w * 2], dtype=np.uint8)
+    # merged = np.zeros([3, row * h, row * w * 2], dtype=np.uint8)
+    merged = np.zeros([3, row * h, row * w * 2])
     for idx, (s, t) in enumerate(zip(sources, targets)):
         i = idx // row
         j = idx % row
@@ -499,7 +500,8 @@ for lambda_var in range(1):
                     path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
-                    imageio.imwrite(path, merged)
+                    # imageio.imwrite(path, merged)
+                    cv.imwrite(path, merged)
                     print('saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
