@@ -30,7 +30,7 @@ import argparse
 from argparse import ArgumentParser
 import scipy
 # import scipy.misc
-from semantic_extraction.MNIST import MLP_MNIST
+# from semantic_extraction.MNIST import MLP_MNIST
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
