@@ -380,7 +380,7 @@ for lambda_var in range(1):
         print('Training Start')
         print('Compression Rate:', compression_rate)
         # epoch_len = 100
-        epoch_len = 20
+        epoch_len = 100
         out = None
 
         for e in range(opts.pretrain_epoch):
@@ -443,6 +443,7 @@ for lambda_var in range(1):
                 label = Variable(label)
 
                 im = im.to(device)
+                og_im = im
                 label = label.to(device)
                 # classifier = classifier.train()
 
@@ -486,8 +487,10 @@ for lambda_var in range(1):
                     # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
+                    merged = merge_images(merged, og_im)
                     merged = merged.astype(np.uint8) 
 
+                    
                     # print('lambda 1:', lambda1)
                     # save the images
                     path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
