@@ -477,11 +477,11 @@ for lambda_var in range(1):
                 if e % 10 == 0 and counter == 1:
                     im_data = to_data(im)
                     out_data = to_data(out)
-                    # im_data = im_data.astype(np.uint8)
-                    # out_data = out_data.astype(np.uint8)
+                    im_data = im_data.astype(np.uint8)
+                    out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
-                    # merged = merged.astype(np.uint8)
+                    merged = merged.astype(np.uint8)
 
                     # print('lambda 1:', lambda1)
                     # save the images
