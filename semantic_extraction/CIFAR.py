@@ -480,20 +480,13 @@ for lambda_var in range(1):
 
                 if e % 10 == 0 and counter == 1:
                     im_data = to_data(im)
-                    # print(im_data.shape)
-                    # im_data.transpose(0, 2, 3, 1)
-                    # im_data = np.repeat(im_data, 3, axis=-1)
-
                     out_data = to_data(out)
-                    # print(out_data.shape)
-                    # out_data.transpose(0, 2, 3, 1)
-                    # out_data = np.repeat(out_data, 3, axis=-1)
 
                     # im_data = im_data.astype(np.uint8)
                     # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
-                    # merged = merged.astype(np.uint8) 
+                    merged = merged.astype(np.uint8) 
 
                     # print('lambda 1:', lambda1)
                     # save the images
@@ -501,28 +494,28 @@ for lambda_var in range(1):
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
                     # imageio.imwrite(path, merged)
-                    cv2.imwrite(path, merged)
+                    imageio.imwrite(path, merged)
                     print('saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
-                    #     e, lambda1, compression_rate))
+                    #     e, lambda2, compression_rate))
                     # # scipy.misc.imsave(path, merged)
                     # imageio.imwrite(path, merged2)
                     # print('saved %s' % path)
 
-                    path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/im-epoch-%d-lambda-%d-compre-%d.png' % (
-                        e, lambda1, compression_rate))
-                    # scipy.misc.imsave(path, merged)
-                    cv2.imwrite(path, im_data[0].transpose(1, 2, 0))
-                    if not cv2.imwrite(path,  im_data[0].transpose(1, 2, 0)):
-                        raise Exception("Could not write image")
-                    #
-                    path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/out-epoch-%d-lambda-%d-compre-%d.png' % (
-                        e, lambda1, compression_rate))
-                    # scipy.misc.imsave(path, merged)
-                    cv2.imwrite(path, out_data[0].transpose(1, 2, 0))
-                    if not cv2.imwrite(path,  out_data[0].transpose(1, 2, 0)):
-                        raise Exception("Could not write image")
+                    # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/im-epoch-%d-lambda-%d-compre-%d.png' % (
+                    #     e, lambda1, compression_rate))
+                    # # scipy.misc.imsave(path, merged)
+                    # cv2.imwrite(path, im_data[0].transpose(1, 2, 0))
+                    # if not cv2.imwrite(path,  im_data[0].transpose(1, 2, 0)):
+                    #     raise Exception("Could not write image")
+                    # #
+                    # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/out-epoch-%d-lambda-%d-compre-%d.png' % (
+                    #     e, lambda1, compression_rate))
+                    # # scipy.misc.imsave(path, merged)
+                    # cv2.imwrite(path, out_data[0].transpose(1, 2, 0))
+                    # if not cv2.imwrite(path,  out_data[0].transpose(1, 2, 0)):
+                    #     raise Exception("Could not write image")
 
             losses.append(train_loss / counter)
             acces.append(train_acc / counter)
