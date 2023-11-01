@@ -512,11 +512,15 @@ for lambda_var in range(1):
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
                     cv2.imwrite(path, im_data[0].transpose(1, 2, 0))
+                    if not cv2.imwrite(path,  im_data[0].transpose(1, 2, 0)):
+                        raise Exception("Could not write image")
                     #
                     path = os.path.join('images/out-epoch-%d-lambda-%d-compre-%d.png' % (
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
                     cv2.imwrite(path, out_data[0].transpose(1, 2, 0))
+                    if not cv2.imwrite(path,  out_data[0].transpose(1, 2, 0)):
+                        raise Exception("Could not write image")
 
             losses.append(train_loss / counter)
             acces.append(train_acc / counter)
