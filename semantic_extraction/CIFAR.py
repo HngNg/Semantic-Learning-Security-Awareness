@@ -19,6 +19,7 @@ import numpy as np
 import copy
 import torch
 from torch import nn
+import scipy
 from torch.autograd import Variable
 from PIL import Image
 import torchvision.transforms as transforms
@@ -28,8 +29,6 @@ import warnings
 import cv2
 import argparse
 from argparse import ArgumentParser
-import scipy
-# import scipy.misc
 # from semantic_extraction.MNIST import MLP_MNIST
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
@@ -205,7 +204,6 @@ def get_acc(output, label):
 def merge_images(sources, targets, k=10):
     _, _, h, w = sources.shape
     row = int(np.sqrt(64))
-    # merged = np.zeros([3, row * h, row * w * 2], dtype=np.uint8)
     merged = np.zeros([3, row * h, row * w * 2])
     for idx, (s, t) in enumerate(zip(sources, targets)):
         i = idx // row
@@ -231,11 +229,10 @@ for lambda_var in range(1):
     classifier = googlenet(3, 10)
     classifier.load_state_dict(torch.load('Semantic-Learning-Security-Awareness/semantic_extraction/google_net.pkl'))  # load the trained model
     classifier.to(device)
-    # SGD or Adam 
+    # SGD or Adam
     optimizer_classifier = torch.optim.SGD(classifier.parameters(), lr=0.01)
     criterion_classifier = nn.CrossEntropyLoss()  # loss of classifier
-    # for rate in range(10):
-    for rate in range (8,9):   
+    for rate in range(10):
         compression_rate = min((rate + 1) * 0.1, 1)
         # channel = max(np.sqrt(32 * (1 - compression_rate) / 2), 1)
         channel = max(np.sqrt(96 * (1 - compression_rate) / 3), 1)
@@ -379,7 +376,6 @@ for lambda_var in range(1):
 
         print('Training Start')
         print('Compression Rate:', compression_rate)
-        # epoch_len = 100
         epoch_len = 100
         out = None
 
@@ -481,49 +477,35 @@ for lambda_var in range(1):
                 if e % 10 == 0 and counter == 1:
                     im_data = to_data(im)
                     out_data = to_data(out)
-
-                    
+                    # im_data = im_data.astype(np.uint8)
                     # out_data = out_data.astype(np.uint8)
 
                     merged = merge_images(im_data, out_data)
-                    merged = merged.astype(np.uint8) 
-                    im_data = im_data.astype(np.uint8)
+                    # merged = merged.astype(np.uint8)
 
-                    
                     # print('lambda 1:', lambda1)
                     # save the images
                     path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
                         e, lambda1, compression_rate))
                     # scipy.misc.imsave(path, merged)
-                    # imageio.imwrite(path, merged)
-                    imageio.imwrite(path, merged)
+                    imageio.v2.imwrite(path, merged)
                     print('saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
-                    #     e, lambda2, compression_rate))
+                    #     e, lambda1, compression_rate))
                     # # scipy.misc.imsave(path, merged)
                     # imageio.imwrite(path, merged2)
                     # print('saved %s' % path)
 
-                    path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/im-epoch-%d-lambda-%d-compre-%d.png' % (
-                        e, lambda1, compression_rate))
-                    # scipy.misc.imsave(path, merged)
-                    imageio.imwrite(path, im_data[0].transpose(1, 2, 0).astype(np.uint8) )
-                    print('saved %s' % path)
-
-                    # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/im-epoch-%d-lambda-%d-compre-%d.png' % (
+                    # path = os.path.join('images/im-epoch-%d-lambda-%d-compre-%d.png' % (
                     #     e, lambda1, compression_rate))
                     # # scipy.misc.imsave(path, merged)
                     # cv2.imwrite(path, im_data[0].transpose(1, 2, 0))
-                    # if not cv2.imwrite(path,  im_data[0].transpose(1, 2, 0)):
-                    #     raise Exception("Could not write image")
-                    # #
-                    # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/out-epoch-%d-lambda-%d-compre-%d.png' % (
+                    #
+                    # path = os.path.join('images/out-epoch-%d-lambda-%d-compre-%d.png' % (
                     #     e, lambda1, compression_rate))
                     # # scipy.misc.imsave(path, merged)
                     # cv2.imwrite(path, out_data[0].transpose(1, 2, 0))
-                    # if not cv2.imwrite(path,  out_data[0].transpose(1, 2, 0)):
-                    #     raise Exception("Could not write image")
 
             losses.append(train_loss / counter)
             acces.append(train_acc / counter)
