@@ -508,15 +508,15 @@ for lambda_var in range(1):
                     # imageio.imwrite(path, merged2)
                     # print('saved %s' % path)
 
-                    # path = os.path.join('images/im-epoch-%d-lambda-%d-compre-%d.png' % (
-                    #     e, lambda1, compression_rate))
-                    # # scipy.misc.imsave(path, merged)
-                    # cv2.imwrite(path, im_data[0].transpose(1, 2, 0))
+                    path = os.path.join('images/im-epoch-%d-lambda-%d-compre-%d.png' % (
+                        e, lambda1, compression_rate))
+                    # scipy.misc.imsave(path, merged)
+                    cv2.imwrite(path, im_data[0].transpose(1, 2, 0))
                     #
-                    # path = os.path.join('images/out-epoch-%d-lambda-%d-compre-%d.png' % (
-                    #     e, lambda1, compression_rate))
-                    # # scipy.misc.imsave(path, merged)
-                    # cv2.imwrite(path, out_data[0].transpose(1, 2, 0))
+                    path = os.path.join('images/out-epoch-%d-lambda-%d-compre-%d.png' % (
+                        e, lambda1, compression_rate))
+                    # scipy.misc.imsave(path, merged)
+                    cv2.imwrite(path, out_data[0].transpose(1, 2, 0))
 
             losses.append(train_loss / counter)
             acces.append(train_acc / counter)
