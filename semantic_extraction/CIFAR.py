@@ -488,20 +488,44 @@ for lambda_var in range(1):
                     # out_data.transpose(0, 2, 3, 1)
                     # out_data = np.repeat(out_data, 3, axis=-1)
 
-                    im_data = im_data.astype(np.uint8)
-                    out_data = out_data.astype(np.uint8)
+                    # im_data = im_data.astype(np.uint8)
+                    # out_data = out_data.astype(np.uint8)
 
-                    merged = merge_images(im_data, out_data)
-                    merged = merged.astype(np.uint8) 
+                    # merged = merge_images(im_data, out_data)
+                    # merged = merged.astype(np.uint8) 
 
+                    # # print('lambda 1:', lambda1)
+                    # # save the images
+                    # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
+                    #     e, lambda1, compression_rate))
+                    # # scipy.misc.imsave(path, merged)
+                    # imageio.imwrite(path, merged)
+                    # print('saved %s' % path)
+                    
+                    num_images = im_data.shape[0]
+                    for i in range(num_images):
+                        # Select a single image
+                        image1 = im_data[i]
+                        image2 = out_data[i]
 
-                    # print('lambda 1:', lambda1)
-                    # save the images
-                    path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f.png' % (
-                        e, lambda1, compression_rate))
-                    # scipy.misc.imsave(path, merged)
-                    imageio.imwrite(path, merged)
-                    print('saved %s' % path)
+                        # Reshape the image to (height, width, 3) for RGB
+                        image1 = np.transpose(image1, (1, 2, 0))
+                        image2 = np.transpose(image2, (1, 2, 0))
+
+                        # Ensure the pixel values are within the valid range (0-255)
+                        image1 = np.clip(image1, 0, 255)
+                        image2 = np.clip(image2, 0, 255)
+
+                        # Convert the data type to uint8
+                        image = merge_images(image1, image2)
+                        image = image.astype(np.uint8)
+
+                        # Define the path to save each image
+                        path = 'image_%d.png' % i
+
+                        # Save the image
+                        imageio.imwrite(path, image)
+                        print('Saved %s' % path)
 
                     # path = os.path.join('Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-%d-lambda-%.2f-compre-%.2f-2.png' % (
                     #     e, lambda1, compression_rate))
