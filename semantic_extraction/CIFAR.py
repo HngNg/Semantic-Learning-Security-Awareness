@@ -232,7 +232,9 @@ for lambda_var in range(1):
     # SGD or Adam
     optimizer_classifier = torch.optim.SGD(classifier.parameters(), lr=0.01)
     criterion_classifier = nn.CrossEntropyLoss()  # loss of classifier
-    for rate in range(10):
+    # for rate in range(10):
+    for snr in range (3, 10):
+        rate = 1
         compression_rate = min((rate + 1) * 0.1, 1)
         # channel = max(np.sqrt(32 * (1 - compression_rate) / 2), 1)
         channel = max(np.sqrt(96 * (1 - compression_rate) / 3), 1)
@@ -294,7 +296,7 @@ for lambda_var in range(1):
                 aver = np.sum(out_square) / np.size(out_square)
 
                 # snr = 3  # dB
-                snr = 10  # dB
+                # snr = 10  # dB
                 aver_noise = aver / 10 ** (snr / 10)
                 noise = torch.randn(size=out.shape) * np.sqrt(aver_noise)
                 noise = noise.to(device)
