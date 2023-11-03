@@ -377,6 +377,7 @@ for lambda_var in range(1):
         acc_real = None
 
         print('Training Start')
+        print ("SNR: ", snr)
         print('Compression Rate:', compression_rate)
         epoch_len = 100
         out = None
