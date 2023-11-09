@@ -1,0 +1,819 @@
+channel: 5\
+Extracting ./data/cifar-10-python.tar.gz to ./data\
+Files already downloaded and verified\
+Training Start\
+SNR:  3\
+Compression Rate: 0.2\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-0-lambda-0.80-compre-0.20.png\
+epoch: 0, Acc Semantic: 0.607910, PSNR Semantic: 7.233265\
+epoch: 1, Acc Semantic: 0.606934, PSNR Semantic: 7.228474\
+epoch: 2, Acc Semantic: 0.612305, PSNR Semantic: 7.383964\
+epoch: 3, Acc Semantic: 0.615234, PSNR Semantic: 7.296260\
+epoch: 4, Acc Semantic: 0.621582, PSNR Semantic: 7.368003\
+epoch: 5, Acc Semantic: 0.617188, PSNR Semantic: 7.375208\
+epoch: 6, Acc Semantic: 0.617676, PSNR Semantic: 7.436040\
+epoch: 7, Acc Semantic: 0.625488, PSNR Semantic: 7.439915\
+epoch: 8, Acc Semantic: 0.620117, PSNR Semantic: 7.619741\
+epoch: 9, Acc Semantic: 0.615234, PSNR Semantic: 7.507072\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-10-lambda-0.80-compre-0.20.png\
+epoch: 10, Acc Semantic: 0.622070, PSNR Semantic: 7.623348\
+epoch: 11, Acc Semantic: 0.628418, PSNR Semantic: 7.544381\
+epoch: 12, Acc Semantic: 0.626953, PSNR Semantic: 7.557405\
+epoch: 13, Acc Semantic: 0.635254, PSNR Semantic: 7.673593\
+epoch: 14, Acc Semantic: 0.629395, PSNR Semantic: 7.621829\
+epoch: 15, Acc Semantic: 0.623047, PSNR Semantic: 7.705177\
+epoch: 16, Acc Semantic: 0.616211, PSNR Semantic: 7.629552\
+epoch: 17, Acc Semantic: 0.632324, PSNR Semantic: 7.668103\
+epoch: 18, Acc Semantic: 0.623535, PSNR Semantic: 7.790989\
+epoch: 19, Acc Semantic: 0.616211, PSNR Semantic: 7.795135\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-20-lambda-0.80-compre-0.20.png\
+epoch: 20, Acc Semantic: 0.624512, PSNR Semantic: 7.742219\
+epoch: 21, Acc Semantic: 0.629395, PSNR Semantic: 7.783756\
+epoch: 22, Acc Semantic: 0.630371, PSNR Semantic: 7.830545\
+epoch: 23, Acc Semantic: 0.642578, PSNR Semantic: 7.824512\
+epoch: 24, Acc Semantic: 0.630859, PSNR Semantic: 7.856440\
+epoch: 25, Acc Semantic: 0.633301, PSNR Semantic: 7.951061\
+epoch: 26, Acc Semantic: 0.630859, PSNR Semantic: 7.839599\
+epoch: 27, Acc Semantic: 0.633301, PSNR Semantic: 7.950510\
+epoch: 28, Acc Semantic: 0.634277, PSNR Semantic: 8.019363\
+epoch: 29, Acc Semantic: 0.637207, PSNR Semantic: 8.080527\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-30-lambda-0.80-compre-0.20.png\
+epoch: 30, Acc Semantic: 0.635254, PSNR Semantic: 8.024131\
+epoch: 31, Acc Semantic: 0.637695, PSNR Semantic: 7.956595\
+epoch: 32, Acc Semantic: 0.636230, PSNR Semantic: 8.024047\
+epoch: 33, Acc Semantic: 0.642578, PSNR Semantic: 8.013597\
+epoch: 34, Acc Semantic: 0.638672, PSNR Semantic: 8.065945\
+epoch: 35, Acc Semantic: 0.634766, PSNR Semantic: 8.098112\
+epoch: 36, Acc Semantic: 0.637207, PSNR Semantic: 8.143542\
+epoch: 37, Acc Semantic: 0.632324, PSNR Semantic: 8.184008\
+epoch: 38, Acc Semantic: 0.637695, PSNR Semantic: 8.155437\
+epoch: 39, Acc Semantic: 0.637695, PSNR Semantic: 8.250333\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-40-lambda-0.80-compre-0.20.png\
+epoch: 40, Acc Semantic: 0.631836, PSNR Semantic: 8.203206\
+epoch: 41, Acc Semantic: 0.644531, PSNR Semantic: 8.288774\
+epoch: 42, Acc Semantic: 0.636719, PSNR Semantic: 8.340963\
+epoch: 43, Acc Semantic: 0.635254, PSNR Semantic: 8.226940\
+epoch: 44, Acc Semantic: 0.645996, PSNR Semantic: 8.267502\
+epoch: 45, Acc Semantic: 0.639160, PSNR Semantic: 8.331947\
+epoch: 46, Acc Semantic: 0.638672, PSNR Semantic: 8.347895\
+epoch: 47, Acc Semantic: 0.640137, PSNR Semantic: 8.466466\
+epoch: 48, Acc Semantic: 0.642090, PSNR Semantic: 8.426396\
+epoch: 49, Acc Semantic: 0.647461, PSNR Semantic: 8.388249\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-50-lambda-0.80-compre-0.20.png\
+epoch: 50, Acc Semantic: 0.640137, PSNR Semantic: 8.444011\
+epoch: 51, Acc Semantic: 0.647461, PSNR Semantic: 8.378947\
+epoch: 52, Acc Semantic: 0.635742, PSNR Semantic: 8.392679\
+epoch: 53, Acc Semantic: 0.645508, PSNR Semantic: 8.420043\
+epoch: 54, Acc Semantic: 0.638672, PSNR Semantic: 8.491772\
+epoch: 55, Acc Semantic: 0.655273, PSNR Semantic: 8.499343\
+epoch: 56, Acc Semantic: 0.636719, PSNR Semantic: 8.452621\
+epoch: 57, Acc Semantic: 0.639648, PSNR Semantic: 8.451433\
+epoch: 58, Acc Semantic: 0.645020, PSNR Semantic: 8.484864\
+epoch: 59, Acc Semantic: 0.645020, PSNR Semantic: 8.522041\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-60-lambda-0.80-compre-0.20.png\
+epoch: 60, Acc Semantic: 0.645996, PSNR Semantic: 8.434254\
+epoch: 61, Acc Semantic: 0.636230, PSNR Semantic: 8.480159\
+epoch: 62, Acc Semantic: 0.638672, PSNR Semantic: 8.470168\
+epoch: 63, Acc Semantic: 0.640625, PSNR Semantic: 8.474061\
+epoch: 64, Acc Semantic: 0.639160, PSNR Semantic: 8.528031\
+epoch: 65, Acc Semantic: 0.641113, PSNR Semantic: 8.581206\
+epoch: 66, Acc Semantic: 0.643555, PSNR Semantic: 8.604666\
+epoch: 67, Acc Semantic: 0.643555, PSNR Semantic: 8.664747\
+epoch: 68, Acc Semantic: 0.643066, PSNR Semantic: 8.642718\
+epoch: 69, Acc Semantic: 0.633301, PSNR Semantic: 8.713583\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-70-lambda-0.80-compre-0.20.png\
+epoch: 70, Acc Semantic: 0.646973, PSNR Semantic: 8.621984\
+epoch: 71, Acc Semantic: 0.640625, PSNR Semantic: 8.685077\
+epoch: 72, Acc Semantic: 0.650879, PSNR Semantic: 8.688960\
+epoch: 73, Acc Semantic: 0.641602, PSNR Semantic: 8.671316\
+epoch: 74, Acc Semantic: 0.650391, PSNR Semantic: 8.779905\
+epoch: 75, Acc Semantic: 0.646973, PSNR Semantic: 8.653836\
+epoch: 76, Acc Semantic: 0.640625, PSNR Semantic: 8.689679\
+epoch: 77, Acc Semantic: 0.652344, PSNR Semantic: 8.700785\
+epoch: 78, Acc Semantic: 0.648438, PSNR Semantic: 8.777720\
+epoch: 79, Acc Semantic: 0.640137, PSNR Semantic: 8.802053\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-80-lambda-0.80-compre-0.20.png\
+epoch: 80, Acc Semantic: 0.637695, PSNR Semantic: 8.840765\
+epoch: 81, Acc Semantic: 0.638672, PSNR Semantic: 8.865993\
+epoch: 82, Acc Semantic: 0.643555, PSNR Semantic: 8.840833\
+epoch: 83, Acc Semantic: 0.647949, PSNR Semantic: 8.897434\
+epoch: 84, Acc Semantic: 0.645508, PSNR Semantic: 8.759171\
+epoch: 85, Acc Semantic: 0.638672, PSNR Semantic: 8.831287\
+epoch: 86, Acc Semantic: 0.646973, PSNR Semantic: 8.821761\
+epoch: 87, Acc Semantic: 0.647461, PSNR Semantic: 8.858371\
+epoch: 88, Acc Semantic: 0.654785, PSNR Semantic: 8.873519\
+epoch: 89, Acc Semantic: 0.648926, PSNR Semantic: 8.929803\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-90-lambda-0.80-compre-0.20.png\
+epoch: 90, Acc Semantic: 0.645020, PSNR Semantic: 8.920620\
+epoch: 91, Acc Semantic: 0.639648, PSNR Semantic: 9.023397\
+epoch: 92, Acc Semantic: 0.651367, PSNR Semantic: 8.919459\
+epoch: 93, Acc Semantic: 0.645996, PSNR Semantic: 8.970264\
+epoch: 94, Acc Semantic: 0.645020, PSNR Semantic: 8.976866\
+epoch: 95, Acc Semantic: 0.646484, PSNR Semantic: 8.897259\
+epoch: 96, Acc Semantic: 0.642090, PSNR Semantic: 9.062391\
+epoch: 97, Acc Semantic: 0.653809, PSNR Semantic: 9.067681\
+epoch: 98, Acc Semantic: 0.644043, PSNR Semantic: 9.063651\
+epoch: 99, Acc Semantic: 0.641602, PSNR Semantic: 9.086920\
+channel: 5\
+Files already downloaded and verified\
+Files already downloaded and verified\
+Training Start\
+SNR:  4\
+Compression Rate: 0.2\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-0-lambda-0.80-compre-0.20.png\
+epoch: 0, Acc Semantic: 0.660156, PSNR Semantic: 6.733257\
+epoch: 1, Acc Semantic: 0.668457, PSNR Semantic: 6.789842\
+epoch: 2, Acc Semantic: 0.666016, PSNR Semantic: 6.778355\
+epoch: 3, Acc Semantic: 0.669922, PSNR Semantic: 6.893598\
+epoch: 4, Acc Semantic: 0.670898, PSNR Semantic: 6.783232\
+epoch: 5, Acc Semantic: 0.681641, PSNR Semantic: 6.863333\
+epoch: 6, Acc Semantic: 0.688965, PSNR Semantic: 6.870171\
+epoch: 7, Acc Semantic: 0.683105, PSNR Semantic: 6.851031\
+epoch: 8, Acc Semantic: 0.693848, PSNR Semantic: 6.857817\
+epoch: 9, Acc Semantic: 0.688477, PSNR Semantic: 6.969539\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-10-lambda-0.80-compre-0.20.png\
+epoch: 10, Acc Semantic: 0.685059, PSNR Semantic: 6.979199\
+epoch: 11, Acc Semantic: 0.687012, PSNR Semantic: 7.030510\
+epoch: 12, Acc Semantic: 0.692871, PSNR Semantic: 6.995037\
+epoch: 13, Acc Semantic: 0.691895, PSNR Semantic: 6.935315\
+epoch: 14, Acc Semantic: 0.684082, PSNR Semantic: 6.901093\
+epoch: 15, Acc Semantic: 0.688477, PSNR Semantic: 7.008212\
+epoch: 16, Acc Semantic: 0.698730, PSNR Semantic: 6.946999\
+epoch: 17, Acc Semantic: 0.692383, PSNR Semantic: 7.010457\
+epoch: 18, Acc Semantic: 0.694824, PSNR Semantic: 7.038446\
+epoch: 19, Acc Semantic: 0.696777, PSNR Semantic: 7.111085\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-20-lambda-0.80-compre-0.20.png\
+epoch: 20, Acc Semantic: 0.697754, PSNR Semantic: 7.064820\
+epoch: 21, Acc Semantic: 0.702637, PSNR Semantic: 6.965192\
+epoch: 22, Acc Semantic: 0.695312, PSNR Semantic: 7.022077\
+epoch: 23, Acc Semantic: 0.697754, PSNR Semantic: 7.092213\
+epoch: 24, Acc Semantic: 0.713867, PSNR Semantic: 7.021516\
+epoch: 25, Acc Semantic: 0.710449, PSNR Semantic: 7.050209\
+epoch: 26, Acc Semantic: 0.708496, PSNR Semantic: 7.060363\
+epoch: 27, Acc Semantic: 0.700195, PSNR Semantic: 7.165844\
+epoch: 28, Acc Semantic: 0.693848, PSNR Semantic: 7.082500\
+epoch: 29, Acc Semantic: 0.711426, PSNR Semantic: 7.189199\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-30-lambda-0.80-compre-0.20.png\
+epoch: 30, Acc Semantic: 0.709961, PSNR Semantic: 7.123457\
+epoch: 31, Acc Semantic: 0.708496, PSNR Semantic: 7.160043\
+epoch: 32, Acc Semantic: 0.708984, PSNR Semantic: 7.037005\
+epoch: 33, Acc Semantic: 0.714844, PSNR Semantic: 7.156143\
+epoch: 34, Acc Semantic: 0.709961, PSNR Semantic: 7.255722\
+epoch: 35, Acc Semantic: 0.707031, PSNR Semantic: 7.120735\
+epoch: 36, Acc Semantic: 0.704102, PSNR Semantic: 7.184658\
+epoch: 37, Acc Semantic: 0.699219, PSNR Semantic: 7.203619\
+epoch: 38, Acc Semantic: 0.711914, PSNR Semantic: 7.117211\
+epoch: 39, Acc Semantic: 0.712402, PSNR Semantic: 7.144734\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-40-lambda-0.80-compre-0.20.png\
+epoch: 40, Acc Semantic: 0.705566, PSNR Semantic: 7.196348\
+epoch: 41, Acc Semantic: 0.701660, PSNR Semantic: 7.186016\
+epoch: 42, Acc Semantic: 0.708496, PSNR Semantic: 7.249444\
+epoch: 43, Acc Semantic: 0.699219, PSNR Semantic: 7.191274\
+epoch: 44, Acc Semantic: 0.704102, PSNR Semantic: 7.256797\
+epoch: 45, Acc Semantic: 0.712402, PSNR Semantic: 7.178614\
+epoch: 46, Acc Semantic: 0.711914, PSNR Semantic: 7.231626\
+epoch: 47, Acc Semantic: 0.707520, PSNR Semantic: 7.238371\
+epoch: 48, Acc Semantic: 0.705078, PSNR Semantic: 7.263256\
+epoch: 49, Acc Semantic: 0.710449, PSNR Semantic: 7.337338\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-50-lambda-0.80-compre-0.20.png\
+epoch: 50, Acc Semantic: 0.717773, PSNR Semantic: 7.238844\
+epoch: 51, Acc Semantic: 0.709473, PSNR Semantic: 7.372180\
+epoch: 52, Acc Semantic: 0.700195, PSNR Semantic: 7.211318\
+epoch: 53, Acc Semantic: 0.712891, PSNR Semantic: 7.251716\
+epoch: 54, Acc Semantic: 0.713867, PSNR Semantic: 7.175271\
+epoch: 55, Acc Semantic: 0.714355, PSNR Semantic: 7.255606\
+epoch: 56, Acc Semantic: 0.706055, PSNR Semantic: 7.263868\
+epoch: 57, Acc Semantic: 0.708984, PSNR Semantic: 7.280199\
+epoch: 58, Acc Semantic: 0.717285, PSNR Semantic: 7.255475\
+epoch: 59, Acc Semantic: 0.708496, PSNR Semantic: 7.280529\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-60-lambda-0.80-compre-0.20.png\
+epoch: 60, Acc Semantic: 0.713379, PSNR Semantic: 7.271601\
+epoch: 61, Acc Semantic: 0.709961, PSNR Semantic: 7.476328\
+epoch: 62, Acc Semantic: 0.712891, PSNR Semantic: 7.433916\
+epoch: 63, Acc Semantic: 0.711914, PSNR Semantic: 7.329548\
+epoch: 64, Acc Semantic: 0.718262, PSNR Semantic: 7.285302\
+epoch: 65, Acc Semantic: 0.720215, PSNR Semantic: 7.280559\
+epoch: 66, Acc Semantic: 0.708984, PSNR Semantic: 7.380668\
+epoch: 67, Acc Semantic: 0.704102, PSNR Semantic: 7.366459\
+epoch: 68, Acc Semantic: 0.707520, PSNR Semantic: 7.332382\
+epoch: 69, Acc Semantic: 0.719238, PSNR Semantic: 7.441623\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-70-lambda-0.80-compre-0.20.png\
+epoch: 70, Acc Semantic: 0.714844, PSNR Semantic: 7.428027\
+epoch: 71, Acc Semantic: 0.720703, PSNR Semantic: 7.448752\
+epoch: 72, Acc Semantic: 0.710938, PSNR Semantic: 7.442575\
+epoch: 73, Acc Semantic: 0.706055, PSNR Semantic: 7.405913\
+epoch: 74, Acc Semantic: 0.719238, PSNR Semantic: 7.399703\
+epoch: 75, Acc Semantic: 0.703613, PSNR Semantic: 7.386244\
+epoch: 76, Acc Semantic: 0.713379, PSNR Semantic: 7.437173\
+epoch: 77, Acc Semantic: 0.709961, PSNR Semantic: 7.502833\
+epoch: 78, Acc Semantic: 0.708496, PSNR Semantic: 7.602550\
+epoch: 79, Acc Semantic: 0.703613, PSNR Semantic: 7.480982\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-80-lambda-0.80-compre-0.20.png\
+epoch: 80, Acc Semantic: 0.711914, PSNR Semantic: 7.529060\
+epoch: 81, Acc Semantic: 0.712402, PSNR Semantic: 7.443985\
+epoch: 82, Acc Semantic: 0.707520, PSNR Semantic: 7.443504\
+epoch: 83, Acc Semantic: 0.710938, PSNR Semantic: 7.423253\
+epoch: 84, Acc Semantic: 0.715332, PSNR Semantic: 7.401050\
+epoch: 85, Acc Semantic: 0.712402, PSNR Semantic: 7.429252\
+epoch: 86, Acc Semantic: 0.719727, PSNR Semantic: 7.373378\
+epoch: 87, Acc Semantic: 0.716309, PSNR Semantic: 7.631806\
+epoch: 88, Acc Semantic: 0.708496, PSNR Semantic: 7.551057\
+epoch: 89, Acc Semantic: 0.713867, PSNR Semantic: 7.483361\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-90-lambda-0.80-compre-0.20.png\
+epoch: 90, Acc Semantic: 0.715332, PSNR Semantic: 7.542945\
+epoch: 91, Acc Semantic: 0.714844, PSNR Semantic: 7.544306\
+epoch: 92, Acc Semantic: 0.714844, PSNR Semantic: 7.429232\
+epoch: 93, Acc Semantic: 0.713867, PSNR Semantic: 7.450690\
+epoch: 94, Acc Semantic: 0.711914, PSNR Semantic: 7.530111\
+epoch: 95, Acc Semantic: 0.710938, PSNR Semantic: 7.635669\
+epoch: 96, Acc Semantic: 0.722656, PSNR Semantic: 7.615321\
+epoch: 97, Acc Semantic: 0.708984, PSNR Semantic: 7.507505\
+epoch: 98, Acc Semantic: 0.709961, PSNR Semantic: 7.569156\
+epoch: 99, Acc Semantic: 0.719727, PSNR Semantic: 7.561171\
+channel: 5\
+Files already downloaded and verified\
+Files already downloaded and verified\
+Training Start\
+SNR:  5\
+Compression Rate: 0.2\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-0-lambda-0.80-compre-0.20.png\
+epoch: 0, Acc Semantic: 0.653320, PSNR Semantic: 6.945907\
+epoch: 1, Acc Semantic: 0.654785, PSNR Semantic: 6.959443\
+epoch: 2, Acc Semantic: 0.662109, PSNR Semantic: 6.976325\
+epoch: 3, Acc Semantic: 0.654785, PSNR Semantic: 6.968792\
+epoch: 4, Acc Semantic: 0.655762, PSNR Semantic: 6.976849\
+epoch: 5, Acc Semantic: 0.664551, PSNR Semantic: 7.010129\
+epoch: 6, Acc Semantic: 0.665527, PSNR Semantic: 7.027304\
+epoch: 7, Acc Semantic: 0.667480, PSNR Semantic: 7.037738\
+epoch: 8, Acc Semantic: 0.669922, PSNR Semantic: 7.022142\
+epoch: 9, Acc Semantic: 0.652344, PSNR Semantic: 7.204755\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-10-lambda-0.80-compre-0.20.png\
+epoch: 10, Acc Semantic: 0.670410, PSNR Semantic: 7.144959\
+epoch: 11, Acc Semantic: 0.665527, PSNR Semantic: 7.191839\
+epoch: 12, Acc Semantic: 0.674316, PSNR Semantic: 7.207744\
+epoch: 13, Acc Semantic: 0.666016, PSNR Semantic: 7.243088\
+epoch: 14, Acc Semantic: 0.668945, PSNR Semantic: 7.371019\
+epoch: 15, Acc Semantic: 0.671875, PSNR Semantic: 7.213879\
+epoch: 16, Acc Semantic: 0.687012, PSNR Semantic: 7.268625\
+epoch: 17, Acc Semantic: 0.666992, PSNR Semantic: 7.339108\
+epoch: 18, Acc Semantic: 0.668945, PSNR Semantic: 7.285952\
+epoch: 19, Acc Semantic: 0.666504, PSNR Semantic: 7.401674\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-20-lambda-0.80-compre-0.20.png\
+epoch: 20, Acc Semantic: 0.670898, PSNR Semantic: 7.314112\
+epoch: 21, Acc Semantic: 0.677246, PSNR Semantic: 7.378118\
+epoch: 22, Acc Semantic: 0.684570, PSNR Semantic: 7.290020\
+epoch: 23, Acc Semantic: 0.659668, PSNR Semantic: 7.373964\
+epoch: 24, Acc Semantic: 0.672363, PSNR Semantic: 7.414089\
+epoch: 25, Acc Semantic: 0.677734, PSNR Semantic: 7.257822\
+epoch: 26, Acc Semantic: 0.672363, PSNR Semantic: 7.468819\
+epoch: 27, Acc Semantic: 0.673340, PSNR Semantic: 7.406477\
+epoch: 28, Acc Semantic: 0.683105, PSNR Semantic: 7.429612\
+epoch: 29, Acc Semantic: 0.681152, PSNR Semantic: 7.489940\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-30-lambda-0.80-compre-0.20.png\
+epoch: 30, Acc Semantic: 0.674805, PSNR Semantic: 7.441077\
+epoch: 31, Acc Semantic: 0.671875, PSNR Semantic: 7.517786\
+epoch: 32, Acc Semantic: 0.679199, PSNR Semantic: 7.544865\
+epoch: 33, Acc Semantic: 0.676758, PSNR Semantic: 7.570580\
+epoch: 34, Acc Semantic: 0.677734, PSNR Semantic: 7.560144\
+epoch: 35, Acc Semantic: 0.683594, PSNR Semantic: 7.563809\
+epoch: 36, Acc Semantic: 0.678711, PSNR Semantic: 7.632309\
+epoch: 37, Acc Semantic: 0.675781, PSNR Semantic: 7.662936\
+epoch: 38, Acc Semantic: 0.672852, PSNR Semantic: 7.599913\
+epoch: 39, Acc Semantic: 0.672852, PSNR Semantic: 7.604659\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-40-lambda-0.80-compre-0.20.png\
+epoch: 40, Acc Semantic: 0.681152, PSNR Semantic: 7.656561\
+epoch: 41, Acc Semantic: 0.678223, PSNR Semantic: 7.657762\
+epoch: 42, Acc Semantic: 0.679199, PSNR Semantic: 7.695666\
+epoch: 43, Acc Semantic: 0.675293, PSNR Semantic: 7.724789\
+epoch: 44, Acc Semantic: 0.681641, PSNR Semantic: 7.688720\
+epoch: 45, Acc Semantic: 0.680176, PSNR Semantic: 7.676684\
+epoch: 46, Acc Semantic: 0.685059, PSNR Semantic: 7.750951\
+epoch: 47, Acc Semantic: 0.686035, PSNR Semantic: 7.782614\
+epoch: 48, Acc Semantic: 0.684570, PSNR Semantic: 7.811131\
+epoch: 49, Acc Semantic: 0.682617, PSNR Semantic: 7.809998\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-50-lambda-0.80-compre-0.20.png\
+epoch: 50, Acc Semantic: 0.683594, PSNR Semantic: 7.843070\
+epoch: 51, Acc Semantic: 0.674316, PSNR Semantic: 7.887699\
+epoch: 52, Acc Semantic: 0.676758, PSNR Semantic: 7.881530\
+epoch: 53, Acc Semantic: 0.688477, PSNR Semantic: 7.841176\
+epoch: 54, Acc Semantic: 0.681152, PSNR Semantic: 7.892697\
+epoch: 55, Acc Semantic: 0.677246, PSNR Semantic: 7.946952\
+epoch: 56, Acc Semantic: 0.689941, PSNR Semantic: 7.955047\
+epoch: 57, Acc Semantic: 0.682129, PSNR Semantic: 7.921164\
+epoch: 58, Acc Semantic: 0.677246, PSNR Semantic: 7.928936\
+epoch: 59, Acc Semantic: 0.679688, PSNR Semantic: 7.995715\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-60-lambda-0.80-compre-0.20.png\
+epoch: 60, Acc Semantic: 0.685059, PSNR Semantic: 7.867036\
+epoch: 61, Acc Semantic: 0.678223, PSNR Semantic: 8.019427\
+epoch: 62, Acc Semantic: 0.696777, PSNR Semantic: 8.017249\
+epoch: 63, Acc Semantic: 0.673340, PSNR Semantic: 8.022186\
+epoch: 64, Acc Semantic: 0.692383, PSNR Semantic: 7.943931\
+epoch: 65, Acc Semantic: 0.684082, PSNR Semantic: 8.061497\
+epoch: 66, Acc Semantic: 0.682129, PSNR Semantic: 8.039608\
+epoch: 67, Acc Semantic: 0.665039, PSNR Semantic: 8.011503\
+epoch: 68, Acc Semantic: 0.683594, PSNR Semantic: 8.122796\
+epoch: 69, Acc Semantic: 0.682129, PSNR Semantic: 8.130073\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-70-lambda-0.80-compre-0.20.png\
+epoch: 70, Acc Semantic: 0.676270, PSNR Semantic: 8.159880\
+epoch: 71, Acc Semantic: 0.675781, PSNR Semantic: 8.148495\
+epoch: 72, Acc Semantic: 0.680176, PSNR Semantic: 8.147684\
+epoch: 73, Acc Semantic: 0.675781, PSNR Semantic: 8.226667\
+epoch: 74, Acc Semantic: 0.684570, PSNR Semantic: 8.165173\
+epoch: 75, Acc Semantic: 0.674805, PSNR Semantic: 8.180518\
+epoch: 76, Acc Semantic: 0.679199, PSNR Semantic: 8.309213\
+epoch: 77, Acc Semantic: 0.688965, PSNR Semantic: 8.288565\
+epoch: 78, Acc Semantic: 0.680664, PSNR Semantic: 8.305089\
+epoch: 79, Acc Semantic: 0.684082, PSNR Semantic: 8.239317\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-80-lambda-0.80-compre-0.20.png\
+epoch: 80, Acc Semantic: 0.680664, PSNR Semantic: 8.257578\
+epoch: 81, Acc Semantic: 0.683105, PSNR Semantic: 8.409505\
+epoch: 82, Acc Semantic: 0.685547, PSNR Semantic: 8.229312\
+epoch: 83, Acc Semantic: 0.687988, PSNR Semantic: 8.252190\
+epoch: 84, Acc Semantic: 0.681152, PSNR Semantic: 8.373013\
+epoch: 85, Acc Semantic: 0.678223, PSNR Semantic: 8.267867\
+epoch: 86, Acc Semantic: 0.693848, PSNR Semantic: 8.437470\
+epoch: 87, Acc Semantic: 0.673340, PSNR Semantic: 8.370711\
+epoch: 88, Acc Semantic: 0.685547, PSNR Semantic: 8.366318\
+epoch: 89, Acc Semantic: 0.685059, PSNR Semantic: 8.311453\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-90-lambda-0.80-compre-0.20.png\
+epoch: 90, Acc Semantic: 0.686035, PSNR Semantic: 8.365912\
+epoch: 91, Acc Semantic: 0.685547, PSNR Semantic: 8.511389\
+epoch: 92, Acc Semantic: 0.684570, PSNR Semantic: 8.488236\
+epoch: 93, Acc Semantic: 0.682617, PSNR Semantic: 8.445289\
+epoch: 94, Acc Semantic: 0.681152, PSNR Semantic: 8.470493\
+epoch: 95, Acc Semantic: 0.681152, PSNR Semantic: 8.508102\
+epoch: 96, Acc Semantic: 0.688965, PSNR Semantic: 8.531526\
+epoch: 97, Acc Semantic: 0.688477, PSNR Semantic: 8.559039\
+epoch: 98, Acc Semantic: 0.675293, PSNR Semantic: 8.630059\
+epoch: 99, Acc Semantic: 0.682129, PSNR Semantic: 8.598997\
+channel: 5\
+Files already downloaded and verified\
+Files already downloaded and verified\
+Training Start\
+SNR:  6\
+Compression Rate: 0.2\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-0-lambda-0.80-compre-0.20.png\
+epoch: 0, Acc Semantic: 0.669434, PSNR Semantic: 7.072575\
+epoch: 1, Acc Semantic: 0.674805, PSNR Semantic: 6.983719\
+epoch: 2, Acc Semantic: 0.674805, PSNR Semantic: 7.002925\
+epoch: 3, Acc Semantic: 0.684082, PSNR Semantic: 6.972670\
+epoch: 4, Acc Semantic: 0.688965, PSNR Semantic: 7.144201\
+epoch: 5, Acc Semantic: 0.681152, PSNR Semantic: 7.098301\
+epoch: 6, Acc Semantic: 0.688477, PSNR Semantic: 7.162142\
+epoch: 7, Acc Semantic: 0.678223, PSNR Semantic: 7.155475\
+epoch: 8, Acc Semantic: 0.685547, PSNR Semantic: 7.120524\
+epoch: 9, Acc Semantic: 0.681152, PSNR Semantic: 7.187757\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-10-lambda-0.80-compre-0.20.png\
+epoch: 10, Acc Semantic: 0.678223, PSNR Semantic: 7.175022\
+epoch: 11, Acc Semantic: 0.688477, PSNR Semantic: 7.310903\
+epoch: 12, Acc Semantic: 0.682617, PSNR Semantic: 7.230438\
+epoch: 13, Acc Semantic: 0.683105, PSNR Semantic: 7.166590\
+epoch: 14, Acc Semantic: 0.682129, PSNR Semantic: 7.201620\
+epoch: 15, Acc Semantic: 0.685059, PSNR Semantic: 7.334325\
+epoch: 16, Acc Semantic: 0.692383, PSNR Semantic: 7.324031\
+epoch: 17, Acc Semantic: 0.694824, PSNR Semantic: 7.447209\
+epoch: 18, Acc Semantic: 0.690430, PSNR Semantic: 7.283876\
+epoch: 19, Acc Semantic: 0.681641, PSNR Semantic: 7.361921\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-20-lambda-0.80-compre-0.20.png\
+epoch: 20, Acc Semantic: 0.683594, PSNR Semantic: 7.324649\
+epoch: 21, Acc Semantic: 0.687500, PSNR Semantic: 7.383365\
+epoch: 22, Acc Semantic: 0.690430, PSNR Semantic: 7.312475\
+epoch: 23, Acc Semantic: 0.686035, PSNR Semantic: 7.469712\
+epoch: 24, Acc Semantic: 0.698242, PSNR Semantic: 7.406122\
+epoch: 25, Acc Semantic: 0.690430, PSNR Semantic: 7.444327\
+epoch: 26, Acc Semantic: 0.693848, PSNR Semantic: 7.461783\
+epoch: 27, Acc Semantic: 0.697754, PSNR Semantic: 7.537681\
+epoch: 28, Acc Semantic: 0.683594, PSNR Semantic: 7.508898\
+epoch: 29, Acc Semantic: 0.693359, PSNR Semantic: 7.518725\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-30-lambda-0.80-compre-0.20.png\
+epoch: 30, Acc Semantic: 0.694336, PSNR Semantic: 7.622451\
+epoch: 31, Acc Semantic: 0.689941, PSNR Semantic: 7.603466\
+epoch: 32, Acc Semantic: 0.692383, PSNR Semantic: 7.700673\
+epoch: 33, Acc Semantic: 0.695312, PSNR Semantic: 7.728425\
+epoch: 34, Acc Semantic: 0.681641, PSNR Semantic: 7.663884\
+epoch: 35, Acc Semantic: 0.685547, PSNR Semantic: 7.683396\
+epoch: 36, Acc Semantic: 0.701172, PSNR Semantic: 7.741907\
+epoch: 37, Acc Semantic: 0.688477, PSNR Semantic: 7.736818\
+epoch: 38, Acc Semantic: 0.690430, PSNR Semantic: 7.701691\
+epoch: 39, Acc Semantic: 0.691406, PSNR Semantic: 7.712116\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-40-lambda-0.80-compre-0.20.png\
+epoch: 40, Acc Semantic: 0.702148, PSNR Semantic: 7.692470\
+epoch: 41, Acc Semantic: 0.688477, PSNR Semantic: 7.844327\
+epoch: 42, Acc Semantic: 0.687012, PSNR Semantic: 7.799760\
+epoch: 43, Acc Semantic: 0.700684, PSNR Semantic: 7.772579\
+epoch: 44, Acc Semantic: 0.698242, PSNR Semantic: 7.734089\
+epoch: 45, Acc Semantic: 0.691406, PSNR Semantic: 7.730086\
+epoch: 46, Acc Semantic: 0.705078, PSNR Semantic: 7.792266\
+epoch: 47, Acc Semantic: 0.699707, PSNR Semantic: 7.937539\
+epoch: 48, Acc Semantic: 0.698242, PSNR Semantic: 7.810088\
+epoch: 49, Acc Semantic: 0.708008, PSNR Semantic: 7.920735\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-50-lambda-0.80-compre-0.20.png\
+epoch: 50, Acc Semantic: 0.695801, PSNR Semantic: 7.957631\
+epoch: 51, Acc Semantic: 0.694824, PSNR Semantic: 7.922482\
+epoch: 52, Acc Semantic: 0.694336, PSNR Semantic: 7.937975\
+epoch: 53, Acc Semantic: 0.697266, PSNR Semantic: 8.024401\
+epoch: 54, Acc Semantic: 0.694336, PSNR Semantic: 8.028179\
+epoch: 55, Acc Semantic: 0.691406, PSNR Semantic: 8.026182\
+epoch: 56, Acc Semantic: 0.698242, PSNR Semantic: 8.037163\
+epoch: 57, Acc Semantic: 0.688477, PSNR Semantic: 8.019509\
+epoch: 58, Acc Semantic: 0.705078, PSNR Semantic: 7.976938\
+epoch: 59, Acc Semantic: 0.698730, PSNR Semantic: 7.918051\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-60-lambda-0.80-compre-0.20.png\
+epoch: 60, Acc Semantic: 0.693848, PSNR Semantic: 8.005696\
+epoch: 61, Acc Semantic: 0.698242, PSNR Semantic: 8.028096\
+epoch: 62, Acc Semantic: 0.706055, PSNR Semantic: 8.113850\
+epoch: 63, Acc Semantic: 0.689453, PSNR Semantic: 8.079230\
+epoch: 64, Acc Semantic: 0.689941, PSNR Semantic: 7.937230\
+epoch: 65, Acc Semantic: 0.702637, PSNR Semantic: 8.014187\
+epoch: 66, Acc Semantic: 0.704590, PSNR Semantic: 8.141188\
+epoch: 67, Acc Semantic: 0.708984, PSNR Semantic: 8.083944\
+epoch: 68, Acc Semantic: 0.697754, PSNR Semantic: 8.121676\
+epoch: 69, Acc Semantic: 0.701172, PSNR Semantic: 8.105877\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-70-lambda-0.80-compre-0.20.png\
+epoch: 70, Acc Semantic: 0.695801, PSNR Semantic: 8.128704\
+epoch: 71, Acc Semantic: 0.695312, PSNR Semantic: 8.078898\
+epoch: 72, Acc Semantic: 0.694336, PSNR Semantic: 8.250777\
+epoch: 73, Acc Semantic: 0.691895, PSNR Semantic: 8.225282\
+epoch: 74, Acc Semantic: 0.686523, PSNR Semantic: 8.169143\
+epoch: 75, Acc Semantic: 0.695801, PSNR Semantic: 8.178550\
+epoch: 76, Acc Semantic: 0.702148, PSNR Semantic: 8.241239\
+epoch: 77, Acc Semantic: 0.697266, PSNR Semantic: 8.238401\
+epoch: 78, Acc Semantic: 0.688477, PSNR Semantic: 8.246916\
+epoch: 79, Acc Semantic: 0.694336, PSNR Semantic: 8.338020\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-80-lambda-0.80-compre-0.20.png\
+epoch: 80, Acc Semantic: 0.696777, PSNR Semantic: 8.373929\
+epoch: 81, Acc Semantic: 0.700684, PSNR Semantic: 8.399878\
+epoch: 82, Acc Semantic: 0.699707, PSNR Semantic: 8.321396\
+epoch: 83, Acc Semantic: 0.689453, PSNR Semantic: 8.373741\
+epoch: 84, Acc Semantic: 0.699219, PSNR Semantic: 8.385756\
+epoch: 85, Acc Semantic: 0.695312, PSNR Semantic: 8.448026\
+epoch: 86, Acc Semantic: 0.694824, PSNR Semantic: 8.390211\
+epoch: 87, Acc Semantic: 0.694336, PSNR Semantic: 8.376084\
+epoch: 88, Acc Semantic: 0.693848, PSNR Semantic: 8.544115\
+epoch: 89, Acc Semantic: 0.692383, PSNR Semantic: 8.483713\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-90-lambda-0.80-compre-0.20.png\
+epoch: 90, Acc Semantic: 0.702148, PSNR Semantic: 8.472305\
+epoch: 91, Acc Semantic: 0.697266, PSNR Semantic: 8.392989\
+epoch: 92, Acc Semantic: 0.690430, PSNR Semantic: 8.520610\
+epoch: 93, Acc Semantic: 0.698242, PSNR Semantic: 8.438499\
+epoch: 94, Acc Semantic: 0.692383, PSNR Semantic: 8.371482\
+epoch: 95, Acc Semantic: 0.693359, PSNR Semantic: 8.513723\
+epoch: 96, Acc Semantic: 0.702148, PSNR Semantic: 8.537419\
+epoch: 97, Acc Semantic: 0.697266, PSNR Semantic: 8.516299\
+epoch: 98, Acc Semantic: 0.699707, PSNR Semantic: 8.458685\
+epoch: 99, Acc Semantic: 0.695312, PSNR Semantic: 8.435460\
+channel: 5\
+Files already downloaded and verified\
+Files already downloaded and verified\
+Training Start\
+SNR:  7\
+Compression Rate: 0.2\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-0-lambda-0.80-compre-0.20.png\
+epoch: 0, Acc Semantic: 0.665527, PSNR Semantic: 7.125193\
+epoch: 1, Acc Semantic: 0.663574, PSNR Semantic: 7.147465\
+epoch: 2, Acc Semantic: 0.658691, PSNR Semantic: 7.121922\
+epoch: 3, Acc Semantic: 0.662598, PSNR Semantic: 7.294944\
+epoch: 4, Acc Semantic: 0.667480, PSNR Semantic: 7.209983\
+epoch: 5, Acc Semantic: 0.669922, PSNR Semantic: 7.277701\
+epoch: 6, Acc Semantic: 0.667969, PSNR Semantic: 7.287659\
+epoch: 7, Acc Semantic: 0.673340, PSNR Semantic: 7.241722\
+epoch: 8, Acc Semantic: 0.677734, PSNR Semantic: 7.211767\
+epoch: 9, Acc Semantic: 0.687012, PSNR Semantic: 7.261780\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-10-lambda-0.80-compre-0.20.png\
+epoch: 10, Acc Semantic: 0.678223, PSNR Semantic: 7.309606\
+epoch: 11, Acc Semantic: 0.685059, PSNR Semantic: 7.373566\
+epoch: 12, Acc Semantic: 0.676758, PSNR Semantic: 7.316939\
+epoch: 13, Acc Semantic: 0.680664, PSNR Semantic: 7.282977\
+epoch: 14, Acc Semantic: 0.687988, PSNR Semantic: 7.405749\
+epoch: 15, Acc Semantic: 0.691895, PSNR Semantic: 7.384106\
+epoch: 16, Acc Semantic: 0.693359, PSNR Semantic: 7.433220\
+epoch: 17, Acc Semantic: 0.690918, PSNR Semantic: 7.323067\
+epoch: 18, Acc Semantic: 0.682129, PSNR Semantic: 7.472981\
+epoch: 19, Acc Semantic: 0.697266, PSNR Semantic: 7.472625\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-20-lambda-0.80-compre-0.20.png\
+epoch: 20, Acc Semantic: 0.698242, PSNR Semantic: 7.423485\
+epoch: 21, Acc Semantic: 0.691895, PSNR Semantic: 7.433717\
+epoch: 22, Acc Semantic: 0.691406, PSNR Semantic: 7.434675\
+epoch: 23, Acc Semantic: 0.690918, PSNR Semantic: 7.473346\
+epoch: 24, Acc Semantic: 0.694824, PSNR Semantic: 7.484339\
+epoch: 25, Acc Semantic: 0.694824, PSNR Semantic: 7.513167\
+epoch: 26, Acc Semantic: 0.693848, PSNR Semantic: 7.401209\
+epoch: 27, Acc Semantic: 0.693848, PSNR Semantic: 7.566013\
+epoch: 28, Acc Semantic: 0.699219, PSNR Semantic: 7.403522\
+epoch: 29, Acc Semantic: 0.699219, PSNR Semantic: 7.490517\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-30-lambda-0.80-compre-0.20.png\
+epoch: 30, Acc Semantic: 0.691895, PSNR Semantic: 7.619152\
+epoch: 31, Acc Semantic: 0.699219, PSNR Semantic: 7.486184\
+epoch: 32, Acc Semantic: 0.699707, PSNR Semantic: 7.545893\
+epoch: 33, Acc Semantic: 0.695312, PSNR Semantic: 7.648986\
+epoch: 34, Acc Semantic: 0.699707, PSNR Semantic: 7.532218\
+epoch: 35, Acc Semantic: 0.701660, PSNR Semantic: 7.488456\
+epoch: 36, Acc Semantic: 0.699707, PSNR Semantic: 7.580489\
+epoch: 37, Acc Semantic: 0.698242, PSNR Semantic: 7.575211\
+epoch: 38, Acc Semantic: 0.700195, PSNR Semantic: 7.713141\
+epoch: 39, Acc Semantic: 0.699707, PSNR Semantic: 7.630861\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-40-lambda-0.80-compre-0.20.png\
+epoch: 40, Acc Semantic: 0.690430, PSNR Semantic: 7.654494\
+epoch: 41, Acc Semantic: 0.702148, PSNR Semantic: 7.719282\
+epoch: 42, Acc Semantic: 0.703125, PSNR Semantic: 7.657063\
+epoch: 43, Acc Semantic: 0.692871, PSNR Semantic: 7.682803\
+epoch: 44, Acc Semantic: 0.706543, PSNR Semantic: 7.598525\
+epoch: 45, Acc Semantic: 0.706055, PSNR Semantic: 7.661173\
+epoch: 46, Acc Semantic: 0.698730, PSNR Semantic: 7.658030\
+epoch: 47, Acc Semantic: 0.699219, PSNR Semantic: 7.723862\
+epoch: 48, Acc Semantic: 0.705566, PSNR Semantic: 7.693786\
+epoch: 49, Acc Semantic: 0.706543, PSNR Semantic: 7.761720\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-50-lambda-0.80-compre-0.20.png\
+epoch: 50, Acc Semantic: 0.700195, PSNR Semantic: 7.684272\
+epoch: 51, Acc Semantic: 0.693359, PSNR Semantic: 7.811608\
+epoch: 52, Acc Semantic: 0.699707, PSNR Semantic: 7.791376\
+epoch: 53, Acc Semantic: 0.703613, PSNR Semantic: 7.767416\
+epoch: 54, Acc Semantic: 0.711426, PSNR Semantic: 7.787187\
+epoch: 55, Acc Semantic: 0.698730, PSNR Semantic: 7.814634\
+epoch: 56, Acc Semantic: 0.705566, PSNR Semantic: 7.737769\
+epoch: 57, Acc Semantic: 0.709961, PSNR Semantic: 7.716152\
+epoch: 58, Acc Semantic: 0.711914, PSNR Semantic: 7.685601\
+epoch: 59, Acc Semantic: 0.709473, PSNR Semantic: 7.842952\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-60-lambda-0.80-compre-0.20.png\
+epoch: 60, Acc Semantic: 0.706543, PSNR Semantic: 7.799556\
+epoch: 61, Acc Semantic: 0.701172, PSNR Semantic: 7.846766\
+epoch: 62, Acc Semantic: 0.696777, PSNR Semantic: 7.864466\
+epoch: 63, Acc Semantic: 0.705566, PSNR Semantic: 7.899781\
+epoch: 64, Acc Semantic: 0.706543, PSNR Semantic: 7.831253\
+epoch: 65, Acc Semantic: 0.706055, PSNR Semantic: 7.861723\
+epoch: 66, Acc Semantic: 0.706055, PSNR Semantic: 7.784639\
+epoch: 67, Acc Semantic: 0.707031, PSNR Semantic: 7.851870\
+epoch: 68, Acc Semantic: 0.702637, PSNR Semantic: 7.949910\
+epoch: 69, Acc Semantic: 0.702148, PSNR Semantic: 7.909200\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-70-lambda-0.80-compre-0.20.png\
+epoch: 70, Acc Semantic: 0.699219, PSNR Semantic: 7.894878\
+epoch: 71, Acc Semantic: 0.707031, PSNR Semantic: 7.969323\
+epoch: 72, Acc Semantic: 0.695312, PSNR Semantic: 7.971966\
+epoch: 73, Acc Semantic: 0.707520, PSNR Semantic: 7.966167\
+epoch: 74, Acc Semantic: 0.705078, PSNR Semantic: 8.021480\
+epoch: 75, Acc Semantic: 0.707520, PSNR Semantic: 7.977736\
+epoch: 76, Acc Semantic: 0.705078, PSNR Semantic: 8.021094\
+epoch: 77, Acc Semantic: 0.702637, PSNR Semantic: 8.060472\
+epoch: 78, Acc Semantic: 0.707031, PSNR Semantic: 8.122428\
+epoch: 79, Acc Semantic: 0.696289, PSNR Semantic: 8.102901\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-80-lambda-0.80-compre-0.20.png\
+epoch: 80, Acc Semantic: 0.703125, PSNR Semantic: 8.114091\
+epoch: 81, Acc Semantic: 0.708496, PSNR Semantic: 7.939169\
+epoch: 82, Acc Semantic: 0.705566, PSNR Semantic: 8.070127\
+epoch: 83, Acc Semantic: 0.708496, PSNR Semantic: 8.070953\
+epoch: 84, Acc Semantic: 0.699219, PSNR Semantic: 8.074673\
+epoch: 85, Acc Semantic: 0.706543, PSNR Semantic: 8.133787\
+epoch: 86, Acc Semantic: 0.705566, PSNR Semantic: 8.153445\
+epoch: 87, Acc Semantic: 0.701660, PSNR Semantic: 8.061186\
+epoch: 88, Acc Semantic: 0.710938, PSNR Semantic: 8.193970\
+epoch: 89, Acc Semantic: 0.708496, PSNR Semantic: 8.104256\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-90-lambda-0.80-compre-0.20.png\
+epoch: 90, Acc Semantic: 0.713379, PSNR Semantic: 8.174591\
+epoch: 91, Acc Semantic: 0.706543, PSNR Semantic: 8.176328\
+epoch: 92, Acc Semantic: 0.703613, PSNR Semantic: 8.163257\
+epoch: 93, Acc Semantic: 0.706055, PSNR Semantic: 8.185618\
+epoch: 94, Acc Semantic: 0.712402, PSNR Semantic: 8.266697\
+epoch: 95, Acc Semantic: 0.708984, PSNR Semantic: 8.121605\
+epoch: 96, Acc Semantic: 0.711914, PSNR Semantic: 8.169002\
+epoch: 97, Acc Semantic: 0.706543, PSNR Semantic: 8.263115\
+epoch: 98, Acc Semantic: 0.704102, PSNR Semantic: 8.253404\
+epoch: 99, Acc Semantic: 0.707520, PSNR Semantic: 8.264178\
+channel: 5\
+Files already downloaded and verified\
+Files already downloaded and verified\
+Training Start\
+SNR:  8\
+Compression Rate: 0.2\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-0-lambda-0.80-compre-0.20.png\
+epoch: 0, Acc Semantic: 0.671875, PSNR Semantic: 6.996675\
+epoch: 1, Acc Semantic: 0.672363, PSNR Semantic: 6.972329\
+epoch: 2, Acc Semantic: 0.672363, PSNR Semantic: 6.886343\
+epoch: 3, Acc Semantic: 0.678223, PSNR Semantic: 6.882624\
+epoch: 4, Acc Semantic: 0.683594, PSNR Semantic: 6.941529\
+epoch: 5, Acc Semantic: 0.677734, PSNR Semantic: 6.949892\
+epoch: 6, Acc Semantic: 0.679199, PSNR Semantic: 6.964720\
+epoch: 7, Acc Semantic: 0.681641, PSNR Semantic: 7.076192\
+epoch: 8, Acc Semantic: 0.686035, PSNR Semantic: 7.098853\
+epoch: 9, Acc Semantic: 0.682129, PSNR Semantic: 6.922468\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-10-lambda-0.80-compre-0.20.png\
+epoch: 10, Acc Semantic: 0.689453, PSNR Semantic: 6.987106\
+epoch: 11, Acc Semantic: 0.700195, PSNR Semantic: 7.005407\
+epoch: 12, Acc Semantic: 0.686035, PSNR Semantic: 6.963900\
+epoch: 13, Acc Semantic: 0.684570, PSNR Semantic: 7.045903\
+epoch: 14, Acc Semantic: 0.697266, PSNR Semantic: 7.049405\
+epoch: 15, Acc Semantic: 0.698242, PSNR Semantic: 7.135810\
+epoch: 16, Acc Semantic: 0.688965, PSNR Semantic: 7.135908\
+epoch: 17, Acc Semantic: 0.694336, PSNR Semantic: 7.097362\
+epoch: 18, Acc Semantic: 0.689453, PSNR Semantic: 7.151014\
+epoch: 19, Acc Semantic: 0.689453, PSNR Semantic: 7.167326\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-20-lambda-0.80-compre-0.20.png\
+epoch: 20, Acc Semantic: 0.693359, PSNR Semantic: 7.243118\
+epoch: 21, Acc Semantic: 0.699219, PSNR Semantic: 7.201351\
+epoch: 22, Acc Semantic: 0.693359, PSNR Semantic: 7.190128\
+epoch: 23, Acc Semantic: 0.686035, PSNR Semantic: 7.179630\
+epoch: 24, Acc Semantic: 0.701172, PSNR Semantic: 7.160624\
+epoch: 25, Acc Semantic: 0.694336, PSNR Semantic: 7.213558\
+epoch: 26, Acc Semantic: 0.695312, PSNR Semantic: 7.199771\
+epoch: 27, Acc Semantic: 0.687500, PSNR Semantic: 7.267657\
+epoch: 28, Acc Semantic: 0.694824, PSNR Semantic: 7.190273\
+epoch: 29, Acc Semantic: 0.704590, PSNR Semantic: 7.158212\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-30-lambda-0.80-compre-0.20.png\
+epoch: 30, Acc Semantic: 0.694336, PSNR Semantic: 7.212235\
+epoch: 31, Acc Semantic: 0.704590, PSNR Semantic: 7.266962\
+epoch: 32, Acc Semantic: 0.696289, PSNR Semantic: 7.218493\
+epoch: 33, Acc Semantic: 0.703125, PSNR Semantic: 7.232687\
+epoch: 34, Acc Semantic: 0.702148, PSNR Semantic: 7.197596\
+epoch: 35, Acc Semantic: 0.695801, PSNR Semantic: 7.289329\
+epoch: 36, Acc Semantic: 0.694336, PSNR Semantic: 7.202701\
+epoch: 37, Acc Semantic: 0.697754, PSNR Semantic: 7.214990\
+epoch: 38, Acc Semantic: 0.702148, PSNR Semantic: 7.311863\
+epoch: 39, Acc Semantic: 0.698730, PSNR Semantic: 7.303157\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-40-lambda-0.80-compre-0.20.png\
+epoch: 40, Acc Semantic: 0.705566, PSNR Semantic: 7.376056\
+epoch: 41, Acc Semantic: 0.698242, PSNR Semantic: 7.277507\
+epoch: 42, Acc Semantic: 0.704102, PSNR Semantic: 7.254751\
+epoch: 43, Acc Semantic: 0.695801, PSNR Semantic: 7.285092\
+epoch: 44, Acc Semantic: 0.700195, PSNR Semantic: 7.342886\
+epoch: 45, Acc Semantic: 0.703613, PSNR Semantic: 7.336051\
+epoch: 46, Acc Semantic: 0.699707, PSNR Semantic: 7.430860\
+epoch: 47, Acc Semantic: 0.700195, PSNR Semantic: 7.328513\
+epoch: 48, Acc Semantic: 0.701172, PSNR Semantic: 7.349674\
+epoch: 49, Acc Semantic: 0.706055, PSNR Semantic: 7.267094\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-50-lambda-0.80-compre-0.20.png\
+epoch: 50, Acc Semantic: 0.699707, PSNR Semantic: 7.440734\
+epoch: 51, Acc Semantic: 0.697754, PSNR Semantic: 7.421879\
+epoch: 52, Acc Semantic: 0.697266, PSNR Semantic: 7.345204\
+epoch: 53, Acc Semantic: 0.694336, PSNR Semantic: 7.442706\
+epoch: 54, Acc Semantic: 0.698242, PSNR Semantic: 7.303966\
+epoch: 55, Acc Semantic: 0.704102, PSNR Semantic: 7.373195\
+epoch: 56, Acc Semantic: 0.700684, PSNR Semantic: 7.394627\
+epoch: 57, Acc Semantic: 0.706543, PSNR Semantic: 7.391308\
+epoch: 58, Acc Semantic: 0.691406, PSNR Semantic: 7.544164\
+epoch: 59, Acc Semantic: 0.699707, PSNR Semantic: 7.452761\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-60-lambda-0.80-compre-0.20.png\
+epoch: 60, Acc Semantic: 0.705078, PSNR Semantic: 7.511813\
+epoch: 61, Acc Semantic: 0.697754, PSNR Semantic: 7.558660\
+epoch: 62, Acc Semantic: 0.716309, PSNR Semantic: 7.495949\
+epoch: 63, Acc Semantic: 0.718262, PSNR Semantic: 7.550662\
+epoch: 64, Acc Semantic: 0.705078, PSNR Semantic: 7.610227\
+epoch: 65, Acc Semantic: 0.701172, PSNR Semantic: 7.562068\
+epoch: 66, Acc Semantic: 0.711914, PSNR Semantic: 7.462797\
+epoch: 67, Acc Semantic: 0.710449, PSNR Semantic: 7.649238\
+epoch: 68, Acc Semantic: 0.701660, PSNR Semantic: 7.515313\
+epoch: 69, Acc Semantic: 0.704102, PSNR Semantic: 7.531905\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-70-lambda-0.80-compre-0.20.png\
+epoch: 70, Acc Semantic: 0.717773, PSNR Semantic: 7.477171\
+epoch: 71, Acc Semantic: 0.701660, PSNR Semantic: 7.586382\
+epoch: 72, Acc Semantic: 0.710449, PSNR Semantic: 7.491319\
+epoch: 73, Acc Semantic: 0.697266, PSNR Semantic: 7.514808\
+epoch: 74, Acc Semantic: 0.707520, PSNR Semantic: 7.475668\
+epoch: 75, Acc Semantic: 0.712891, PSNR Semantic: 7.550638\
+epoch: 76, Acc Semantic: 0.700195, PSNR Semantic: 7.547302\
+epoch: 77, Acc Semantic: 0.711426, PSNR Semantic: 7.512381\
+epoch: 78, Acc Semantic: 0.709961, PSNR Semantic: 7.592144\
+epoch: 79, Acc Semantic: 0.709961, PSNR Semantic: 7.586121\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-80-lambda-0.80-compre-0.20.png\
+epoch: 80, Acc Semantic: 0.710938, PSNR Semantic: 7.600421\
+epoch: 81, Acc Semantic: 0.700195, PSNR Semantic: 7.679185\
+epoch: 82, Acc Semantic: 0.706055, PSNR Semantic: 7.549253\
+epoch: 83, Acc Semantic: 0.702637, PSNR Semantic: 7.722769\
+epoch: 84, Acc Semantic: 0.703613, PSNR Semantic: 7.617216\
+epoch: 85, Acc Semantic: 0.702637, PSNR Semantic: 7.700683\
+epoch: 86, Acc Semantic: 0.703125, PSNR Semantic: 7.643859\
+epoch: 87, Acc Semantic: 0.706055, PSNR Semantic: 7.634542\
+epoch: 88, Acc Semantic: 0.700684, PSNR Semantic: 7.730504\
+epoch: 89, Acc Semantic: 0.718262, PSNR Semantic: 7.678862\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-90-lambda-0.80-compre-0.20.png\
+epoch: 90, Acc Semantic: 0.710938, PSNR Semantic: 7.645918\
+epoch: 91, Acc Semantic: 0.702637, PSNR Semantic: 7.701713\
+epoch: 92, Acc Semantic: 0.703125, PSNR Semantic: 7.798239\
+epoch: 93, Acc Semantic: 0.698730, PSNR Semantic: 7.759754\
+epoch: 94, Acc Semantic: 0.698242, PSNR Semantic: 7.689372\
+epoch: 95, Acc Semantic: 0.689941, PSNR Semantic: 7.752413\
+epoch: 96, Acc Semantic: 0.714844, PSNR Semantic: 7.792340\
+epoch: 97, Acc Semantic: 0.715332, PSNR Semantic: 7.744513\
+epoch: 98, Acc Semantic: 0.708496, PSNR Semantic: 7.798019\
+epoch: 99, Acc Semantic: 0.705566, PSNR Semantic: 7.879397\
+channel: 5\
+Files already downloaded and verified\
+Files already downloaded and verified\
+Training Start\
+SNR:  9\
+Compression Rate: 0.2\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-0-lambda-0.80-compre-0.20.png\
+epoch: 0, Acc Semantic: 0.637207, PSNR Semantic: 7.737906\
+epoch: 1, Acc Semantic: 0.645020, PSNR Semantic: 7.790950\
+epoch: 2, Acc Semantic: 0.650391, PSNR Semantic: 7.776537\
+epoch: 3, Acc Semantic: 0.649902, PSNR Semantic: 7.785524\
+epoch: 4, Acc Semantic: 0.646484, PSNR Semantic: 7.716165\
+epoch: 5, Acc Semantic: 0.653809, PSNR Semantic: 7.875308\
+epoch: 6, Acc Semantic: 0.658691, PSNR Semantic: 7.744218\
+epoch: 7, Acc Semantic: 0.651855, PSNR Semantic: 7.854725\
+epoch: 8, Acc Semantic: 0.661133, PSNR Semantic: 7.699164\
+epoch: 9, Acc Semantic: 0.660156, PSNR Semantic: 7.724545\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-10-lambda-0.80-compre-0.20.png\
+epoch: 10, Acc Semantic: 0.663574, PSNR Semantic: 7.738883\
+epoch: 11, Acc Semantic: 0.654785, PSNR Semantic: 7.799245\
+epoch: 12, Acc Semantic: 0.668457, PSNR Semantic: 7.795868\
+epoch: 13, Acc Semantic: 0.664062, PSNR Semantic: 7.687577\
+epoch: 14, Acc Semantic: 0.661133, PSNR Semantic: 7.832714\
+epoch: 15, Acc Semantic: 0.666992, PSNR Semantic: 7.854875\
+epoch: 16, Acc Semantic: 0.666992, PSNR Semantic: 7.866116\
+epoch: 17, Acc Semantic: 0.657227, PSNR Semantic: 7.869009\
+epoch: 18, Acc Semantic: 0.661621, PSNR Semantic: 7.948203\
+epoch: 19, Acc Semantic: 0.657715, PSNR Semantic: 8.005468\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-20-lambda-0.80-compre-0.20.png\
+epoch: 20, Acc Semantic: 0.674316, PSNR Semantic: 7.899613\
+epoch: 21, Acc Semantic: 0.672363, PSNR Semantic: 7.972503\
+epoch: 22, Acc Semantic: 0.667969, PSNR Semantic: 7.923989\
+epoch: 23, Acc Semantic: 0.673828, PSNR Semantic: 8.035954\
+epoch: 24, Acc Semantic: 0.672852, PSNR Semantic: 7.960010\
+epoch: 25, Acc Semantic: 0.675293, PSNR Semantic: 7.956251\
+epoch: 26, Acc Semantic: 0.670410, PSNR Semantic: 7.981330\
+epoch: 27, Acc Semantic: 0.680664, PSNR Semantic: 7.952316\
+epoch: 28, Acc Semantic: 0.665527, PSNR Semantic: 7.897911\
+epoch: 29, Acc Semantic: 0.680664, PSNR Semantic: 7.937016\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-30-lambda-0.80-compre-0.20.png\
+epoch: 30, Acc Semantic: 0.668457, PSNR Semantic: 8.059754\
+epoch: 31, Acc Semantic: 0.678223, PSNR Semantic: 8.023566\
+epoch: 32, Acc Semantic: 0.684570, PSNR Semantic: 8.031379\
+epoch: 33, Acc Semantic: 0.677734, PSNR Semantic: 7.993906\
+epoch: 34, Acc Semantic: 0.674805, PSNR Semantic: 8.103603\
+epoch: 35, Acc Semantic: 0.676270, PSNR Semantic: 8.043002\
+epoch: 36, Acc Semantic: 0.698730, PSNR Semantic: 8.087874\
+epoch: 37, Acc Semantic: 0.677734, PSNR Semantic: 8.149549\
+epoch: 38, Acc Semantic: 0.671387, PSNR Semantic: 8.135397\
+epoch: 39, Acc Semantic: 0.678223, PSNR Semantic: 8.167537\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-40-lambda-0.80-compre-0.20.png\
+epoch: 40, Acc Semantic: 0.681152, PSNR Semantic: 8.270624\
+epoch: 41, Acc Semantic: 0.677734, PSNR Semantic: 8.234584\
+epoch: 42, Acc Semantic: 0.676270, PSNR Semantic: 8.209382\
+epoch: 43, Acc Semantic: 0.679199, PSNR Semantic: 8.162020\
+epoch: 44, Acc Semantic: 0.676270, PSNR Semantic: 8.301965\
+epoch: 45, Acc Semantic: 0.677734, PSNR Semantic: 8.320289\
+epoch: 46, Acc Semantic: 0.677246, PSNR Semantic: 8.356060\
+epoch: 47, Acc Semantic: 0.667969, PSNR Semantic: 8.463731\
+epoch: 48, Acc Semantic: 0.676270, PSNR Semantic: 8.336472\
+epoch: 49, Acc Semantic: 0.672852, PSNR Semantic: 8.298772\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-50-lambda-0.80-compre-0.20.png\
+epoch: 50, Acc Semantic: 0.677246, PSNR Semantic: 8.380873\
+epoch: 51, Acc Semantic: 0.679688, PSNR Semantic: 8.395050\
+epoch: 52, Acc Semantic: 0.674805, PSNR Semantic: 8.408745\
+epoch: 53, Acc Semantic: 0.670410, PSNR Semantic: 8.433729\
+epoch: 54, Acc Semantic: 0.676758, PSNR Semantic: 8.585323\
+epoch: 55, Acc Semantic: 0.681152, PSNR Semantic: 8.592512\
+epoch: 56, Acc Semantic: 0.677246, PSNR Semantic: 8.556348\
+epoch: 57, Acc Semantic: 0.676758, PSNR Semantic: 8.518885\
+epoch: 58, Acc Semantic: 0.681641, PSNR Semantic: 8.545406\
+epoch: 59, Acc Semantic: 0.681641, PSNR Semantic: 8.606858\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-60-lambda-0.80-compre-0.20.png\
+epoch: 60, Acc Semantic: 0.675293, PSNR Semantic: 8.597117\
+epoch: 61, Acc Semantic: 0.679199, PSNR Semantic: 8.579560\
+epoch: 62, Acc Semantic: 0.673828, PSNR Semantic: 8.581028\
+epoch: 63, Acc Semantic: 0.683105, PSNR Semantic: 8.591308\
+epoch: 64, Acc Semantic: 0.685547, PSNR Semantic: 8.658002\
+epoch: 65, Acc Semantic: 0.677246, PSNR Semantic: 8.563309\
+epoch: 66, Acc Semantic: 0.674805, PSNR Semantic: 8.673073\
+epoch: 67, Acc Semantic: 0.681152, PSNR Semantic: 8.561907\
+epoch: 68, Acc Semantic: 0.674805, PSNR Semantic: 8.783100\
+epoch: 69, Acc Semantic: 0.682617, PSNR Semantic: 8.728593\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-70-lambda-0.80-compre-0.20.png\
+epoch: 70, Acc Semantic: 0.684082, PSNR Semantic: 8.788652\
+epoch: 71, Acc Semantic: 0.671387, PSNR Semantic: 8.827020\
+epoch: 72, Acc Semantic: 0.679199, PSNR Semantic: 8.922609\
+epoch: 73, Acc Semantic: 0.680176, PSNR Semantic: 8.894222\
+epoch: 74, Acc Semantic: 0.678223, PSNR Semantic: 8.742890\
+epoch: 75, Acc Semantic: 0.687012, PSNR Semantic: 8.974373\
+epoch: 76, Acc Semantic: 0.679199, PSNR Semantic: 8.850309\
+epoch: 77, Acc Semantic: 0.681641, PSNR Semantic: 8.895157\
+epoch: 78, Acc Semantic: 0.678711, PSNR Semantic: 8.936726\
+epoch: 79, Acc Semantic: 0.680176, PSNR Semantic: 8.960995\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-80-lambda-0.80-compre-0.20.png\
+epoch: 80, Acc Semantic: 0.682129, PSNR Semantic: 8.994591\
+epoch: 81, Acc Semantic: 0.688965, PSNR Semantic: 8.986473\
+epoch: 82, Acc Semantic: 0.686035, PSNR Semantic: 8.932805\
+epoch: 83, Acc Semantic: 0.678711, PSNR Semantic: 9.024923\
+epoch: 84, Acc Semantic: 0.685547, PSNR Semantic: 8.998030\
+epoch: 85, Acc Semantic: 0.676758, PSNR Semantic: 8.964374\
+epoch: 86, Acc Semantic: 0.681641, PSNR Semantic: 9.003357\
+epoch: 87, Acc Semantic: 0.675781, PSNR Semantic: 9.036971\
+epoch: 88, Acc Semantic: 0.694336, PSNR Semantic: 9.050370\
+epoch: 89, Acc Semantic: 0.676758, PSNR Semantic: 9.097767\
+saved Semantic-Learning-Security-Awareness/semantic_extraction/images/sample-epoch-90-lambda-0.80-compre-0.20.png\
+epoch: 90, Acc Semantic: 0.687988, PSNR Semantic: 9.119634\
+epoch: 91, Acc Semantic: 0.673340, PSNR Semantic: 9.153343\
+epoch: 92, Acc Semantic: 0.686523, PSNR Semantic: 9.172328\
+epoch: 93, Acc Semantic: 0.685059, PSNR Semantic: 9.315176\
+epoch: 94, Acc Semantic: 0.677246, PSNR Semantic: 9.240997\
+epoch: 95, Acc Semantic: 0.682617, PSNR Semantic: 9.150565\
+epoch: 96, Acc Semantic: 0.673828, PSNR Semantic: 9.306475\
+epoch: 97, Acc Semantic: 0.687500, PSNR Semantic: 9.235709\
+epoch: 98, Acc Semantic: 0.686035, PSNR Semantic: 9.216868\
+epoch: 99, Acc Semantic: 0.681641, PSNR Semantic: 9.200192\
+\pard\pardeftab720\partightenfactor0
+
+\f2\fs28 \cf2 \cb3 \
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \cb1 \
+}

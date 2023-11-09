@@ -33,7 +33,7 @@ for snr_ in range (-5, 21, 5):
                 train_acc.append(train_accuracy__)
                 
         
-plt.plot(snr, train_acc, label='Bob - Accuracy, SNR ' +str(snr_), marker='o', color = colors[color_cnt])
+plt.plot(snr, train_acc, label='Bob - Accuracy', marker='o', color = colors[color_cnt])
 color_cnt+=1
     # plt.plot(epochs, train_loss, label='Bob - Loss, SNR ' + str(snr_), marker='o')
     # plt.plot(epochs, train_psnr, label='Bob - Train PSNR', marker='o')
@@ -61,7 +61,7 @@ for snr_ in range (-5, 21, 5):
                 train_acc.append(train_accuracy__)
                 
 # train_acc = [0.098697,0.098681,0.100213,0.105061,0.124967,0.171042]
-plt.plot(snr, train_acc, label='Eve - Accuracy, SNR ' +str(snr_), marker='o', color = colors[color_cnt])
+plt.plot(snr, train_acc, label='Eve - Accuracy', marker='o', color = colors[color_cnt])
 color_cnt+=1
     # plt.plot(epochs, train_loss, label='Eve - Loss, SNR ' + str(snr_), marker='o')
     # plt.plot(epochs, train_psnr, label='Eve - Train PSNR', marker='o')
