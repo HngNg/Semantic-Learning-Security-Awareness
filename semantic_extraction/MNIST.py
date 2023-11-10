@@ -120,6 +120,7 @@ for snr_val in range (-5, 21, 5):
 
             aver_noise = aver / 10 ** (snr / 10)
             noise_factor = 100
+            # https://numpy.org/doc/stable/reference/random/generated/numpy.random.exponential.html
             noise_eve = np.random.exponential(size=x_np.shape) * np.sqrt(aver_noise) * noise_factor
 
             x_np = x_np + noise_eve
